@@ -54,7 +54,7 @@ Il progetto è stato completato con successo ed è in uno stato stabile. Tutte l
 ## 3. Installazione:
 
 Per installare il progetto, è necessario avere installati i seguenti componenti:
-- NodeJS e la libreria di React per il frontend
+- [NodeJS](https://nodejs.org/en/download) e la libreria di React per il frontend
 - .NET Core per il backend
 - SQL Server Management Studio (SSMS) e Microsoft SQL Server per il database
 
