@@ -84,7 +84,7 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 Per contribuire al progetto o segnalare bug fare riferimento ai seguenti link:
 
 
-| Repository GitHub                        | Email Aziendale                  | Email Privata                  |
+| Issues Repository GitHub                        | Email Aziendale                  | Email Privata                  |
 |------------------------------------------|---------------------------------|--------------------------------|
 | [Repository](https://github.com/pub) | pub@example.com                 | priv@example.com                        |
 |  |                |                           pub2@example.com     |
