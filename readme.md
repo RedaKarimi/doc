@@ -113,7 +113,6 @@ Il progetto è rilasciato sotto una licenza open-source e non è vincolato da co
 ## 9. Contatti:
 
 | Contatti       |                 |                              |                                                  |
-|----------------|-----------------|------------------------------|--------------------------------------------------|
 | Ruolo          | Nome            | Email                        | GitHub                                           |
 |----------------|-----------------|------------------------------|-----------------------------------------------|
 | Gestore Backend| Reda Karimi     | redakarimi76@gmail.com      | [redakarimi](https://github.com/redakarimi)  |
