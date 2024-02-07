@@ -63,7 +63,7 @@ Per installare il progetto, è necessario avere installati i seguenti componenti
 
 ## 4. Utilizzo:
 
-Seguire le istruzioni di configurazione per configurare React, .NET Core, SQL Server Management Studio e Microsoft SQL Server. Queste istruzioni dettagliate sono disponibili nella sezione di installazione del README.
+Seguire le istruzioni di configurazione per configurare React, .NET Core, SQL Server Management Studio e Microsoft SQL Server. Queste istruzioni dettagliate sono disponibili nella sezione di [installazione](#3-installazione) del README.
 
 ## 5. Documentazione:
 
