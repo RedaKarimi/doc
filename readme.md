@@ -49,7 +49,7 @@ Il progetto è stato completato con successo ed è in uno stato stabile. Tutte l
 
 ![Versione](https://img.shields.io/badge/Versione-1.0-blue)
 
-
+![Manutenzione](https://img.shields.io/badge/Manutenzione-Attiva-green)
 
 ## 3. Installazione:
 
@@ -57,6 +57,9 @@ Per installare il progetto, è necessario avere installati i seguenti componenti
 - NodeJS e React per il frontend
 - .NET Core per il backend
 - SQL Server Management Studio (SSMS) e Microsoft SQL Server per il database
+
+![Compatibilità OS](https://img.shields.io/badge/Compatibilit%C3%A0%20OS-Windows%20%7C%20Android%20%7C%20iOS%20%28iPhone%29%20%7C%20Mac-lightgrey)
+
 
 ## 4. Utilizzo:
 
@@ -74,6 +77,7 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 
 ![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript%20%7C%20C%23-orange)
 
+![Documentazione](https://img.shields.io/badge/Documentazione-Completa-blue)
 
 ## 6. Contributo:
 
@@ -105,12 +109,17 @@ Il progetto è rilasciato sotto una licenza open-source e non è vincolato da co
 
 ![Contatto](https://img.shields.io/badge/Contatto-Email-blue)
 
+![Supporto](https://img.shields.io/badge/Supporto-Community%20%7C%20Pro%20%7C%20Premium-orange)
 
 ## 10. Badge:
 
 Lo stato della build è riuscito e stabile.
 
+![Download](https://img.shields.io/badge/Download-100K%2B-blue)
+
 ## 11. Recap:
 Questo README fornisce una panoramica del progetto Gestionale, comprese le istruzioni per l'installazione, l'utilizzo, il contributo e il contatto con i gestori del backend e del frontend. Assicurati di consultare la documentazione dettagliata per informazioni più approfondite.
+
+![Popolarità](https://img.shields.io/badge/Popolarit%C3%A0-Alta-yellow)
 
 ![Ultima modifica](https://img.shields.io/badge/Ultima%20Modifica-Gennaio%202024-blue)
