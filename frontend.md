@@ -25,30 +25,26 @@ Elenco delle principali tecnologie utilizzate nel frontend, come React, Redux, e
 Descrizione della struttura delle cartelle e dei file del frontend, inclusi componenti, pagine, servizi, redux, etc.
 
 - **Client**
-  - _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto React._
-
+  - _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
   - **src/**
     - _Directory principale del codice sorgente._
-
     - **script/**
-      - _Contiene tutti gli script JS sviluppati._
-      - In questa directory sono presenti gli script principali e ausiliari utilizzati nell'applicazione.
-
-    - **style/**
-      - _Contiene tutti i fogli di stile CSS sviluppati._
-      - Qui sono presenti i file CSS utilizzati per lo stile dell'applicazione.
-
-    - **extra/**
-      - _Contiene gli script e le risorse aggiuntive utilizzate nei file principali._
-      - Questa directory include ulteriori script e risorse, come componenti grafici e gestori di dati.
-
+      - _Contiene tutti gli script js sviluppati._
+      - **extra/**
+        - _Contiene gli script secondari utilizzati nei file principali._
         - **design/**
           - _Contiene gli script dei componenti grafici secondari._
-          - Qui sono presenti gli script relativi ai componenti grafici utilizzati nell'applicazione.
-
         - **utility/**
           - _Contiene gli script che sono i gestori per l'elaborazione dei dati e vengono riutilizzati nei componenti principali._
-          - Questa sottodirectory contiene gli script di utilità che gestiscono l'elaborazione dei dati e altre funzionalità di supporto.
+          - `RequestManager.js`: _Componente per la gestione delle richieste GET e POST dal frontend al server._
+          - `WindowLoader.js`: _Gestisce l'animazione di caricamento delle pagine web_
+
+      - **features/**
+        - _Contiene i componenti funzionali del progetto._
+      - **UI/**
+        - _Contiene il gestore dei componenti funzionali._
+    - **style/**
+      - _Contiene tutti i fogli di stile css sviluppati._
 
 
 
