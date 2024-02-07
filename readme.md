@@ -68,10 +68,12 @@ Seguire le istruzioni di configurazione per configurare React, .NET Core, SQL Se
 
 Per la documentazione dettagliata del frontend e del backend, fare riferimento ai seguenti link:
 
->[!NOTE]
->
-> - [Documentazione Frontend](frontend.md)
-> - [Documentazione Backend](backend.md)
+<blockquote>
+  Personalizzato:
+  
+  - [Documentazione Frontend](frontend.md)
+  - [Documentazione Backend](backend.md)
+</blockquote>
 
 
 ![Tecnologia](https://img.shields.io/badge/Tecnologia-React%20%7C%20.NET%20%7C%20C%23-yellow)
