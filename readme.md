@@ -1,21 +1,31 @@
 # Documentazione del Progetto Gestionale
 
 ## 1. Titolo e Descrizione del Progetto:
+
 Il progetto "Gestionale" consente agli utenti preregistrati di gestire la registrazione dei propri clienti e la visualizzazione della lista delle loro anagrafiche:
+
 1. **Accesso Utente**:
+   
    ![Form di autenticazione dell'utente](autenticaUtente.png)
+   
    - L'utente effettua il login al sistema da **account unici preregistrati** 
    - Degli account utente le **credenziali sono criptate con SHA3**
    - Il sistema garantisce una **gestione sicura per l'apertura delle pagine sensibili** tramite la cache in cui viene memorizzato l'accesso dell'utente tenendolo in memoria in modo che se non è presente allora impedisce l'ingresso in qualsiasi form che non sia quello di autenticazione.
 
 3. **Registrazione Clienti**:
+   
    ![Form di registrazione del cliente](registraCliente.png)
-   Gli utenti possono registrare i propri clienti nel sistema.
+   
+   Gli utenti possono registrare i propri clienti nel sistema che li identifica sul loro codice fiscale.
    
 5. **Visualizzazione Clienti**:
+   
    ![Form di visualizzazione dei clienti](visualizzaClienti.png)
 
-   Gli utenti possono visualizzare le anagrafiche dei propri clienti.
+   Gli utenti possono visualizzare massivamente le anagrafiche dei propri clienti con le seguenti funzionalità:
+   
+   - Si possono selezionare quali campi rendere visibili e quali oscurare 
+   - Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo
 
 ## 2. Stato del Progetto:
 Il progetto è stato completato con successo ed è in uno stato stabile. Tutte le funzionalità sono state implementate e testate con successo. Il software è pronto per l'utilizzo in produzione.
