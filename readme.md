@@ -1,5 +1,18 @@
 # Documentazione del Progetto Gestionale
 
+## Indice
+
+1. [Titolo e Descrizione del Progetto](#1-titolo-e-descrizione-del-progetto)
+2. [Stato del Progetto](#2-stato-del-progetto)
+3. [Installazione](#3-installazione)
+4. [Utilizzo](#4-utilizzo)
+5. [Documentazione](#5-documentazione)
+6. [Contributo](#6-contributo)
+7. [Crediti](#7-crediti)
+8. [Licenza](#8-licenza)
+9. [Contatti](#9-contatti)
+10. [Badge](#10-badge)
+
 ## 1. Titolo e Descrizione del Progetto:
 
 Il progetto "Gestionale" consente agli utenti preregistrati di gestire la registrazione dei propri clienti e la visualizzazione della lista delle loro anagrafiche:
