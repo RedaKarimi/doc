@@ -68,12 +68,8 @@ Seguire le istruzioni di configurazione per configurare React, .NET Core, SQL Se
 
 Per la documentazione dettagliata del frontend e del backend, fare riferimento ai seguenti link:
 
-> Documentistica:
-> 
-> - [Documentazione Frontend](frontend.md)
-> - [Documentazione Backend](backend.md)
-
-
+- [Documentazione Frontend](frontend.md)
+- [Documentazione Backend](backend.md)
 
 ![Tecnologia](https://img.shields.io/badge/Tecnologia-React%20%7C%20.NET%20%7C%20C%23-yellow)
 
@@ -135,7 +131,11 @@ Lo stato della build è riuscito e stabile.
 ![Download](https://img.shields.io/badge/Download-0%2B-blue)
 
 ## 11. Recap:
-Questo README fornisce una panoramica del progetto Gestionale, comprese le istruzioni per l'installazione, l'utilizzo, il contributo e il contatto con i gestori del backend e del frontend. Assicurati di consultare la documentazione dettagliata per informazioni più approfondite.
+Questo README fornisce una panoramica del progetto Gestionale, comprese le istruzioni per l'installazione, l'utilizzo, il contributo e il contatto con i gestori del backend e del frontend. 
+
+>[!NOTE]
+>
+>Assicurati di consultare la [documentazione](#5-documentazione) dettagliata per informazioni più approfondite.
 
 ![Popolarità](https://img.shields.io/badge/Popolarit%C3%A0-Bassa-yellow)
 
