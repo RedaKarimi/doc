@@ -81,9 +81,8 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 
 ## 6. Contributo:
 
-Per contribuire al progetto o segnalare bug:
+Per contribuire al progetto o segnalare bug rivolgersi alle fonti seguenti:
 
-- **email:** gestionale.dev@gmail.com
 - **repository GitHub:** [github](link-repository)
 - **email:** 
   - **aziendale:** gestionale.dev@gmail.com
