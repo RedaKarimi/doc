@@ -65,9 +65,15 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 - [Documentazione Frontend](link-documentazione-frontend)
 - [Documentazione Backend](link-documentazione-backend)
 
+![Tecnologia](https://img.shields.io/badge/Tecnologia-React%20%7C%20.NET%20%7C%20C%23-yellow)
+
+
 ## 6. Contributo:
 
 Per contribuire al progetto o segnalare bug, inviare un'email a gestionale.dev@gmail.com o fare domande sulla repository GitHub a [link-repository](link-repository).
+
+![Contributo](https://img.shields.io/badge/Contributo-Open%20Source-green)
+
 
 ## 7. Crediti:
 
@@ -79,10 +85,16 @@ Per contribuire al progetto o segnalare bug, inviare un'email a gestionale.dev@g
 
 Il progetto è rilasciato sotto una licenza open-source e non è vincolato da condizioni di utilizzo del codice sorgente.
 
+![Licenza](https://img.shields.io/badge/Licenza-Open%20Source-blue)
+
+
 ## 9. Contatti:
 
 - Gestore Backend: Reda Karimi (reda.karimi@gmail.com)
 - Gestore Frontend: Vittorio Piotti (vittoriopiotti.vp@gmail.com)
+
+![Contatto](https://img.shields.io/badge/Contatto-Email-blue)
+
 
 ## 10. Badge:
 
