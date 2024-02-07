@@ -25,7 +25,8 @@ Elenco delle principali tecnologie utilizzate nel frontend, come React, Redux, e
 Descrizione della struttura delle cartelle e dei file del frontend, inclusi componenti, pagine, servizi, redux, etc.
 
 - **Client**
-  - _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
+
+   _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
   - **src/**
     
      _Directory principale del codice sorgente._
@@ -42,14 +43,14 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
 
              _Contiene gli script per il funzionamento del menu di navigazione del sito._
             - `FloatButtonApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate ._
-            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view ._
-            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica_
+            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
+            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
         - **utility/**
 
            _Contiene gli script che sono i gestori per l'elaborazione dei dati e vengono riutilizzati nei componenti principali._
           - `RequestManager.js`: _Componente per la gestione delle richieste GET e POST dal frontend al server._
-          - `WindowLoader.js`: _Gestisce l'animazione di caricamento delle pagine web_
+          - `WindowLoader.js`: _Gestisce l'animazione di caricamento delle pagine web._
 
       - **features/**
 
