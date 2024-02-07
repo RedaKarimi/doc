@@ -33,7 +33,9 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
       - **extra/**
         - _Contiene gli script secondari utilizzati nei file principali._
         - **design/**
-          - _Contiene gli script dei componenti grafici secondari._
+          - _Contiene gli script dei componenti grafici secondari riutilizzati in più schermate._
+          - **FloatButton/**
+            - _Contiene gli script per il funzionamento del menu di navigazione del sito._
         - **utility/**
           - _Contiene gli script che sono i gestori per l'elaborazione dei dati e vengono riutilizzati nei componenti principali._
           - `RequestManager.js`: _Componente per la gestione delle richieste GET e POST dal frontend al server._
