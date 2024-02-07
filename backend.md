@@ -24,6 +24,7 @@ Elenco delle principali tecnologie utilizzate nel backend server, come .NET Core
 Descrizione dell'architettura generale del backend, inclusi pattern di progettazione utilizzati e struttura delle cartelle del progetto.
 ProgettoBackend
 │
+
 ├── Controllers
 │   ├── UserController.cs
 │   └── ProductController.cs
