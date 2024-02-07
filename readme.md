@@ -83,15 +83,18 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 
 Per contribuire al progetto o segnalare bug fare riferimento ai seguenti link:
 
-| Repository GitHub | Email        | 
+
+| Ruolo          | Nome            | Email                        | GitHub                                           |
+|----------------|-----------------|------------------------------|-----------------------------------------------|
+| Gestore Backend| Reda Karimi     | redakarimi76@gmail.com      | [redakarimi](https://github.com/redakarimi)  |
+| Gestore Frontend| Vittorio Piotti| vittoriopiotti.vp@gmail.com | | Repository GitHub | Email        | 
 |-------------------|--------------|
 |                   | pubblico     | 
 | [redakarimi](https://github.com/redakarimi) | redakarimi76@gmail.com  |
 | [vittoriopiotti](https://github.com/vittoriopiotti) | vittoriopiotti.vp@gmail.com  |
 |                   | privato      | 
 | [redakarimi-private](https://github.com/redakarimi-private) | redakarimi.private@gmail.com  |
-| [vittoriopiotti-private](https://github.com/vittoriopiotti-private) | vittoriopiotti.private@gmail.com  |
-
+| [vittoriopiotti-private](https://github.com/vittoriopiotti-private) | vittoriopiotti.private@gmail.com  ||
 
 ![Contributo](https://img.shields.io/badge/Contributo-Open%20Source-green)
 
