@@ -86,8 +86,8 @@ Per contribuire al progetto o segnalare bug fare riferimento ai seguenti link:
 
 | Issues Repository GitHub                        | Email Aziendale                  | Email Privata                  |
 |------------------------------------------|---------------------------------|--------------------------------|
-| [Repository](https://github.com/pub) | pub@example.com                 | priv@example.com                        |
-|  |                |                           pub2@example.com     |
+| [Repository](https://github.com/pub) | gestionale.dev@gmail.com                | redakarimi76@gmail.com                        |
+|  |                |                           vittoriopiotti.vp@gmail.com     |
 
 
 
