@@ -24,20 +24,7 @@ Elenco delle principali tecnologie utilizzate nel frontend, come React, Redux, e
 ## 3. Struttura del Progetto
 Descrizione della struttura delle cartelle e dei file del frontend, inclusi componenti, pagine, servizi, redux, etc.
 
-- root
-    - documentazione
-        - frontend
-            - index.md
-            - images
-                - frontend.png
-        - backend
-            - index.md
-            - images
-                - backend.png
-    - README.md
-    - LICENSE
-    - .gitignore
-
+![Struttura Frontend](strutturaFrontend.png)
 
 ## 4. Componenti Principali
 Elenco e descrizione dei componenti principali utilizzati nel frontend, con eventuali esempi o screenshot.
