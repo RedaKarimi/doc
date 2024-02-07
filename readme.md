@@ -69,7 +69,7 @@ Seguire le istruzioni di configurazione per configurare React, .NET Core, SQL Se
 Per la documentazione dettagliata del frontend e del backend, fare riferimento ai seguenti link:
 
 <blockquote style="color: black;">
-  Documentazioni:
+  <p>Personalizzato:</p>
   
   - [Documentazione Frontend](frontend.md)
   - [Documentazione Backend](backend.md)
