@@ -47,6 +47,9 @@ Il progetto è stato completato con successo ed è in uno stato stabile. Tutte l
 
 ![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
 
+![Versione](https://img.shields.io/badge/Versione-1.0-blue)
+
+
 
 ## 3. Installazione:
 
@@ -67,6 +70,10 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 
 ![Tecnologia](https://img.shields.io/badge/Tecnologia-React%20%7C%20.NET%20%7C%20C%23-yellow)
 
+![Compatibilità](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
+
+![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript%20%7C%20C%23-orange)
+
 
 ## 6. Contributo:
 
@@ -80,6 +87,9 @@ Per contribuire al progetto o segnalare bug, inviare un'email a gestionale.dev@g
 - Backend: Reda Karimi
 - Frontend: Vittorio Piotti
 - Risorse di Sviluppo: Visual Studio, Estensione SSH per lavoro di gruppo in locale
+
+![Ambiente di sviluppo](https://img.shields.io/badge/Ambiente%20di%20Sviluppo-Visual%20Studio%20Code%20%7C%20Visual%20Studio-blue)
+
 
 ## 8. Licenza:
 
@@ -102,3 +112,5 @@ Lo stato della build è riuscito e stabile.
 
 ## 11. Recap:
 Questo README fornisce una panoramica del progetto Gestionale, comprese le istruzioni per l'installazione, l'utilizzo, il contributo e il contatto con i gestori del backend e del frontend. Assicurati di consultare la documentazione dettagliata per informazioni più approfondite.
+
+![Ultima modifica](https://img.shields.io/badge/Ultima%20Modifica-Gennaio%202024-blue)
