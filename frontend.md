@@ -55,6 +55,25 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
       - **features/**
 
          _Contiene i componenti funzionali del progetto._
+        - **FloatButton/**
+             _Contiene gli script per il funzionamento del menu di navigazione del sito._
+            - `FloatButtonApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
+            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+        - **FloatButton/**
+             _Contiene gli script per il funzionamento del menu di navigazione del sito._
+            - `FloatButtonApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
+            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+        - **FloatButton/**
+             _Contiene gli script per il funzionamento del menu di navigazione del sito._
+            - `FloatButtonApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
+            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+
     
       - **UI/**
 
