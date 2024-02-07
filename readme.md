@@ -28,38 +28,47 @@ Il progetto "Gestionale" consente agli utenti preregistrati di gestire la regist
    - Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo
 
 ## 2. Stato del Progetto:
+
 Il progetto è stato completato con successo ed è in uno stato stabile. Tutte le funzionalità sono state implementate e testate con successo. Il software è pronto per l'utilizzo in produzione.
 
 ## 3. Installazione:
+
 Per installare il progetto, è necessario avere installati i seguenti componenti:
-- React per il frontend
+- NodeJS e React per il frontend
 - .NET Core per il backend
 - SQL Server Management Studio (SSMS) e Microsoft SQL Server per il database
 
 ## 4. Utilizzo:
+
 Seguire le istruzioni di configurazione per configurare React, .NET Core, SQL Server Management Studio e Microsoft SQL Server. Queste istruzioni dettagliate sono disponibili nella sezione di installazione del README.
 
 ## 5. Documentazione:
+
 Per la documentazione dettagliata del frontend e del backend, fare riferimento ai seguenti link:
 - [Documentazione Frontend](link-documentazione-frontend)
 - [Documentazione Backend](link-documentazione-backend)
 
 ## 6. Contributo:
+
 Per contribuire al progetto o segnalare bug, inviare un'email a gestionale.dev@gmail.com o fare domande sulla repository GitHub a [link-repository](link-repository).
 
 ## 7. Crediti:
+
 - Backend: Reda Karimi
 - Frontend: Vittorio Piotti
 - Risorse di Sviluppo: Visual Studio, Estensione SSH per lavoro di gruppo in locale
 
 ## 8. Licenza:
+
 Il progetto è rilasciato sotto una licenza open-source e non è vincolato da condizioni di utilizzo del codice sorgente.
 
 ## 9. Contatti:
+
 - Gestore Backend: Reda Karimi (reda.karimi@gmail.com)
 - Gestore Frontend: Vittorio Piotti (vittoriopiotti.vp@gmail.com)
 
 ## 10. Badge:
+
 Lo stato della build è riuscito e stabile.
 
 ## 
