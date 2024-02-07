@@ -24,45 +24,39 @@ Elenco delle principali tecnologie utilizzate nel backend server, come .NET Core
 Descrizione dell'architettura generale del backend, inclusi pattern di progettazione utilizzati e struttura delle cartelle del progetto.
 ProgettoBackend
 
-│
+<details>
+  <summary>ProgettoBackend</summary>
+  <ul>
+    <li>Controllers
+      <ul>
+        <li>UserController.cs</li>
+        <li>ProductController.cs</li>
+      </ul>
+    </li>
+    <li>Models
+      <ul>
+        <li>User.cs</li>
+        <li>Product.cs</li>
+      </ul>
+    </li>
+    <li>Services
+      <ul>
+        <li>UserService.cs</li>
+        <li>ProductService.cs</li>
+      </ul>
+    </li>
+    <li>Repositories
+      <ul>
+        <li>UserRepository.cs</li>
+        <li>ProductRepository.cs</li>
+      </ul>
+    </li>
+    <li>appsettings.json</li>
+    <li>Program.cs</li>
+    <li>Startup.cs</li>
+  </ul>
+</details>
 
-├── Controllers
-
-│   ├── UserController.cs
-
-│   └── ProductController.cs
-
-│
-
-├── Models
-
-│   ├── User.cs
-
-│   └── Product.cs
-
-│
-
-├── Services
-
-│   ├── UserService.cs
-
-│   └── ProductService.cs
-
-│
-
-├── Repositories
-
-│   ├── UserRepository.cs
-
-│   └── ProductRepository.cs
-
-│
-
-├── appsettings.json
-
-├── Program.cs
-
-└── Startup.cs
 
 ## 4. Modelli dei Dati
 Spiegazione dei modelli dei dati utilizzati nel backend, inclusi diagrammi ER, classi dei modelli e schemi di database.
