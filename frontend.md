@@ -24,31 +24,22 @@ Elenco delle principali tecnologie utilizzate nel frontend, come React, Redux, e
 ## 3. Struttura del Progetto
 Descrizione della struttura delle cartelle e dei file del frontend, inclusi componenti, pagine, servizi, redux, etc.
 
-- **Root**
-  - _Directory principale del progetto._
+- **Client**
+  - _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
   - **src/**
     - _Directory principale del codice sorgente._
-    - **components/**
-      - _Contiene i componenti riutilizzabili dell'applicazione._
+    - **script/**
+      - _Contiene tutti gli script js sviluppati._
       - `Header.js`: _Componente per l'intestazione dell'app._
       - `Footer.js`: _Componente per il piè di pagina dell'app._
-    - **pages/**
-      - _Contiene le pagine principali dell'applicazione._
-      - `HomePage.js`: _Pagina principale dell'app._
-      - `AboutPage.js`: _Pagina "Chi siamo" dell'app._
-    - **utils/**
-      - _Contiene funzioni e utility di supporto._
-      - `api.js`: _Funzioni per le chiamate API._
-      - `helpers.js`: _Funzioni di utilità generiche._
-    - `App.js`: _File principale che configura il router dell'app e definisce il layout._
-    - `index.js`: _Punto di ingresso dell'app, renderizza l'elemento radice nel DOM._
-  - **public/**
-    - _Contiene file statici come HTML e immagini._
-    - `index.html`: _Pagina HTML principale dell'applicazione._
-    - `favicon.ico`: _Icona del sito._
-  - `README.md`: _Documentazione del progetto._
-  - `package.json`: _File di configurazione del progetto Node.js, elenca le dipendenze e gli script di avvio._
-  - `webpack.config.js`: _Configurazione del bundler Webpack per la compilazione del codice sorgente._
+    - **style/**
+      - _Contiene tutti i fogli di stile css sviluppati._
+      - **extra/**
+        - _Contiene gli script secondari utilizzati nei file principali._
+      - **features/**
+        - _Contiene i componenti funzionali del progetto._
+      - **UI/**
+        - _Contiene il gestore dei componenti funzionali._
 
 
 ## 4. Componenti Principali
