@@ -60,7 +60,6 @@ Per installare il progetto, è necessario avere installati i seguenti componenti
 
 ![Compatibilità OS](https://img.shields.io/badge/Compatibilit%C3%A0%20OS-Windows%20%7C%20Android%20%7C%20iOS%20%28iPhone%29%20%7C%20Mac-lightgrey)
 
-
 ## 4. Utilizzo:
 
 Seguire le istruzioni di configurazione per configurare React, .NET Core, SQL Server Management Studio e Microsoft SQL Server. Queste istruzioni dettagliate sono disponibili nella sezione di [installazione](#3-installazione) del README.
@@ -102,13 +101,11 @@ Per contribuire al progetto o segnalare bug fare riferimento ai seguenti link:
 
 ![Ambiente di sviluppo](https://img.shields.io/badge/Ambiente%20di%20Sviluppo-Visual%20Studio%20Code%20%7C%20Visual%20Studio-blue)
 
-
 ## 8. Licenza:
 
 Il progetto è rilasciato sotto una licenza open-source e non è vincolato da condizioni di utilizzo del codice sorgente.
 
 ![Licenza](https://img.shields.io/badge/Licenza-Open%20Source-blue)
-
 
 ## 9. Contatti:
 
@@ -122,11 +119,9 @@ Il progetto è rilasciato sotto una licenza open-source e non è vincolato da co
   - **Email**: vittoriopiotti.vp@gmail.com
   - **GitHub**: [vittoriopiotti](https://github.com/vittoriopiotti)
 
-
 ![Contatto](https://img.shields.io/badge/Contatto-Email%20%7C%20GitHub-blue)
 
 ![Supporto](https://img.shields.io/badge/Supporto-Community%20%7C%20Privato-green)
-
 
 ## 10. Badge:
 
