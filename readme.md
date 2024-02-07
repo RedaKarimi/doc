@@ -81,7 +81,7 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 
 ## 6. Contributo:
 
-Per contribuire al progetto o segnalare bug rivolgersi alle fonti seguenti:
+Per contribuire al progetto o segnalare bug fare riferimento ai seguenti link:
 
 - **repository GitHub:** [github](link-repository)
   
