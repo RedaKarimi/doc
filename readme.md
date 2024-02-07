@@ -111,6 +111,7 @@ Il progetto è rilasciato sotto una licenza open-source e non è vincolato da co
 ![Licenza](https://img.shields.io/badge/Licenza-Open%20Source-blue)
 
 ## 9. Contatti:
+
 | Contatti                                                                                                            |
 |-----------------|----------------|----------------------------|-----------------------------------------------------|
 | Ruolo           | Nome           | Email                      | GitHub                                              |
