@@ -30,20 +30,21 @@ Il progetto "Gestionale" consente agli utenti preregistrati di gestire la regist
    
    ![Form di registrazione del cliente](registraCliente.png)
    
-   Gli utenti possono registrare i propri clienti nel sistema che li identifica sul loro codice fiscale.
+   Gli utenti possono registrare i propri clienti nel sistema che li identifica sulla base del loro codice fiscale.
    
 5. **Visualizzazione Clienti**:
    
    ![Form di visualizzazione dei clienti](visualizzaClienti.png)
 
-   Gli utenti possono visualizzare massivamente le anagrafiche dei propri clienti con le seguenti funzionalità:
+   Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche dei propri clienti con le seguenti features:
    
    - Si possono selezionare quali campi rendere visibili e quali oscurare 
    - Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo
 
 ## 2. Stato del Progetto:
 
-Il progetto è stato completato con successo ed è in uno stato stabile. Tutte le funzionalità sono state implementate e testate con successo. Il software è pronto per l'utilizzo in produzione.
+Il progetto è stato completato con successo ed è in uno stato stabile. Tutte le funzionalità sono state implementate e testate con successo. Il software è pronto per l'utilizzo in produzione. ![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
+
 
 ## 3. Installazione:
 
