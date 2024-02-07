@@ -27,7 +27,8 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
 - **Client**
   - _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
   - **src/**
-    - _Directory principale del codice sorgente._
+    
+     _Directory principale del codice sorgente._
     - **script/**
       - _Contiene tutti gli script js sviluppati._
       - **extra/**
