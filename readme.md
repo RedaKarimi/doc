@@ -109,7 +109,7 @@ Il progetto è rilasciato sotto una licenza open-source e non è vincolato da co
 
 ![Contatto](https://img.shields.io/badge/Contatto-Email-blue)
 
-![Supporto](https://img.shields.io/badge/Supporto-Community%20%7C%20Pro%20%7C%20Premium-orange)
+![Supporto](https://img.shields.io/badge/Supporto-Community)
 
 ## 10. Badge:
 
