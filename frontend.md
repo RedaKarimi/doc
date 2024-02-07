@@ -81,6 +81,7 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
 
          _Contiene i componenti funzionali del progetto._
         - **autenticaCliente/**
+        - 
              _Contiene gli script per il form di autenticazione dell'utente._
             - `AutenticaClienteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
             - `AutenticaClienteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
@@ -88,6 +89,7 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
             - `AutenticaClienteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
               
         - **registraCliente/**
+        - 
              _Contiene gli script per il form di registrazione del cliente._
             - `RegistraClienteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
             - `RegistraClienteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
@@ -95,6 +97,7 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
             - `RegistraClienteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
               
         - **visualizzaClienti/**
+        - 
              _Contiene gli script per il form di visualizzazione delle anagrafiche dei clienti._
             - `VisualizzaClientiApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
             - `VisualizzaClientiMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
