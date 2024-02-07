@@ -104,7 +104,7 @@ Il progetto è rilasciato sotto una licenza open-source e non è vincolato da co
 
 ## 9. Contatti:
 
-- Gestore Backend: Reda Karimi (reda.karimi@gmail.com)
+- Gestore Backend: Reda Karimi (redakarimi76@gmail.com)
 - Gestore Frontend: Vittorio Piotti (vittoriopiotti.vp@gmail.com)
 
 ![Contatto](https://img.shields.io/badge/Contatto-Email-blue)
