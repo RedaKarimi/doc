@@ -110,15 +110,10 @@ Il progetto è rilasciato sotto una licenza open-source e non è vincolato da co
 
 ## 9. Contatti:
 
-- **Gestore Backend**: Reda Karimi
-  - **Nome**: Reda Karimi
-  - **Email**: redakarimi76@gmail.com
-  - **GitHub**: [redakarimi](https://github.com/redakarimi)
-
-- **Gestore Frontend**: Vittorio Piotti
-  - **Nome**: Vittorio Piotti
-  - **Email**: vittoriopiotti.vp@gmail.com
-  - **GitHub**: [vittoriopiotti](https://github.com/vittoriopiotti)
+| Ruolo          | Nome            | Email                      | GitHub                                   |
+|----------------|-----------------|----------------------------|------------------------------------------|
+| Gestore Backend| Reda Karimi     | redakarimi76@gmail.com    | [redakarimi](https://github.com/redakarimi) |
+| Gestore Frontend| Vittorio Piotti| vittoriopiotti.vp@gmail.com| [vittoriopiotti](https://github.com/vittoriopiotti) |
 
 ![Contatto](https://img.shields.io/badge/Contatto-Email%20%7C%20GitHub-blue)
 
