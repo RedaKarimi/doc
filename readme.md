@@ -43,7 +43,9 @@ Il progetto "Gestionale" consente agli utenti preregistrati di gestire la regist
 
 ## 2. Stato del Progetto:
 
-Il progetto è stato completato con successo ed è in uno stato stabile. Tutte le funzionalità sono state implementate e testate con successo. Il software è pronto per l'utilizzo in produzione. ![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
+Il progetto è stato completato con successo ed è in uno stato stabile. Tutte le funzionalità sono state implementate e testate con successo. Il software è pronto per l'utilizzo in produzione. 
+
+![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
 
 
 ## 3. Installazione:
