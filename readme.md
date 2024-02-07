@@ -2,13 +2,14 @@
 
 ## 1. Titolo e Descrizione del Progetto:
 Il progetto "Gestionale" consente agli utenti preregistrati di gestire la registrazione dei propri clienti e la visualizzazione della lista delle loro anagrafiche:
-1. **Accesso**:
+1. **Accesso Utente**:
    - L'utente effettua il login al sistema da **account unici preregistrati** 
    - Degli account utente le **credenziali sono criptate con SHA3**
    - Il sistema garantisce una **gestione sicura per l'apertura delle pagine sensibili** tramite la cache in cui viene memorizzato l'accesso dell'utente tenendolo in memoria in modo che se non è presente allora impedisce l'ingresso in qualsiasi form che non sia quello di autenticazione.
+![Form di autenticazione dell'utente](autenticaUtente.png)
 
-3. **Gestione Registrazione Clienti**: Gli utenti possono registrare i propri clienti nel sistema.
-4. **Visualizzazione Anagrafiche Clienti**: Gli utenti possono visualizzare le anagrafiche dei propri clienti.
+3. **Registrazione Clienti**: Gli utenti possono registrare i propri clienti nel sistema.
+4. **Visualizzazione Clienti**: Gli utenti possono visualizzare le anagrafiche dei propri clienti.
 
 ## 2. Stato del Progetto:
 Il progetto è stato completato con successo ed è in uno stato stabile. Tutte le funzionalità sono state implementate e testate con successo. Il software è pronto per l'utilizzo in produzione.
