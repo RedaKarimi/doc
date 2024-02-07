@@ -16,7 +16,32 @@
 12. [Conclusione](#12-conclusione)
 
 ## 1. Introduzione
-Breve descrizione del frontend del progetto e del suo obiettivo.
+
+Il frontend del progetto "Gestionale" offre un interfaccia userfriendly che consente agli utenti preregistrati di gestire la registrazione dei propri clienti e la visualizzazione della lista delle loro anagrafiche:
+
+1. **Accesso Utente**:
+   
+   ![Form di autenticazione dell'utente](autenticaUtente.png)
+   
+   - L'utente effettua il login al sistema da **account unici preregistrati** 
+   - Degli account utente le **credenziali sono criptate con SHA3**
+   - Il sistema garantisce una **gestione sicura per l'apertura delle pagine sensibili** tramite la cache in cui viene memorizzato l'accesso dell'utente tenendolo in memoria in modo che se non è presente allora impedisce l'ingresso in qualsiasi form che non sia quello di autenticazione.
+
+3. **Registrazione Clienti**:
+   
+   ![Form di registrazione del cliente](registraCliente.png)
+   
+   Gli utenti possono registrare i propri clienti nel sistema che li identifica sulla base del loro codice fiscale.
+   
+5. **Visualizzazione Clienti**:
+   
+   ![Form di visualizzazione dei clienti](visualizzaClienti.png)
+
+   Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche dei propri clienti con le seguenti features:
+   
+   - Si possono selezionare quali campi rendere visibili e quali oscurare 
+   - Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo
+
 
 ## 2. Tecnologie Utilizzate
 Elenco delle principali tecnologie utilizzate nel frontend, come React, Redux, etc.
