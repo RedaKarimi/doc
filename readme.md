@@ -1,7 +1,7 @@
 # Documentazione del Progetto Gestionale
 
 ## 1. Titolo e Descrizione del Progetto:
-Il progetto "Gestionale" consente agli utenti preregistrati di gestire le seguenti funzionalità:
+Il progetto "Gestionale" consente agli utenti preregistrati di gestire la registrazione dei propri clienti e la visualizzazione della lista delle loro anagrafiche:
 1. **Accesso Sicuro**:
    - Gli utenti possono effettuare il login per accedere al sistema da account preregistrati tramite un'interfaccia di accesso sicura.
    - Ogni utente ha un account unico e le credenziali sono criptate con SHA3 e vengono verificate per garantire l'autenticità dell'accesso.
