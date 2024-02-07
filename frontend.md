@@ -41,8 +41,10 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
           - **FloatButton/**
 
              _Contiene gli script per il funzionamento del menu di navigazione del sito._
-            - `RequestManager.js`: _Componente per la gestione delle richieste GET e POST dal frontend al server._
-            - `WindowLoader.js`: _Gestisce l'animazione di caricamento delle pagine web_
+            - `FloatButtonApp.js`: _Script che istanzia ed usa il main._
+            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e view unendo la parte logica e quella grafica del componente cosi da garantirne il corretto funzionamento._
+            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view ._
+            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica_
         - **utility/**
 
            _Contiene gli script che sono i gestori per l'elaborazione dei dati e vengono riutilizzati nei componenti principali._
