@@ -30,16 +30,15 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
     - _Directory principale del codice sorgente._
     - **script/**
       - _Contiene tutti gli script js sviluppati._
-      - `Header.js`: _Componente per l'intestazione dell'app._
-      - `Footer.js`: _Componente per il piè di pagina dell'app._
-    - **style/**
-      - _Contiene tutti i fogli di stile css sviluppati._
       - **extra/**
         - _Contiene gli script secondari utilizzati nei file principali._
       - **features/**
         - _Contiene i componenti funzionali del progetto._
       - **UI/**
         - _Contiene il gestore dei componenti funzionali._
+    - **style/**
+      - _Contiene tutti i fogli di stile css sviluppati._
+      
 
 
 ## 4. Componenti Principali
