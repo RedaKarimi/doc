@@ -2,9 +2,13 @@
 
 ## 1. Titolo e Descrizione del Progetto:
 Il progetto "Gestionale" consente agli utenti preregistrati di gestire le seguenti funzionalità:
-1. **Accesso**: Gli utenti possono effettuare il login per accedere al sistema.
-2. **Gestione Registrazione Clienti**: Gli utenti possono registrare i propri clienti nel sistema.
-3. **Visualizzazione Anagrafiche Clienti**: Gli utenti possono visualizzare le anagrafiche dei propri clienti.
+1. **Accesso Sicuro**:
+   - Gli utenti possono effettuare il login per accedere al sistema da account preregistrati tramite un'interfaccia di accesso sicura.
+  - Ogni utente ha un account unico e le credenziali sono criptate con SHA3 e vengono verificate per garantire l'autenticità dell'accesso.
+  - Il sistema gestisce in modo sicuro l'apertura delle pagine sensibili del sito tramite la cache in cui viene memorizzato l'accesso dell'utente in modo che se non è presente allora impedisce l'ingresso in qualsiasi form che non sia quello di autenticazione.
+
+3. **Gestione Registrazione Clienti**: Gli utenti possono registrare i propri clienti nel sistema.
+4. **Visualizzazione Anagrafiche Clienti**: Gli utenti possono visualizzare le anagrafiche dei propri clienti.
 
 ## 2. Stato del Progetto:
 Il progetto è stato completato con successo ed è in uno stato stabile. Tutte le funzionalità sono state implementate e testate con successo. Il software è pronto per l'utilizzo in produzione.
@@ -23,7 +27,7 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 - [Documentazione Frontend](link-documentazione-frontend)
 - [Documentazione Backend](link-documentazione-backend)
 
-## 6. Contribuire:
+## 6. Contributo:
 Per contribuire al progetto o segnalare bug, inviare un'email a gestionale.dev@gmail.com o fare domande sulla repository GitHub a [link-repository](link-repository).
 
 ## 7. Crediti:
@@ -40,5 +44,6 @@ Il progetto è rilasciato sotto una licenza open-source e non è vincolato da co
 
 ## 10. Badge:
 Lo stato della build è riuscito e stabile.
+
 ## 
 Questo README fornisce una panoramica del progetto Gestionale, comprese le istruzioni per l'installazione, l'utilizzo, il contributo e il contatto con i gestori del backend e del frontend. Assicurati di consultare la documentazione dettagliata per informazioni più approfondite.
