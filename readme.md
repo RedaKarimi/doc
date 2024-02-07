@@ -2,8 +2,6 @@
 
 ## Indice
 
-<div align="center">
-
 1. [Titolo e Descrizione del Progetto](#1-titolo-e-descrizione-del-progetto)
 2. [Stato del Progetto](#2-stato-del-progetto)
 3. [Installazione](#3-installazione)
@@ -15,8 +13,6 @@
 9. [Contatti](#9-contatti)
 10. [Badge](#10-badge)
 11. [Recap](#11-recap)
-
-</div>
 
 ## 1. Titolo e Descrizione del Progetto:
 
