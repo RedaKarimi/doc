@@ -12,6 +12,7 @@
 8. [Licenza](#8-licenza)
 9. [Contatti](#9-contatti)
 10. [Badge](#10-badge)
+11. [Recap](#11-recap)
 
 ## 1. Titolo e Descrizione del Progetto:
 
@@ -84,5 +85,5 @@ Il progetto è rilasciato sotto una licenza open-source e non è vincolato da co
 
 Lo stato della build è riuscito e stabile.
 
-## 
+## 11. Recap:
 Questo README fornisce una panoramica del progetto Gestionale, comprese le istruzioni per l'installazione, l'utilizzo, il contributo e il contatto con i gestori del backend e del frontend. Assicurati di consultare la documentazione dettagliata per informazioni più approfondite.
