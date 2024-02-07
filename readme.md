@@ -84,7 +84,8 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 Per contribuire al progetto o segnalare bug rivolgersi alle fonti seguenti:
 
 - **repository GitHub:** [github](link-repository)
-- **email:** 
+  
+- **email:**
   - **aziendale:** gestionale.dev@gmail.com
   - **privata:** 
     - **Reda Karimi:** redakarimi76@gmail.com
