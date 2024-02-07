@@ -55,36 +55,36 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
       - **features/**
 
          _Contiene i componenti funzionali del progetto._
-        - **FloatButton/**
+        - **autenticaCliente/**
              _Contiene gli script per il funzionamento del menu di navigazione del sito._
-            - `FloatButtonApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+            - `AutenticaClienteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - `AutenticaClienteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - `AutenticaClienteManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
+            - `AutenticaClienteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
               
-        - **FloatButton/**
+        - **registraCliente/**
              _Contiene gli script per il funzionamento del menu di navigazione del sito._
-            - `FloatButtonApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+            - `RegistraClienteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - `RegistraClienteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - `RegistraClienteManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
+            - `RegistraClienteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
               
-        - **FloatButton/**
+        - **visualizzaClienti/**
              _Contiene gli script per il funzionamento del menu di navigazione del sito._
-            - `FloatButtonApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+            - `VisualizzaClientiApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - `VisualizzaClientiMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - `VisualizzaClientiManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
+            - `VisualizzaClientiView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
     
       - **UI/**
 
          _Contiene il gestore dei componenti funzionali._
-        - **FloatButton/**
+        - **UI/**
              _Contiene gli script per il funzionamento del menu di navigazione del sito._
-            - `FloatButtonApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-            - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+            - `UIApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - `UIMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - `UIManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
+            - `UIView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
 
     - **style/**
 
