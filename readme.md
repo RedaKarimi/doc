@@ -2,7 +2,7 @@
 
 ## Indice
 
-1. [Titolo e Descrizione del Progetto](#1-titolo-e-descrizione-del-progetto)
+1. [Descrizione del Progetto](#1-descrizione-del-progetto)
 2. [Stato del Progetto](#2-stato-del-progetto)
 3. [Installazione](#3-installazione)
 4. [Utilizzo](#4-utilizzo)
@@ -14,7 +14,7 @@
 10. [Badge](#10-badge)
 11. [Recap](#11-recap)
 
-## 1. Titolo e Descrizione del Progetto:
+## 1. Descrizione del Progetto:
 
 Il progetto "Gestionale" consente agli utenti preregistrati di gestire la registrazione dei propri clienti e la visualizzazione della lista delle loro anagrafiche:
 
