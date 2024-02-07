@@ -83,13 +83,15 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 
 Per contribuire al progetto o segnalare bug fare riferimento ai seguenti link:
 
-- **repository GitHub:** [github](link-repository)
-  
-- **email:**
-  - **aziendale:** gestionale.dev@gmail.com
-  - **privata:** 
-    - **Reda Karimi:** redakarimi76@gmail.com
-    - **Vittorio Piotti:** vittoriopiotti.vp@gmail.com
+| Repository GitHub | Email                        |
+|-------------------|------------------------------|
+| aziendale         | gestionale.dev@gmail.com     |
+| privata           |                              |
+|                   | Reda Karimi                 |
+|                   | redakarimi76@gmail.com      |
+|                   | Vittorio Piotti             |
+|                   | vittoriopiotti.vp@gmail.com |
+
 
 ![Contributo](https://img.shields.io/badge/Contributo-Open%20Source-green)
 
