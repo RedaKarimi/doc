@@ -89,11 +89,11 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
     - **style/**
 
        _Contiene tutti i fogli di stile css sviluppati._
-       - `FloatButtonApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-      - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-      - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-      - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
-      - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+       - `global.css`: _Foglio di stile con gli stili globali per tutto il progetto._
+      - `autenticaUtente.css`: _Foglio di stile con gli stili relativi alla schermata di autenticazione dell'utente._
+      - `registraCliente.css`: _Foglio di stile con gli stili relativi alla schermata di registrazione del cliente._
+      - `visualizzaClienti.css`: _Foglio di stile con gli stili relativi alla schermata di visualizzazione dei clienti._
+      - `menuLaterale.css`: _Foglio di stile con gli stili relativi al componente del menu di navigazione._
 
 
 
