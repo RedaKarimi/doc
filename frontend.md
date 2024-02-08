@@ -117,13 +117,11 @@ Ogni componente grafico funzionale è organizzato in quattro file distinti:
 
 3. **Main**: Questo file istanzia il Manager e la View del componente, passando come parametri a View i metodi e gli attributi strettamente necessari all'interfaccia grafica definiti nel Manager.
 
-4. **App**: Infine, il file App istanzia il Main del componente, garantendo una maggiore pulizia del codice e facilitando la gestione dei componenti all'interno dell'applicazione.
-
 La scelta di questa struttura organizzativa dei componenti grafici è motivata dalla separazione dei compiti e dalla chiarezza del codice. Separando la parte grafica dalla logica di business, è più semplice comprendere e mantenere ciascun componente in modo isolato. Inoltre, questa organizzazione facilita il riutilizzo dei componenti e favorisce una migliore scalabilità dell'applicazione nel tempo.
 
 ### Vantaggi Strutturali
 
-- **Chiarezza del Codice**: La suddivisione dei componenti in View, Manager, Main e App favorisce la chiarezza e la leggibilità del codice, rendendo più facile comprendere il funzionamento di ciascun componente.
+- **Chiarezza del Codice**: La suddivisione dei componenti in View, Manager e Main e favorisce la chiarezza e la leggibilità del codice, rendendo più facile comprendere il funzionamento di ciascun componente.
 
 - **Facilità di Manutenzione**: Grazie alla separazione delle responsabilità, individuare e risolvere problemi o bug diventa più semplice, facilitando la manutenzione continua dell'applicazione.
 
