@@ -1,7 +1,4 @@
 # Documentazione del Frontend
-    `Utente.cs`: _Contiene la tabella utente._
-    `Cliente.cs`: _Contiene la tabella cliente
-
 
 ## Indice
 
@@ -438,10 +435,15 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 ### Istruzioni:
 1. **Clonare il Repository:** Assicurasi di aver clonato il repository del progetto frontend sul sistema locale.
 2. **Installare le Dipendenze:** Utilizzare il gestore di pacchetti npm o yarn per installare le dipendenze del progetto. Occorre eseguire il comando seguente nella directory del progetto:
-`npm install` oppure `yarn install`
-3. **Avviare il Server di Sviluppo:** Dopo aver installato le dipendenze, avviare il server di sviluppo locale eseguendo il comando:
+    npm install
+
+oppure
+
+   yarn install
+
+4. **Avviare il Server di Sviluppo:** Dopo aver installato le dipendenze, avviare il server di sviluppo locale eseguendo il comando:
 `npm start` oppure `yarn start`
-4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
+5. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
    
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
