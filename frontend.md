@@ -126,6 +126,14 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
 ## 4. Componenti Principali
 Elenco e descrizione dei componenti principali utilizzati nel frontend, con eventuali esempi o screenshot.
 
+| Campo di Riferimento | Descrizione                    | Immagine                                       |
+| -------------------- | ------------------------------ | ---------------------------------------------- |
+| Nome Prodotto 1      | Descrizione del prodotto 1    | <img src="autenticaUtente.png" width="200">         |
+| Nome Prodotto 2      | Descrizione del prodotto 2    | <img src="registraCliente.png" width="200">         |
+| Nome Prodotto 3      | Descrizione del prodotto 3    | <img src="visualizzaClienti.png" width="200">         |
+
+
+
 ## 5. Routing
 Spiegazione del sistema di routing utilizzato (ad esempio, React Router) e descrizione delle rotte principali dell'applicazione.
 
