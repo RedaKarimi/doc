@@ -133,9 +133,28 @@ Elenco e descrizione dei componenti principali utilizzati nel frontend, con even
 | Form di visualizzazione anagrafiche cliente | Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche dei propri clienti con le seguenti features:<ul><li>Si possono selezionare quali campi rendere visibili e quali oscurare</li><li>Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo</li></ul>                                                                                                                                                        | ![Form di visualizzazione anagrafiche cliente](visualizzaClienti.png) |
 
 
-
 ## 5. Routing
-Spiegazione del sistema di routing utilizzato (ad esempio, React Router) e descrizione delle rotte principali dell'applicazione.
+
+### Spiegazione del sistema di routing
+
+Nel progetto, utilizziamo React Router per gestire il routing dell'applicazione. React Router è una libreria molto popolare per il routing in applicazioni React, che consente di definire rotte e collegarle a componenti specifici.
+
+Abbiamo importato le seguenti componenti da React Router:
+
+- `BrowserRouter`: Questo componente fornisce il contesto del routing per i componenti figlio. È avvolto intorno all'intera struttura delle rotte.
+- `Routes`: Questo componente contiene una serie di `Route` componenti che definiscono le rotte dell'applicazione.
+- `Route`: Questo componente definisce una singola rotta dell'applicazione, associando un percorso URL a un componente React.
+
+Il sistema di routing è configurato all'interno del componente `UIView`. Le rotte principali dell'applicazione sono definite come seguenti:
+
+### Descrizione delle rotte principali dell'applicazione
+
+- **Rotte Principali**:
+  - La rotta principale (`"/"`) è associata al componente `autenticaUtenteApp`. Questa rotta gestisce l'autenticazione dell'utente e viene visualizzata come pagina di accesso.
+  - La rotta `"/registraCliente"` è associata al componente `registraClienteApp`. Questa rotta gestisce il processo di registrazione del cliente.
+  - La rotta `"/visualizzaClienti"` è associata al componente `visualizzaClientiApp`. Questa rotta gestisce la visualizzazione dei clienti registrati.
+
+
 
 ## 6. Gestione dello Stato
 Descrizione di come viene gestito lo stato dell'applicazione, ad esempio tramite Redux, con esempi di azioni e riduttori.
