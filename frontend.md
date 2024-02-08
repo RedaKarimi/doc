@@ -369,6 +369,13 @@ Breve panoramica dei test unitari e di integrazione effettuati sul frontend
 
 - **Test di Integrazione**: Sono stati eseguiti test di integrazione per verificare l'interazione tra diversi componenti e le varie parti dell'applicazione. Questi test sono stati utili per assicurare che le varie parti dell'applicazione funzionino correttamente insieme e che non vi siano problemi di compatibilità o conflitti tra di esse.
 
+> [!NOTE]
+> - La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing come Jest o React Testing Library.
+> 
+> - La [struttura del progetto](#3-struttura-del-progetto) in termini di organizzazione del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
+
+
+
 ### Benefici dei Test
 
 - **Miglioramento della Qualità**: I test hanno contribuito a migliorare la qualità complessiva dell'applicazione, individuando e risolvendo bug e problemi prima che possano influenzare gli utenti finali.
@@ -403,13 +410,6 @@ Tutti i test finali hanno dato esito positivo, confermando la stabilità della b
 <a id="TIP"></a>
 > [!TIP]
 > Tra gli sviluppi futuri un'opportuna **migrazione e aggiornamento** di questi componenti deprecati per garantire la compatibilità e le prestazioni ottimali del sistema.
-
----
-
-> [!NOTE]
-> - La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing come Jest o React Testing Library.
-> 
-> - La [struttura del progetto](#3-struttura-del-progetto) in termini di organizzazione del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
 
 
 ![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
