@@ -440,7 +440,7 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 
 oppure
 
-      yarn install
+         yarn install
 
 4. **Avviare il Server di Sviluppo:** Dopo aver installato le dipendenze, avviare il server di sviluppo locale eseguendo il comando:
 `npm start` oppure `yarn start`
