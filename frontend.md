@@ -102,7 +102,31 @@ Queste sono le principali tecnologie utilizzate nel frontend del progetto, che c
 
 
 ## 3. Struttura del Progetto
-Descrizione della struttura delle cartelle e dei file del frontend, inclusi componenti, pagine e servizi
+
+### Indice
+
+1. [Organizzazione dei Componenti Grafici](#organizzazione-dei-componenti-grafici)
+2. [Struttura dei File in un Albero di Path](#struttura-dei-file-in-un-albero-di-path)
+
+---
+
+### Organizzazione dei Componenti Grafici
+
+La struttura del progetto frontend segue un'organizzazione ben definita per garantire una chiara separazione delle responsabilità e una maggiore manutenibilità del codice. Ogni componente grafico funzionale è organizzato in quattro file distinti:
+
+1. **View**: Questo file contiene solo la parte grafica del componente, ovvero la struttura HTML e la presentazione CSS. La View non ha alcuna logica di business o gestione dello stato.
+
+2. **Manager**: Il file Manager contiene la logica di business del componente, inclusa l'elaborazione dei dati e la gestione dello stato. Qui vengono definiti i metodi e gli attributi necessari per il funzionamento del componente.
+
+3. **Main**: Questo file istanzia il Manager e la View del componente, passando come parametri a View i metodi e gli attributi strettamente necessari all'interfaccia grafica definiti nel Manager.
+
+4. **App**: Infine, il file App istanzia il Main del componente, garantendo una maggiore pulizia del codice e facilitando la gestione dei componenti all'interno dell'applicazione.
+
+La scelta di questa struttura organizzativa dei componenti grafici è motivata dalla separazione dei compiti e dalla chiarezza del codice. Separando la parte grafica dalla logica di business, è più semplice comprendere e mantenere ciascun componente in modo isolato. Inoltre, questa organizzazione facilita il riutilizzo dei componenti e favorisce una migliore scalabilità dell'applicazione nel tempo.
+
+### Struttura dei File in un Albero di Path
+
+Di seguito la descrizione della struttura delle cartelle e dei file del frontend inclusi componenti:
 
 - **Client**
 
