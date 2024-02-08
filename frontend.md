@@ -86,11 +86,12 @@ Il frontend del progetto utilizza una serie di tecnologie per lo sviluppo dell'i
 
 Queste sono le principali tecnologie utilizzate nel frontend del progetto, che contribuiscono a creare un'interfaccia utente funzionale, intuitiva e ben progettata.
 
-![Tecnologia](https://img.shields.io/badge/Tecnologia-React%20%7C%20%-yellow)
+![Tecnologia](https://img.shields.io/badge/Tecnologia-React%20%7C%20-yellow)
 
 ![Compatibilità](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
-![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript%20%-orange)
+![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript%20-orange)
+
 
 
 ## 3. Struttura del Progetto
