@@ -404,7 +404,7 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 *npm install* oppure *yarn install*
 3. **Avviare il Server di Sviluppo:** Dopo aver installato le dipendenze, puoi avviare il server di sviluppo locale eseguendo il comando:
 *npm start* oppure *yarn start*
-4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http\://www.example.com* nel browser. Puoi accedere all'applicazione visitando questo URL.
+4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Puoi accedere all'applicazione visitando questo URL.
 
 ## 11. Distribuzione
 Breve guida su come distribuire il frontend in un ambiente di produzione, con eventuali configurazioni o passaggi aggiuntivi necessari.
