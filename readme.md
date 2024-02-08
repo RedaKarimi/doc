@@ -54,6 +54,14 @@ Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche d
 
 Il progetto è stato completato con successo ed è in uno stato stabile. Tutte le funzionalità sono state implementate e testate con successo. Il software è pronto per l'utilizzo in produzione. 
 
+
+> [!WARNING]
+> Tra le criticità riscontrate durante i test, è stata identificata la presenza di **componenti deprecati** nel frontend
+
+> [!TIP]
+> Tra gli sviluppi futuri un'opportuna **migrazione e aggiornamento** di questi componenti deprecati per garantire la compatibilità e le prestazioni ottimali del sistema.
+
+
 ![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
 
 ![Versione](https://img.shields.io/badge/Versione-1.0-blue)
