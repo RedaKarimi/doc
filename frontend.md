@@ -411,8 +411,8 @@ Breve guida su come distribuire il frontend in un ambiente di produzione.
 
 ### Indice
 
-1. [Prerequisiti](#prerequisiti-per-la-distribuzione)
-2. [Istruzioni](#istruzioni-per-la-distribuzione)
+1. [Prerequisiti per la Distribuzione](#prerequisiti-per-la-distribuzione)
+2. [Istruzioni per la Distribuzione](#istruzioni-per-la-distribuzione)
 
 ---
 
