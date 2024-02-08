@@ -110,7 +110,7 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
          - `UIApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
          - `UIMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
          - `UIManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-         - `<a id="UIView">UIView.js</a>`: _Script che contiene la vista del componente e ne gestisce solo la grafica, cotiene il sistema di [routing](#5-routing)._
+         - <a id="UIView"></a>`UIView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica, cotiene il sistema di [routing](#5-routing)._
 
     - **style/**
 
