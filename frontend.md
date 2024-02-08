@@ -55,7 +55,7 @@ Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche d
 ### Indice
 
 
-1. [React Router DOM](#React)
+1. [`React Router DOM`](#React)
 2. [Ant Design ](#ReactDOM)
 3. [Axios ](#ReactRouterDOM)
 4. [React Toastify](#AntDesign)
