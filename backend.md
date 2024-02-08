@@ -15,10 +15,16 @@
 11. [Conclusione](#11-conclusione)
 
 ## 1. Introduzione
-Breve descrizione del backend server del progetto e del suo obiettivo.
+La documentazione seguente fornisce una panoramica dettagliata del backend dell'applicazione, che gestisce le operazioni relative alla registrazione degli utenti, al login, alla gestione dei clienti e alla comunicazione con il database. Il backend è sviluppato utilizzando il framework ASP.NET Core.
 
 ## 2. Tecnologie Utilizzate
-Elenco delle principali tecnologie utilizzate nel backend server, come .NET Core, Entity Framework, etc.
+
+Il backend utilizza diverse tecnologie per implementare le sue funzionalità:
+
+- **ASP.NET Core:** È il framework utilizzato per lo sviluppo dell'applicazione web.
+- **Entity Framework Core:** È un ORM (Object-Relational Mapping) utilizzato per interagire con il database relazionale.
+- **Microsoft SQL Server:** È il database relazionale utilizzato per memorizzare i dati dell'applicazione.
+- **DotNetEnv:** È una libreria utilizzata per caricare le variabili d'ambiente da un file .env.
 
 ## 3. Architettura del Backend
 Descrizione dell'architettura generale del backend, inclusi pattern di progettazione utilizzati e struttura delle cartelle del progetto.
