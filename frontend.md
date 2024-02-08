@@ -166,7 +166,7 @@ Il sistema di routing è configurato all'interno del componente `UIView` [(vedi)
 - **Rotte Principali**:
   - La rotta principale (`"/"`) è associata al componente `autenticaUtenteApp` [(vedi)](#AutenticaUtenteApp). Questa rotta gestisce l'autenticazione dell'utente e viene visualizzata come pagina di accesso.
   - La rotta `"/registraCliente"` è associata al componente `registraClienteApp` [(vedi)](#RegistraClienteApp). Questa rotta gestisce il processo di registrazione del cliente.
-  - La rotta `"/visualizzaClienti"` è associata al componente `visualizzaClientiApp [(vedi)](#VisualizzaClientiApp)`. Questa rotta gestisce la visualizzazione dei clienti registrati.
+  - La rotta `"/visualizzaClienti"` è associata al componente `visualizzaClientiApp` [(vedi)](#VisualizzaClientiApp). Questa rotta gestisce la visualizzazione dei clienti registrati.
 
 ### Routing Sicuro e Reindirizzamento
 
