@@ -1,5 +1,5 @@
 # Documentazione del Frontend
-`#0969DA`
+
 ## Indice
 
 1. [Introduzione](#1-introduzione)
@@ -54,7 +54,8 @@ Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche d
 
 ### Lista Teconologie
 
-[`React`](#React)&ensp;&ensp;&ensp;[`React DOM`](#ReactDOM)&ensp;&ensp;&ensp;[`React Router DOM`](#ReactRouterDOM)&ensp;&ensp;&ensp;[`Ant Design`](#AntDesign)&ensp;&ensp;&ensp;[`Axios`](#Axios)&ensp;&ensp;&ensp;[`React Tostify`](#ReactToastify)&ensp;&ensp;&ensp;[`Sha3`](#Sha3)&ensp;&ensp;&ensp;[`Bootstrap`](#Bootstrap)&ensp;&ensp;&ensp;[`Web Vitals`](#WebVitals)&ensp;&ensp;&ensp;[`Testing Library`](#TestingLibrary)&ensp;&ensp;&ensp;[`ESLint`](#ESLint)&ensp;&ensp;&ensp;[`TypeScript Types for Bootstrap`](#TypeScriptTypesBootstrap)
+[`React`](#React)&ensp;&ensp;&ensp;[`React DOM`](#ReactDOM)&ensp;&ensp;&ensp;[`React Router DOM`](#ReactRouterDOM)&ensp;&ensp;&ensp;[`Ant Design`](#AntDesign)&ensp;&ensp;&ensp;[`Axios`](#Axios)&ensp;&ensp;&ensp;[`React Tostify`](#ReactToastify)&ensp;&ensp;&ensp;[`Sha3`](#Sha3)&ensp;&ensp;&ensp;[`Bootstrap`](#Bootstrap)&ensp;&ensp;&ensp;[`Web Vitals`](#WebVitals)&ensp;&ensp;&ensp;[`Testing Library`](#TestingLibrary)&ensp;&ensp;&ensp;[`ESLint`](#ESLint)&ensp;&ensp;&ensp;[`TypeScript Types for Bootstrap`](#TypeScriptTypesBootstrap)&ensp;&ensp;&ensp;[`Dotenv`](#Dotenv)
+
 
 ---
 
@@ -83,6 +84,10 @@ Il frontend del progetto utilizza una serie di tecnologie per lo sviluppo dell'i
 - <a id="ESLint"></a>**[ESLint](https://eslint.org/)**: ESLint è uno strumento utilizzato per il linting del codice JavaScript e React. Aiuta a identificare e correggere gli errori nel codice, nonché a mantenere uno stile di codifica uniforme all'interno del progetto.
 
 - <a id="TypeScriptTypesBootstrap"></a>**[TypeScript Types for Bootstrap](https://www.npmjs.com/package/@types/bootstrap)**: Questa libreria fornisce tipi TypeScript per Bootstrap, che consentono di utilizzare Bootstrap in modo più sicuro e affidabile all'interno di un progetto React con TypeScript.
+
+- <a id="Dotenv"></a>**[Dotenv](https://www.npmjs.com/package/dotenv)**: Questa libreria è essenziale per gestire variabili d'ambiente nelle applicazioni Node.js. Consente di definire e caricare in modo sicuro le configurazioni sensibili, come indirizzi IP e porte di connessione, tramite file di configurazione separati. Ciò aumenta la sicurezza eliminando l'esposizione diretta di tali informazioni sensibili nel codice sorgente, garantendo al contempo una maggiore flessibilità nell'adattare l'ambiente di sviluppo e produzione dell'applicazione.
+
+
 
 Queste sono le principali tecnologie utilizzate nel frontend del progetto, che contribuiscono a creare un'interfaccia utente funzionale, intuitiva e ben progettata.
 
