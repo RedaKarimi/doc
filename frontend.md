@@ -266,7 +266,7 @@ Utilizzare Hooks direttamente all'interno dei componenti ha semplificato la gest
 
 ## 7. Chiamate API
 
-Le chiamate API dal frontend sono fondamentali per interagire con il backend e scambiare dati tra il client e il server in un'applicazione web.La libreria utilizzata per gestire le chiamate API dal frontend è Axios.
+Le chiamate API dal frontend sono state utilizzate per interagire con il backend e scambiare dati tra il client e il server in questa applicazione web tramite la libreria Axios.
 
 ### Indice
 
