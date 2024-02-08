@@ -157,7 +157,7 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
           - **FloatButton/**
 
              _Contiene gli script per il funzionamento del menu di navigazione del sito._
-            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            -  <a id="FloatButtonMain"></a>`FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
             - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
         - **utility/**
@@ -188,7 +188,7 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
              _Contiene gli script per il form di visualizzazione delle anagrafiche dei clienti._
             - <a id="VisualizzaClientiApp"></a>`VisualizzaClientiMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `VisualizzaClientiManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - `VisualizzaClientiView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+            - <a id="VisualizzaClientiView"></a>``VisualizzaClientiView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
   
     - <a id="CSSPersonalizzati"></a>**style/**
 
@@ -366,13 +366,13 @@ Tutti i test finali hanno dato esito positivo, confermando la stabilità della b
 > [!WARNING]
 > Tra le criticità riscontrate durante i test, è stata identificata la presenza di componenti deprecati. In particolare:
 > 
-> 1. Per quanto riguarda il componente `FloatButtonGroup`, sono state rilevate le seguenti avvertenze:
+> 1. Per quanto riguarda il componente [`FloatButtonGroup`](#FloatButtonGroupMain), sono state rilevate le seguenti avvertenze:
 >    
 >    - `findDOMNode` è deprecato in StrictMode. È stato suggerito di aggiungere un ref direttamente all'elemento di riferimento anziché utilizzare `findDOMNode`.
 > 2. Per il componente `Dropdown` è stata individuata la seguente avvertenza:
 >    - L'uso di `visible` è deprecato. È stato consigliato di utilizzare `open`.
 >      
-> 3. Infine, per il componente `VisualizzaClientiView`, sono state rilevate le seguenti avvertenze:
+> 3. Infine, per il componente [`VisualizzaClientiView`](#VisualizzaClientiView), sono state rilevate le seguenti avvertenze:
 >    - L'uso di funzioni ref nei componenti funzionali è stato sconsigliato.
 >    - È stata segnalata la mancanza di chiavi univoche per i figli nella lista.
 
