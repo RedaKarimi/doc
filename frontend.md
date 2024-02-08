@@ -445,14 +445,31 @@ Il frontend del progetto "Gestionale" offre un'esperienza utente intuitiva e fun
 
 Desideriamo ringraziare il team di sviluppo per il loro impegno e dedizione nel portare avanti questo progetto. 
 
+| Ruolo          | Nome            | Email                        | GitHub                                           |
+|----------------|-----------------|------------------------------|-----------------------------------------------|
+| Gestore Backend| Reda Karimi     | redakarimi76@gmail.com      | [redakarimi](https://github.com/redakarimi)  |
+| Gestore Frontend| Vittorio Piotti| vittoriopiotti.vp@gmail.com | [vittoriopiotti](https://github.com/vittoriopiotti) |
+
+
 ### Riferimenti aggiuntivi
 
-Per ulteriori informazioni sul progetto o per contribuire, si prega di [visitare la nostra pagina GitHub](https://github.com/vittorioPiotti/doc) o contattare [Vittorio Piotti](https://github.com/vittorioPiotti) su GitHub o all'indirizzo email vittoriopiotti.vp@gmail.com.
+Per contribuire al progetto, ricevere informazioni o segnalare bug fare riferimento ai seguenti link:
+
+
+| Issues Repository GitHub                        | Email Aziendale                  | Email Privata                  |
+|------------------------------------------|---------------------------------|--------------------------------|
+| [Repository](https://github.com/pub) | gestionale.dev@gmail.com                | redakarimi76@gmail.com                        |
+|  |                |                           vittoriopiotti.vp@gmail.com     |
+
+![Contatto](https://img.shields.io/badge/Contatto-Email%20%7C%20GitHub-blue)
+
 
 ### Supporto e collaborazione futura
 
 Siamo aperti a nuove collaborazioni e siamo disponibili a offrire supporto per l'implementazione del progetto in altri contesti o per eventuali miglioramenti futuri. Non esitate a contattarci per ulteriori dettagli o proposte di collaborazione.
 
 Grazie ancora a tutti coloro che hanno reso possibile il successo di questo progetto!
+
+![Supporto](https://img.shields.io/badge/Supporto-Community%20%7C%20Privato-green)
 
 
