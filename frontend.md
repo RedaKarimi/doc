@@ -318,7 +318,7 @@ Effettuare chiamate API con Axios dal frontend offre diversi vantaggi:
 
 ### API Utilizzate
 
-nel frontend sono esposte diverse API per consentire al client di interagire con le risorse del sistema:
+Nel frontend sono state utilizzate le seguenti API per consentire al client di interagire con le risorse del sistema:
 
 - **/register (POST)**: Gestisce la registrazione di un nuovo cliente.
 - **/login (POST)**: Gestisce il processo di login dell'utente.
