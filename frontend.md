@@ -89,7 +89,7 @@ Il frontend del progetto utilizza una serie di tecnologie per lo sviluppo dell'i
 
 
 
-Queste sono le principali tecnologie utilizzate nel frontend del progetto, che contribuiscono a creare un'interfaccia utente funzionale, intuitiva e ben progettata.
+Queste sono tutte le tecnologie utilizzate nel frontend del progetto, che contribuiscono a creare un'interfaccia utente funzionale, intuitiva e ben progettata.
 
 ![Tecnologia](https://img.shields.io/badge/Tecnologia-React-yellow)
 
