@@ -115,7 +115,7 @@ Per contribuire al progetto o segnalare bug fare riferimento ai seguenti link:
 
 - Backend: Reda Karimi
 - Frontend: Vittorio Piotti
-- Risorse di Sviluppo: Visual Studio, Estensione SSH per lavoro di gruppo in locale
+- Risorse di Sviluppo: Visual Studio, Estensione SSH per lavoro locale in team
 
 ![Ambiente di sviluppo](https://img.shields.io/badge/Ambiente%20di%20Sviluppo-Visual%20Studio%20Code%20%7C%20Visual%20Studio-blue)
 
