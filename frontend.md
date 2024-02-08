@@ -359,6 +359,7 @@ Breve panoramica dei test effettuati sul frontend, inclusi test unitari, di inte
 
 > [!NOTE]
 > La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing.
+> 
 > La struttura organizzativa del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
 
 
