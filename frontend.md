@@ -1,7 +1,6 @@
 # Documentazione del Frontend
 
 ## Indice
-<span style="color:red">&#8226;</span> Testo del label
 
 1. [Introduzione](#1-introduzione)
 2. [Tecnologie Utilizzate](#2-tecnologie-utilizzate)
