@@ -408,7 +408,6 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 
 ![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
 
-![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript%20-orange)
 
 
 ## 11. Distribuzione
@@ -438,7 +437,6 @@ Le configurazioni necessarie sono sviluppate nei seguenti passaggi:
 
 ![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
 
-![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript%20-orange)
 
 
 
