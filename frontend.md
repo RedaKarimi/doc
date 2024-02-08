@@ -154,6 +154,10 @@ Il sistema di routing è configurato all'interno del componente `UIView` [(vedi)
   - La rotta `"/registraCliente"` è associata al componente `registraClienteApp`. Questa rotta gestisce il processo di registrazione del cliente.
   - La rotta `"/visualizzaClienti"` è associata al componente `visualizzaClientiApp`. Questa rotta gestisce la visualizzazione dei clienti registrati.
 
+### Routing Sicuro e Reindirizzamento
+
+Il sistema implementa il routing sicuro per garantire che l'utente venga reindirizzato alle pagine appropriate solo dopo l'autenticazione. Questo viene fatto salvando nella cache i dati di accesso dell'utente. Se un utente prova ad accedere direttamente a una pagina senza essere autenticato, viene reindirizzato automaticamente alla pagina di accesso.
+
 
 
 ## 6. Gestione dello Stato
