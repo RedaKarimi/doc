@@ -59,8 +59,8 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
            - **Table/**
         
           _Contiene tutti gli script cs sviluppati per il riferimento alle tabelle del database._
-           - `Utente.cs`: _Contiene la tabella utente._
-           - `Cliente.cs`: _Contiene la tabella cliente._
+            - `Utente.cs`: _Contiene la tabella utente._
+            - `Cliente.cs`: _Contiene la tabella cliente._
 
 
 ## 4. Modelli dei Dati
