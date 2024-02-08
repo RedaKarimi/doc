@@ -64,7 +64,7 @@ Per installare il progetto, è necessario avere installati i seguenti componenti
 >
 >Nel dettaglio fare riferimento ai seguenti link:
 > - [Installazione Frontend](frontend.md#10-avvio-e-sviluppo-locale)
-> - [Installazione Backend](backend.md)
+> - [Installazione Backend](backend.md#10-deployment)
 
 
 ![Compatibilità OS](https://img.shields.io/badge/Compatibilit%C3%A0%20OS-Windows%20%7C%20Android%20%7C%20iOS%20%28iPhone%29%20%7C%20Mac-lightgrey)
