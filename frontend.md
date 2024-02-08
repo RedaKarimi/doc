@@ -51,7 +51,35 @@ Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche d
 - Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo
 
 ## 2. Tecnologie Utilizzate
-Elenco delle principali tecnologie utilizzate nel frontend, come React, Redux, etc.
+
+Il frontend del progetto utilizza una serie di tecnologie per lo sviluppo dell'interfaccia utente e la gestione delle dipendenze. Di seguito sono elencate le principali tecnologie utilizzate:
+
+- **React**: React è il principale framework JavaScript utilizzato per lo sviluppo dell'interfaccia utente. Si tratta di una libreria open-source che permette di creare interfacce utente focalizzate sui componenti, rendendo più semplice la gestione dello stato e il rendering dinamico dei dati.
+
+- **React DOM**: React DOM è una libreria utilizzata per il rendering di React all'interno del DOM del browser. Questa libreria è responsabile della manipolazione del DOM e dell'aggiornamento dell'interfaccia utente in base allo stato dell'applicazione.
+
+- **React Router DOM**: React Router DOM è una libreria utilizzata per gestire il routing dell'applicazione React. Permette di definire rotte all'interno dell'applicazione e di associare componenti React a percorsi specifici.
+
+- **Ant Design**: Ant Design è una libreria di componenti UI per React. Offre una vasta gamma di componenti predefiniti pronti per l'uso, che facilitano la creazione di un'interfaccia utente intuitiva e ben progettata.
+
+- **Axios**: Axios è una libreria utilizzata per effettuare richieste HTTP dall'applicazione frontend al backend. Fornisce un'interfaccia semplice e intuitiva per l'invio e la gestione delle richieste e delle risposte HTTP.
+
+- **React Toastify**: React Toastify è una libreria utilizzata per mostrare notifiche toast nell'applicazione React. Queste notifiche sono utili per informare gli utenti su eventi importanti o messaggi di errore senza interrompere l'esperienza utente.
+
+- **Sha3**: Sha3 è una libreria utilizzata per calcolare l'hash SHA-3 delle stringhe. Questa libreria è utile per la crittografia e la sicurezza dei dati all'interno dell'applicazione.
+
+- **Bootstrap**: Bootstrap è un framework CSS utilizzato per la progettazione e lo stile dell'interfaccia utente. Offre una serie di componenti UI predefiniti, griglie responsive e stili CSS pronti per l'uso, che semplificano la creazione di un'interfaccia utente accattivante e moderna.
+
+- **Web Vitals**: Web Vitals è una libreria utilizzata per misurare le prestazioni web. Fornisce metriche standard per valutare la velocità di caricamento, la reattività e l'esperienza utente complessiva del sito web.
+
+- **Testing Library**: Testing Library è una libreria utilizzata per i test unitari e di integrazione nell'ambiente di sviluppo React. Fornisce un'API semplice e intuitiva per testare i componenti React e le loro interazioni con l'utente.
+
+- **ESLint**: ESLint è uno strumento utilizzato per il linting del codice JavaScript e React. Aiuta a identificare e correggere gli errori nel codice, nonché a mantenere uno stile di codifica uniforme all'interno del progetto.
+
+- **TypeScript Types for Bootstrap**: Questa libreria fornisce tipi TypeScript per Bootstrap, che consentono di utilizzare Bootstrap in modo più sicuro e affidabile all'interno di un progetto React con TypeScript.
+
+Queste sono le principali tecnologie utilizzate nel frontend del progetto, che contribuiscono a creare un'interfaccia utente funzionale, intuitiva e ben progettata.
+
 
 ## 3. Struttura del Progetto
 Descrizione della struttura delle cartelle e dei file del frontend, inclusi componenti, pagine e servizi
