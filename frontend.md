@@ -238,7 +238,7 @@ Il sistema implementa il routing sicuro per garantire che l'utente venga reindir
 
 ## 6. Gestione dello Stato
 
-Per la gestione dello stato dell'applicazione, sono stati principalmente utilizzati gli Hooks di React, in particolare [`useState`](#useState), ` [`useEffect`](#useEffect)`, `[`useRef`](#useRef)`, e `[`useMemo`](#useMemo)`, ciascuno con un preciso scopo e utilizzo all'interno dei componenti.
+Per la gestione dello stato dell'applicazione, sono stati principalmente utilizzati gli Hooks di React, in particolare [`useState`](#useState),  [`useEffect`](#useEffect), [`useRef`](#useRef), e [`useMemo`](#useMemo), ciascuno con un preciso scopo e utilizzo all'interno dei componenti.
 
 ### Indice
 
