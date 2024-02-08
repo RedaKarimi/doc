@@ -379,7 +379,7 @@ Tutti i test finali hanno dato esito positivo, confermando la stabilità della b
 
 
 > [!TIP]
-> Tra gli sviluppi futuri un'opportuna migrazione e aggiornamento di questi componenti deprecati per garantire la compatibilità e le prestazioni ottimali del sistema.
+> Tra gli sviluppi futuri un'opportuna **migrazione e aggiornamento** di questi componenti deprecati per garantire la compatibilità e le prestazioni ottimali del sistema.
 
 
 
