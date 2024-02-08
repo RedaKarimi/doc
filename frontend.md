@@ -110,7 +110,7 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
          - `UIApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
          - `UIMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
          - `UIManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-         - `UIView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+         - `<a id="UIView">UIView.js</a>`: _Script che contiene la vista del componente e ne gestisce solo la grafica, cotiene il sistema di [routing](#5-routing)._
 
     - **style/**
 
@@ -137,15 +137,15 @@ Elenco e descrizione dei componenti principali utilizzati nel frontend, con even
 
 ### Spiegazione del sistema di routing
 
-Nel progetto, utilizziamo React Router per gestire il routing dell'applicazione. React Router è una libreria molto popolare per il routing in applicazioni React, che consente di definire rotte e collegarle a componenti specifici.
+Nel progetto si ha utilizzato **React Router per gestire il routing** dell'applicazione.
 
-Abbiamo importato le seguenti componenti da React Router:
+I **componenti importati** da React Router sono i seguenti:
 
 - `BrowserRouter`: Questo componente fornisce il contesto del routing per i componenti figlio. È avvolto intorno all'intera struttura delle rotte.
 - `Routes`: Questo componente contiene una serie di `Route` componenti che definiscono le rotte dell'applicazione.
 - `Route`: Questo componente definisce una singola rotta dell'applicazione, associando un percorso URL a un componente React.
 
-Il sistema di routing è configurato all'interno del componente `UIView`. Le rotte principali dell'applicazione sono definite come seguenti:
+Il sistema di routing è configurato all'interno del componente `[UIView](#UIView)`. Le rotte principali dell'applicazione sono definite come seguenti:
 
 ### Descrizione delle rotte principali dell'applicazione
 
