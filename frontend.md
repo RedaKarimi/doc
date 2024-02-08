@@ -375,17 +375,19 @@ Tutti i test finali hanno dato esito positivo, confermando la stabilità della b
 
 <a id="WARNING"></a>
 > [!WARNING]
-> Tra le criticità riscontrate durante i test, è stata identificata la presenza di **componenti deprecati**. In particolare:
-> 
-> 1. Per quanto riguarda il componente [`FloatButtonGroup`](#FloatButtonGroup), sono state rilevate le seguenti avvertenze:
->    
->    - `findDOMNode` è deprecato in StrictMode. È stato suggerito di aggiungere un ref direttamente all'elemento di riferimento anziché utilizzare `findDOMNode`.
-> 2. Per il componente `Dropdown` è stata individuata la seguente avvertenza:
->    - L'uso di `visible` è deprecato. È stato consigliato di utilizzare `open`.
->      
-> 3. Infine, per il componente [`VisualizzaClientiView`](#VisualizzaClientiView), sono state rilevate le seguenti avvertenze:
->    - L'uso di funzioni ref nei componenti funzionali è stato sconsigliato.
->    - È stata segnalata la mancanza di chiavi univoche per i figli nella lista.
+> In [`FloatButtonGroup`](#FloatButtonGroup) messaggio di avvertimento per `findDOMNode` che è deprecato in StrictMode. È stato suggerito di aggiungere un ref direttamente all'elemento di riferimento anziché utilizzare `findDOMNode`
+
+> [!WARNING]
+> In [`FloatButtonGroup`](#FloatButtonGroup) `findDOMNode` è deprecato in StrictMode quindi aggiungere un ref all'elemento di riferimento anziché utilizzare `findDOMNode`
+
+> [!WARNING]
+> In [`FloatButtonGroup`](#FloatButtonGroup) per `Dropdown` `findDOMNode` l'uso di `visible` è deprecato quindi è stato consigliato di utilizzare `open`
+
+> [!WARNING]
+> In [`VisualizzaClientiView`](#VisualizzaClientiView) l'uso di funzioni ref nei componenti funzionali è stato sconsigliato.
+
+> [!WARNING]
+> In [`VisualizzaClientiView`](#VisualizzaClientiView) è stata segnalata la mancanza di chiavi univoche per i figli nella lista.
 
 
 <a id="TIP"></a>
