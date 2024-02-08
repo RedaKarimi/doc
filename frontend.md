@@ -145,7 +145,7 @@ I **componenti importati** da React Router sono i seguenti:
 - `Routes`: Questo componente contiene una serie di `Route` componenti che definiscono le rotte dell'applicazione.
 - `Route`: Questo componente definisce una singola rotta dell'applicazione, associando un percorso URL a un componente React.
 
-Il sistema di routing è configurato all'interno del componente [UIView](#UIView). Le rotte principali dell'applicazione sono definite come seguenti:
+Il sistema di routing è configurato all'interno del componente `UIView` [(vedi)](#UIView). Le rotte principali dell'applicazione sono definite come seguenti:
 
 ### Descrizione delle rotte principali dell'applicazione
 
