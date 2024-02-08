@@ -40,18 +40,18 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
   - **src/**
     
      _Directory principale del codice sorgente._
-   - **Server/**
-     
-       _Contiene tutti gli script cs sviluppati per il server._
-     - **Requests/**
-     
-       _Contiene tutti gli script cs sviluppati per l'elaborazione delle richieste al server._
-   - **Database/**
-     
-       _Contiene tutti gli script cs sviluppati per il database._
-        - **Table/**
-     
-       _Contiene tutti gli script cs sviluppati per il riferimento alle tabelle del database._
+      - **Server/**
+        
+          _Contiene tutti gli script cs sviluppati per il server._
+        - **Requests/**
+        
+          _Contiene tutti gli script cs sviluppati per l'elaborazione delle richieste al server._
+      - **Database/**
+        
+          _Contiene tutti gli script cs sviluppati per il database._
+           - **Table/**
+        
+          _Contiene tutti gli script cs sviluppati per il riferimento alle tabelle del database._
 
 ## 4. Modelli dei Dati
 
