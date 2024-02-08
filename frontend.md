@@ -86,6 +86,11 @@ Il frontend del progetto utilizza una serie di tecnologie per lo sviluppo dell'i
 
 Queste sono le principali tecnologie utilizzate nel frontend del progetto, che contribuiscono a creare un'interfaccia utente funzionale, intuitiva e ben progettata.
 
+![Tecnologia](https://img.shields.io/badge/Tecnologia-React%20%7C%20.NET%20%7C%20C%23-yellow)
+
+![Compatibilità](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
+
+![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript%20%7C%20C%23-orange)
 
 
 ## 3. Struttura del Progetto
@@ -378,8 +383,11 @@ Breve panoramica dei test effettuati sul frontend, inclusi test unitari, di inte
 > - La [struttura del progetto](#3-struttura-del-progetto) in termini di organizzazione del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
 
 
+![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
 
+![Versione](https://img.shields.io/badge/Versione-1.0-blue)
 
+![Manutenzione](https://img.shields.io/badge/Manutenzione-Attiva-green)
 
 
 ## 10. Avvio e Sviluppo Locale
@@ -406,6 +414,8 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 `npm start` oppure `yarn start`
 4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
 
+![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS-lightgrey)
+
 ## 11. Distribuzione
 Breve guida su come distribuire il frontend in un ambiente di produzione.
 
@@ -427,6 +437,10 @@ Le configurazioni necessarie sono sviluppate nei seguenti passaggi:
 2. **Configurazione del Server:** Una volta completata la build, carica i file generati nella directory "build" su un server Web. Assicurati di configurare correttamente il server per servire i file statici dell'applicazione.
 3. **Verifica:** Dopo aver caricato i file del frontend sul server, verifica che l'applicazione sia accessibile e funzionante. Puoi farlo visitando l'URL del tuo dominio o indirizzo IP nel browser.
 4. **Aggiornamenti e Manutenzione:** Una volta distribuita l'applicazione, assicurati di monitorare regolarmente le prestazioni e il funzionamento del frontend. Effettua aggiornamenti e manutenzione quando necessario per garantire la continuità del servizio e la sicurezza del sistema.
+
+![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS-lightgrey)
+
+
 
 ## 12. Conclusione
 
@@ -471,5 +485,6 @@ Siamo aperti a nuove collaborazioni e siamo disponibili a offrire supporto per l
 Grazie ancora a tutti coloro che hanno reso possibile il successo di questo progetto!
 
 ![Supporto](https://img.shields.io/badge/Supporto-Community%20%7C%20Privato-green)
+
 
 
