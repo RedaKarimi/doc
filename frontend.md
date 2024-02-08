@@ -54,7 +54,7 @@ Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche d
 
 ### Lista Teconologie
 
-[`React Router DOM`](#React)&ensp;&ensp;&ensp;[`Ant Design`](#ReactDOM)&ensp;&ensp;&ensp;[`Axios`](#ReactRouterDOM)&ensp;&ensp;&ensp;[`React Toastify`](#AntDesign)&ensp;&ensp;&ensp;[`React Toastify`](#Axios)&ensp;&ensp;&ensp;[`Sha3`](#ReactToastify)&ensp;&ensp;&ensp;[`Bootstrap`](#Sha3)&ensp;&ensp;&ensp;[`Web Vitals`](#Bootstrap)&ensp;&ensp;&ensp;[`Web Vitals`](#WebVitals)&ensp;&ensp;&ensp;[`Testing Library`](#TestingLibrary)&ensp;&ensp;&ensp;[`ESLint`](#ESLint)&ensp;&ensp;&ensp;[`TypeScript Types for Bootstrap`](#TypeScriptTypesBootstrap)
+[`React`](#React)&ensp;&ensp;&ensp;[`React DOM`](#ReactDOM)&ensp;&ensp;&ensp;[`React Router DOM`](#ReactRouterDOM)&ensp;&ensp;&ensp;[`Ant Design`](#AntDesign)&ensp;&ensp;&ensp;[`Axios`](#Axios)&ensp;&ensp;&ensp;[`React Tostify`](#ReactToastify)&ensp;&ensp;&ensp;[`Sha3`](#Sha3)&ensp;&ensp;&ensp;[`Bootstrap`](#Bootstrap)&ensp;&ensp;&ensp;[`Web Vitals`](#WebVitals)&ensp;&ensp;&ensp;[`Testing Library`](#TestingLibrary)&ensp;&ensp;&ensp;[`ESLint`](#ESLint)&ensp;&ensp;&ensp;[`TypeScript Types for Bootstrap`](#TypeScriptTypesBootstrap)
 
 ---
 
@@ -238,7 +238,7 @@ Il sistema implementa il routing sicuro per garantire che l'utente venga reindir
 
 ## 6. Gestione dello Stato
 
-Per la gestione dello stato dell'applicazione, sono stati principalmente utilizzati gli Hooks di React, in particolare `useState`, `useEffect`, `useRef`, e `useMemo`, ciascuno con un preciso scopo e utilizzo all'interno dei componenti.
+Per la gestione dello stato dell'applicazione, sono stati principalmente utilizzati gli Hooks di React, in particolare [`useState`](#useState), ` [`useEffect`](#useEffect)`, `[`useRef`](#useRef)`, e `[`useMemo`](#useMemo)`, ciascuno con un preciso scopo e utilizzo all'interno dei componenti.
 
 ### Indice
 
@@ -249,13 +249,13 @@ Per la gestione dello stato dell'applicazione, sono stati principalmente utilizz
 
 ### Utilizzo degli Hooks
 
-- **useState**: Questo Hook è stato utilizzato per definire e gestire lo stato locale all'interno dei componenti funzionali. Ad esempio, è stato utilizzato `useState` per gestire lo stato di variabili dinamiche come il testo di un input, lo stato di un modale, o il conteggio di un contatore.
+- <a id="useState">**useState**: Questo Hook è stato utilizzato per definire e gestire lo stato locale all'interno dei componenti funzionali. Ad esempio, è stato utilizzato `useState` per gestire lo stato di variabili dinamiche come il testo di un input, lo stato di un modale, o il conteggio di un contatore.
 
-- **useEffect**: È stato impiegato `useEffect` per gestire gli effetti collaterali nelle componenti funzionali, come le richieste HTTP, la sottoscrizione agli eventi, o la gestione del ciclo di vita del componente. Questo Hook è utile per eseguire codice aggiuntivo dopo il rendering del componente o per ripulire le risorse quando il componente viene smontato.
+- <a id="useEffect">**useEffect**: È stato impiegato `useEffect` per gestire gli effetti collaterali nelle componenti funzionali, come le richieste HTTP, la sottoscrizione agli eventi, o la gestione del ciclo di vita del componente. Questo Hook è utile per eseguire codice aggiuntivo dopo il rendering del componente o per ripulire le risorse quando il componente viene smontato.
 
-- **useRef**: È stato utilizzato `useRef` per mantenere riferimenti a elementi DOM o valori persistenti tra i render dei componenti. Questo Hook è stato prezioso quando è stato necessario manipolare direttamente elementi DOM o mantenere riferimenti a valori che non devono essere re-inizializzati ad ogni renderizzazione del componente.
+- <a id="useRef">**useRef**: È stato utilizzato `useRef` per mantenere riferimenti a elementi DOM o valori persistenti tra i render dei componenti. Questo Hook è stato prezioso quando è stato necessario manipolare direttamente elementi DOM o mantenere riferimenti a valori che non devono essere re-inizializzati ad ogni renderizzazione del componente.
 
-- **useMemo**: È stato fatto uso di `useMemo` per memorizzare valori calcolati all'interno dei componenti funzionali. Questo Hook è stato utile quando è stato necessario calcolare valori derivati da altri stati o proprietà del componente, evitando il ricalcolo ad ogni renderizzazione a meno che le dipendenze non cambino.
+- <a id="useMemo">**useMemo**: È stato fatto uso di `useMemo` per memorizzare valori calcolati all'interno dei componenti funzionali. Questo Hook è stato utile quando è stato necessario calcolare valori derivati da altri stati o proprietà del componente, evitando il ricalcolo ad ogni renderizzazione a meno che le dipendenze non cambino.
 
 ### Motivazioni di Utilizzo
 
