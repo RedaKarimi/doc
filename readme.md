@@ -95,6 +95,12 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
+![Compatibilità Server](https://img.shields.io/badge/Compatibilit%C3%A0%20Server-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
+
+![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
+
+![Compatibilità Database](https://img.shields.io/badge/Compatibilit%C3%A0%20Database-Windows%20%7C%20Linux-blue)
+
 ![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript%20%7C%20C%23-orange)
 
 ![Documentazione](https://img.shields.io/badge/Documentazione-Completa-blue) 
