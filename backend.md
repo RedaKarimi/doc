@@ -27,10 +27,31 @@ Il backend utilizza diverse tecnologie per implementare le sue funzionalità:
 - **DotNetEnv:** È una libreria utilizzata per caricare le variabili d'ambiente da un file .env.
 
 ## 3. Architettura del Backend
-Descrizione dell'architettura generale del backend, inclusi pattern di progettazione utilizzati e struttura delle cartelle del progetto.
-ProgettoBackend
 
+### Struttura dei File in un Albero di Path
 
+Di seguito la descrizione della struttura delle cartelle e dei file del frontend inclusi componenti:
+
+- **Server**
+
+   _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
+  - <a id="App"></a>`App.cs`: _Contiene il gestore dei componenti funzionali e gestisce i reindirizzamenti alle pagine con un sistema di [routing](#5-routing)._
+
+  - **src/**
+    
+     _Directory principale del codice sorgente._
+   - **Server/**
+     
+       _Contiene tutti gli script cs sviluppati per il server._
+     - **Requests/**
+     
+       _Contiene tutti gli script cs sviluppati per l'elaborazione delle richieste al server._
+   - **Database/**
+     
+       _Contiene tutti gli script cs sviluppati per il database._
+        - **Table/**
+     
+       _Contiene tutti gli script cs sviluppati per il riferimento alle tabelle del database._
 
 ## 4. Modelli dei Dati
 
