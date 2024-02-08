@@ -373,7 +373,7 @@ Breve panoramica dei test unitari e di integrazione effettuati sul frontend
 
 Tutti i test finali hanno dato esito positivo, confermando la stabilità della build.
 
-> [!WARNING]
+> <a id="WARNING"></a>[!WARNING]
 > Tra le criticità riscontrate durante i test, è stata identificata la presenza di **componenti deprecati**. In particolare:
 > 
 > 1. Per quanto riguarda il componente [`FloatButtonGroup`](#FloatButtonGroup), sono state rilevate le seguenti avvertenze:
@@ -388,7 +388,7 @@ Tutti i test finali hanno dato esito positivo, confermando la stabilità della b
 
 
 
-> [!TIP]
+> <a id="TIP"></a>[!TIP]
 > Tra gli sviluppi futuri un'opportuna **migrazione e aggiornamento** di questi componenti deprecati per garantire la compatibilità e le prestazioni ottimali del sistema.
 
 
