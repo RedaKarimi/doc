@@ -148,7 +148,7 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
       - **features/**
 
          _Contiene i componenti funzionali del progetto._
-        - **autenticaCliente/**
+        - **autenticaUtente/**
           
              _Contiene gli script per il form di autenticazione dell'utente._
             - <a id="AutenticaUtenteApp"></a>`AutenticaUtenteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
