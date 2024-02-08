@@ -506,8 +506,6 @@ Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti p
 
 ## 12. Conclusione
 
-La documentazione del backend offre una panoramica completa delle sue componenti e funzionalità chiave, facilitando lo sviluppo, il deployment e la manutenzione del sistema.
-
 Il frontend del progetto "Gestionale" offre un'esperienza utente intuitiva e funzionale grazie all'impiego di tecnologie moderne come React, Axios e Ant Design. La struttura organizzativa del progetto e l'efficace gestione dello stato mantengono il codice pulito e manutenibile. L'integrazione di test unitari assicura una buona qualità del codice. In sintesi, il frontend è ben progettato, reattivo e pronto per offrire un'esperienza utente di alta qualità.
 
 
