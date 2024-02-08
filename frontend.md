@@ -331,7 +331,40 @@ Qui di seguito vengono delineati gli approcci utilizzati per gestire gli stili:
 
 
 ## 9. Testing
-Breve panoramica dei test effettuati sul frontend, inclusi test unitari, di integrazione e di utilizzo di strumenti come Jest e React Testing Library.
+
+Breve panoramica dei test effettuati sul frontend, inclusi test unitari, di integrazione 
+
+### Indice
+
+1. [Test Effettuati](#test-effettuati)
+2. [Benefici dei Test](#benefici-dei-test)
+
+---
+
+
+### Test Effettuati
+
+- **Test Unitari**: Sono stati sviluppati test unitari per verificare il corretto funzionamento dei singoli componenti e delle funzioni utilizzate nell'applicazione. Questi test hanno consentito di individuare eventuali bug e garantire che ogni componente si comporti come previsto in condizioni specifiche.
+
+- **Test di Integrazione**: Sono stati eseguiti test di integrazione per verificare l'interazione tra diversi componenti e le varie parti dell'applicazione. Questi test sono stati utili per assicurare che le varie parti dell'applicazione funzionino correttamente insieme e che non vi siano problemi di compatibilità o conflitti tra di esse.
+
+### Benefici dei Test
+
+- **Miglioramento della Qualità**: I test hanno contribuito a migliorare la qualità complessiva dell'applicazione, individuando e risolvendo bug e problemi prima che possano influenzare gli utenti finali.
+
+- **Riduzione dei Rischi**: Effettuando test regolari, si è ridotto il rischio di errori e malfunzionamenti nell'applicazione, garantendo un'esperienza utente più fluida e priva di problemi.
+
+- **Aumento della Fiducia**: L'utilizzo di test ha aumentato la fiducia nello sviluppo e nel rilascio dell'applicazione, fornendo una valida garanzia che ogni cambiamento o aggiornamento non provochi regressioni o problemi imprevisti.
+
+
+> [!NOTE]
+> La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing.
+> La struttura organizzativa del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
+
+
+
+
+
 
 ## 10. Avvio e Sviluppo Locale
 Istruzioni su come avviare il frontend in modalità di sviluppo locale, con eventuali prerequisiti e comandi necessari.
