@@ -47,7 +47,7 @@ Il frontend del progetto "Gestionale" offre un interfaccia userfriendly che cons
 Elenco delle principali tecnologie utilizzate nel frontend, come React, Redux, etc.
 
 ## 3. Struttura del Progetto
-Descrizione della struttura delle cartelle e dei file del frontend, inclusi componenti, pagine, servizi, redux, etc.
+Descrizione della struttura delle cartelle e dei file del frontend, inclusi componenti, pagine e servizi
 
 - **Client**
 
