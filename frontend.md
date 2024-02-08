@@ -308,7 +308,16 @@ Effettuare chiamate API con Axios dal frontend offre diversi vantaggi:
 
 ## 8. Stili
 
-Nel frontend del progetto, la gestione degli stili è stata fondamentale per garantire un'interfaccia utente coerente e accattivante. Qui di seguito vengono delineati gli approcci utilizzati per gestire gli stili:
+
+Nel frontend del progetto, la gestione degli stili è stata fondamentale per garantire un'interfaccia utente coerente e accattivante. 
+
+### Lista Stili
+
+[`Ant Design`](#React)&ensp;&ensp;&ensp;[`CSS personalizzati`](#ReactDOM)&ensp;&ensp;&ensp;[`CSS Bootstrap`](#ReactRouterDOM)
+
+---
+
+Qui di seguito vengono delineati gli approcci utilizzati per gestire gli stili:
 
 - **Ant Design**: La libreria di componenti UI per React, Ant Design, è stata ampiamente impiegata per accedere a componenti già stilizzati e pronti all'uso. Questi componenti predefiniti hanno permesso di risparmiare tempo nello sviluppo e di ottenere un'interfaccia utente coesa e professionale.
 
