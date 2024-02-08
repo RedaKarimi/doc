@@ -1,10 +1,8 @@
 # Documentazione del Frontend
-             - `Utente.cs`: _Contiene la tabella utente._
-             - `Cliente.cs`: _Contiene la tabella cliente
+              `Utente.cs`: _Contiene la tabella utente._
+              `Cliente.cs`: _Contiene la tabella cliente
 
 
-
-  ciao
 ## Indice
 
 1. [Introduzione](#1-introduzione)
