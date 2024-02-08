@@ -142,6 +142,8 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
 - **Client**
 
    _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
+  - <a id="UIView"></a>`App.js`: _Contiene il gestore dei componenti funzionali e gestisce i reindirizzamenti alle pagine con un sistema di [routing](#5-routing)._
+
   - **src/**
     
      _Directory principale del codice sorgente._
@@ -157,7 +159,6 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
           - **FloatButton/**
 
              _Contiene gli script per il funzionamento del menu di navigazione del sito._
-            - `FloatButtonApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
             - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
             - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
@@ -173,35 +174,24 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
         - **autenticaUtente/**
           
              _Contiene gli script per il form di autenticazione dell'utente._
-            - <a id="AutenticaUtenteApp"></a>`AutenticaUtenteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-            - `AutenticaUtenteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - <a id="AutenticaUtenteApp"></a>`AutenticaUtenteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `AutenticaUtenteManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
             - `AutenticaUtenteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
               
         - **registraCliente/**
         
              _Contiene gli script per il form di registrazione del cliente._
-            - <a id="RegistraClienteApp"></a>`RegistraClienteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-            - `RegistraClienteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - <a id="RegistraClienteApp"></a>`RegistraClienteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `RegistraClienteManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
             - `RegistraClienteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
               
         - **visualizzaClienti/**
           
              _Contiene gli script per il form di visualizzazione delle anagrafiche dei clienti._
-            - <a id="VisualizzaClientiApp"></a>`VisualizzaClientiApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-            - `VisualizzaClientiMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - <a id="VisualizzaClientiApp"></a>`VisualizzaClientiMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `VisualizzaClientiManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
             - `VisualizzaClientiView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
-    
-      - **UI/**
-
-         _Contiene il gestore dei componenti funzionali e gestisce i reindirizzamenti alle pagine con un sistema di [routing](#5-routing)._
-         - `UIApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-         - `UIMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-         - `UIManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-         - <a id="UIView"></a>`UIView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica, qui è organizzato il sistema di [routing](#5-routing)._
-
+  
     - <a id="CSSPersonalizzati"></a>**style/**
 
        _Contiene tutti i fogli di stile css sviluppati._
