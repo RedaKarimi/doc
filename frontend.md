@@ -456,7 +456,7 @@ Breve guida su come distribuire il frontend in un ambiente di produzione.
 
 ---
 
-Le configurazioni necessarie sono sviluppate nei seguenti passaggi:
+Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti passaggi:
 
 ### Prerequisiti per la Distribuzione:
 1. Necessita di avere **accesso a un server Web** per ospitare l'applicazione frontend.
