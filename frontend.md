@@ -90,7 +90,7 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
         - **autenticaCliente/**
           
              _Contiene gli script per il form di autenticazione dell'utente._
-            - `AutenticaClienteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - <a id="AutenticaClienteApp"></a>`AutenticaClienteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
             - `AutenticaClienteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `AutenticaClienteManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
             - `AutenticaClienteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
@@ -98,7 +98,7 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
         - **registraCliente/**
         
              _Contiene gli script per il form di registrazione del cliente._
-            - `RegistraClienteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - <a id="RegistraClienteApp"></a>`RegistraClienteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
             - `RegistraClienteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `RegistraClienteManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
             - `RegistraClienteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
@@ -106,7 +106,7 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
         - **visualizzaClienti/**
           
              _Contiene gli script per il form di visualizzazione delle anagrafiche dei clienti._
-            - `VisualizzaClientiApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - <a id="VisualizzaClientiApp"></a>`VisualizzaClientiApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
             - `VisualizzaClientiMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `VisualizzaClientiManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
             - `VisualizzaClientiView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
@@ -164,9 +164,9 @@ Il sistema di routing è configurato all'interno del componente `UIView` [(vedi)
 ### Descrizione delle rotte principali dell'applicazione
 
 - **Rotte Principali**:
-  - La rotta principale (`"/"`) è associata al componente `autenticaUtenteApp`. Questa rotta gestisce l'autenticazione dell'utente e viene visualizzata come pagina di accesso.
-  - La rotta `"/registraCliente"` è associata al componente `registraClienteApp`. Questa rotta gestisce il processo di registrazione del cliente.
-  - La rotta `"/visualizzaClienti"` è associata al componente `visualizzaClientiApp`. Questa rotta gestisce la visualizzazione dei clienti registrati.
+  - La rotta principale (`"/"`) è associata al componente `autenticaUtenteApp` [(vedi)](#AutenticaUtenteApp). Questa rotta gestisce l'autenticazione dell'utente e viene visualizzata come pagina di accesso.
+  - La rotta `"/registraCliente"` è associata al componente `registraClienteApp` [(vedi)](#RegistraClienteApp). Questa rotta gestisce il processo di registrazione del cliente.
+  - La rotta `"/visualizzaClienti"` è associata al componente `visualizzaClientiApp [(vedi)](#VisualizzaClientiApp)`. Questa rotta gestisce la visualizzazione dei clienti registrati.
 
 ### Routing Sicuro e Reindirizzamento
 
