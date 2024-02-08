@@ -300,8 +300,8 @@ Effettuare chiamate API con Axios dal frontend offre diversi vantaggi:
 
 4. **Flessibilità**: Axios offre una vasta gamma di opzioni di configurazione e personalizzazione per adattarsi alle esigenze specifiche dell'applicazione.
 
->[!TROUBLESHOOTING]
->
+
+
 >In sintesi, Axios è stata una scelta affidabile per gestire le chiamate API dal frontend dell'applicazione web, offrendo una solida base per la comunicazione tra client e server.
 
 
