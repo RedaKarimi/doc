@@ -316,7 +316,8 @@ Nel frontend del progetto, la gestione degli stili è stata fondamentale per gar
 
 - **Integrazione di classi di stile Bootstrap**: Per ampliare le funzionalità e sfruttare componenti specifici offerti da Bootstrap, sono state integrate classi di stile Bootstrap all'interno dell'applicazione. Questo approccio ha permesso di combinare le caratteristiche di entrambe le librerie per ottenere un'interfaccia utente versatile e ben strutturata.
 
-
+> [!IMPORTANT]
+> Le personalizzazioni degli stili sono state apportate solo nei fogli di stile CSS sorgente, senza modificare direttamente le classi predefinite di Bootstrap o Ant Design. Questo garantisce un controllo flessibile sull'aspetto dell'applicazione, mantenendo la coerenza e semplificando la manutenzione del codice.
 
 
 
