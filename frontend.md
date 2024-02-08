@@ -1,5 +1,5 @@
 # Documentazione del Frontend
-
+`#0969DA`
 ## Indice
 
 1. [Introduzione](#1-introduzione)
