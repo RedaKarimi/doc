@@ -280,7 +280,7 @@ Le chiamate API dal frontend sono state utilizzate per interagire con il backend
 
 Axios è una libreria JavaScript che semplifica il processo di effettuare chiamate HTTP dal frontend. È particolarmente popolare per la sua facilità d'uso, la sua flessibilità e il suo supporto per le richieste asincrone. 
 
-#### Principali vantaggi di Axios:
+### Principali vantaggi di Axios:
 
 - **Facilità d'uso**: Axios offre un'API intuitiva e semplice da utilizzare per effettuare richieste HTTP, rendendo facile interagire con API esterne o interne al progetto.
   
