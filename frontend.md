@@ -383,7 +383,28 @@ Breve panoramica dei test effettuati sul frontend, inclusi test unitari, di inte
 
 
 ## 10. Avvio e Sviluppo Locale
+
 Istruzioni su come avviare il frontend in modalità di sviluppo locale, con eventuali prerequisiti e comandi necessari.
+
+### Indice
+
+1. [Prerequisiti](#prerequisiti)
+2. [Istruzioni](#istruzioni)
+
+---
+
+### Prerequisiti:
+1. **Node.js** installato sul sistema.
+2. Gestore di pacchetti **npm** o **yarn**.
+
+
+### Istruzioni:
+1. **Clonare il Repository:** Assicurati di aver clonato il repository del progetto frontend sul tuo sistema locale.
+2. **Installare le Dipendenze:** Utilizza il gestore di pacchetti npm o yarn per installare le dipendenze del progetto. Puoi farlo eseguendo il comando seguente nella directory del progetto:
+*npm install* oppure *yarn install*
+3. **Avviare il Server di Sviluppo:** Dopo aver installato le dipendenze, puoi avviare il server di sviluppo locale eseguendo il comando:
+*npm start* oppure *yarn start*
+4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Puoi accedere all'applicazione visitando questo URL.
 
 ## 11. Distribuzione
 Breve guida su come distribuire il frontend in un ambiente di produzione, con eventuali configurazioni o passaggi aggiuntivi necessari.
