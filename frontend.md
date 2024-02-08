@@ -399,16 +399,51 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 
 
 ### Istruzioni:
-1. **Clonare il Repository:** Assicurati di aver clonato il repository del progetto frontend sul tuo sistema locale.
-2. **Installare le Dipendenze:** Utilizza il gestore di pacchetti npm o yarn per installare le dipendenze del progetto. Puoi farlo eseguendo il comando seguente nella directory del progetto:
+1. **Clonare il Repository:** Assicurasi di aver clonato il repository del progetto frontend sul sistema locale.
+2. **Installare le Dipendenze:** Utilizzare il gestore di pacchetti npm o yarn per installare le dipendenze del progetto. Occorre eseguire il comando seguente nella directory del progetto:
 `npm install` oppure `yarn install`
-3. **Avviare il Server di Sviluppo:** Dopo aver installato le dipendenze, puoi avviare il server di sviluppo locale eseguendo il comando:
+3. **Avviare il Server di Sviluppo:** Dopo aver installato le dipendenze, avviare il server di sviluppo locale eseguendo il comando:
 `npm start` oppure `yarn start`
-4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Puoi accedere all'applicazione visitando questo URL.
+4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
 
 ## 11. Distribuzione
-Breve guida su come distribuire il frontend in un ambiente di produzione, con eventuali configurazioni o passaggi aggiuntivi necessari.
+Breve guida su come distribuire il frontend in un ambiente di produzione.
+
+### Indice
+
+1. [Prerequisiti](#prerequisiti-per-la-distribuzione)
+2. [Istruzioni](#istruzioni-per-la-distribuzione)
+
+---
+
+Le configurazioni necessarie sono sviluppate nei seguenti passaggi:
+
+### Prerequisiti per la Distribuzione:
+1. Necessita di avere **accesso a un server Web** per ospitare l'applicazione frontend.
+2. **Disporre delle credenziali di accesso al server** per caricare i file del frontend.
+
+### Istruzioni per la Distribuzione:
+1. **Build dell'Applicazione:** Prima di distribuire il frontend, è necessario generare una build ottimizzata dell'applicazione. Esegui il comando seguente nella directory del progetto per eseguire la build: `npm run build` oppure `yarn build`
+2. **Configurazione del Server:** Una volta completata la build, carica i file generati nella directory "build" su un server Web. Assicurati di configurare correttamente il server per servire i file statici dell'applicazione.
+3. **Verifica:** Dopo aver caricato i file del frontend sul server, verifica che l'applicazione sia accessibile e funzionante. Puoi farlo visitando l'URL del tuo dominio o indirizzo IP nel browser.
+4. **Aggiornamenti e Manutenzione:** Una volta distribuita l'applicazione, assicurati di monitorare regolarmente le prestazioni e il funzionamento del frontend. Effettua aggiornamenti e manutenzione quando necessario per garantire la continuità del servizio e la sicurezza del sistema.
 
 ## 12. Conclusione
-Ringraziamenti, riferimenti aggiuntivi e informazioni per il supporto o la collaborazione futura.
+
+Il frontend del progetto "Gestionale" offre un'esperienza utente intuitiva e funzionale grazie all'impiego di tecnologie moderne come React, Axios e Ant Design. La struttura organizzativa del progetto e l'efficace gestione dello stato mantengono il codice pulito e manutenibile. L'integrazione di test unitari assicura una buona qualità del codice. In sintesi, il frontend è ben progettato, reattivo e pronto per offrire un'esperienza utente di alta qualità.
+
+### Ringraziamenti
+
+Desideriamo ringraziare il team di sviluppo per il loro impegno e dedizione nel portare avanti questo progetto. Un ringraziamento speciale va anche a [nome del collaboratore] per il suo prezioso contributo e supporto.
+
+### Riferimenti aggiuntivi
+
+Per ulteriori informazioni sul progetto o per contribuire, si prega di visitare la nostra pagina GitHub [link al repository GitHub] o contattare [nome dell'amministratore] all'indirizzo email [email].
+
+### Supporto e collaborazione futura
+
+Siamo aperti a nuove collaborazioni e siamo disponibili a offrire supporto per l'implementazione del progetto in altri contesti o per eventuali miglioramenti futuri. Non esitate a contattarci per ulteriori dettagli o proposte di collaborazione.
+
+Grazie ancora a tutti coloro che hanno reso possibile il successo di questo progetto!
+
 
