@@ -357,8 +357,8 @@ Breve panoramica dei test unitari e di integrazione effettuati sul frontend
 ### Indice
 
 1. [Test Effettuati](#test-effettuati)
-2. [Esito dei Test](#esito-dei-test)
-3. [Benefici dei Test](#benefici-dei-test)
+2. [Benefici dei Test](#benefici-dei-test)
+3. [Esito dei Test](#esito-dei-test)
 
 ---
 
