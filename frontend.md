@@ -434,10 +434,11 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 
 ### Istruzioni:
 1. **Clonare il Repository:** Assicurasi di aver clonato il repository del progetto frontend sul sistema locale.
-2. **Installare le Dipendenze:** Utilizzare il gestore di pacchetti npm o yarn per installare le dipendenze del progetto. Occorre eseguire il comando seguente nella directory del progetto:ù
-
-         npm install
-
+2. **Installare le Dipendenze:** Utilizzare il gestore di pacchetti npm o yarn per installare le dipendenze del progetto. Occorre eseguire il comando seguente nella directory del progetto:
+   
+```
+npm install
+```
 oppure
 
          yarn install
