@@ -124,7 +124,7 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
 
 
 ## 4. Componenti Principali
-Elenco e descrizione dei componenti principali utilizzati nel frontend, con eventuali esempi o screenshot.
+Elenco e descrizione dei componenti principali utilizzati nel frontend, con eventuali screenshot e descrizione.
 
 | Nome Form                                | Descrizione Form                                                                                                                                                                                                                                                                                                                                                                                  | Immagine Form                                |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
