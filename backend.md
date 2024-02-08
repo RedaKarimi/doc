@@ -40,7 +40,7 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
   - **src/**
     
      _Directory principale del codice sorgente._
-      - **Server/**
+       - **Server/**
         
           _Contiene tutti gli script cs sviluppati per il server._
         - **Requests/**
