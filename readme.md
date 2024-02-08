@@ -91,7 +91,21 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 - [Documentazione Frontend](frontend.md)
 - [Documentazione Backend](backend.md)
 
-![Tecnologia](https://img.shields.io/badge/Tecnologia-React%20%7C%20.NET%20%7C%20C%23-yellow) ![Compatibilità Host Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Host-Windows%20%7C%20MacOS%20%7C%20Linux-lightgrey) ![Compatibilità Host Server](https://img.shields.io/badge/Compatibilit%C3%A0%20Host-Windows%20%7C%20MacOS%20%7C%20Linux-blue) ![Compatibilità Host Database](https://img.shields.io/badge/Compatibilit%C3%A0%20Host-Windows%20%7C%20Linux-lightgrey) ![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20Android%20%7C%20iOS%20%7C%20MacOS%20%7C%20Linux-orange) ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green) ![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript%20%7C%20C%23-orange) ![Documentazione](https://img.shields.io/badge/Documentazione-Completa-blue)
+![Tecnologia](https://img.shields.io/badge/Tecnologia-React%20%7C%20.NET%20%7C%20C%23-yellow)
+
+![Compatibilità Host Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Host-Windows%20%7C%20MacOS%20%7C%20Linux-lightgrey)
+
+![Compatibilità Host Server](https://img.shields.io/badge/Compatibilit%C3%A0%20Host-Windows%20%7C%20MacOS%20%7C%20Linux-blue)
+
+![Compatibilità Host Database](https://img.shields.io/badge/Compatibilit%C3%A0%20Host-Windows%20%7C%20Linux-lightgrey)
+
+![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20Android%20%7C%20iOS%20%7C%20MacOS%20%7C%20Linux-orange)
+
+![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
+
+![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript%20%7C%20C%23-orange)
+
+![Documentazione](https://img.shields.io/badge/Documentazione-Completa-blue) 
 
 
 
