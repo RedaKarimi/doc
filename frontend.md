@@ -154,10 +154,10 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
         - **design/**
 
            _Contiene gli script dei componenti grafici secondari riutilizzati in più schermate._
-          - **FloatButton/**
+          - <a id="FloatButtonGroup"></a>**FloatButton/**
 
              _Contiene gli script per il funzionamento del menu di navigazione del sito._
-            -  <a id="FloatButtonMain"></a>`FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - `FloatButtonMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `FloatButtonManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
             - `FloatButtonView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
         - **utility/**
@@ -366,7 +366,7 @@ Tutti i test finali hanno dato esito positivo, confermando la stabilità della b
 > [!WARNING]
 > Tra le criticità riscontrate durante i test, è stata identificata la presenza di **componenti deprecati**. In particolare:
 > 
-> 1. Per quanto riguarda il componente [`FloatButtonGroup`](#FloatButtonGroupMain), sono state rilevate le seguenti avvertenze:
+> 1. Per quanto riguarda il componente [`FloatButtonGroup`](#FloatButtonGroup), sono state rilevate le seguenti avvertenze:
 >    
 >    - `findDOMNode` è deprecato in StrictMode. È stato suggerito di aggiungere un ref direttamente all'elemento di riferimento anziché utilizzare `findDOMNode`.
 > 2. Per il componente `Dropdown` è stata individuata la seguente avvertenza:
