@@ -432,13 +432,22 @@ Le configurazioni necessarie sono sviluppate nei seguenti passaggi:
 
 Il frontend del progetto "Gestionale" offre un'esperienza utente intuitiva e funzionale grazie all'impiego di tecnologie moderne come React, Axios e Ant Design. La struttura organizzativa del progetto e l'efficace gestione dello stato mantengono il codice pulito e manutenibile. L'integrazione di test unitari assicura una buona qualità del codice. In sintesi, il frontend è ben progettato, reattivo e pronto per offrire un'esperienza utente di alta qualità.
 
+
+### Indice
+
+1. [Ringraziamenti](#ringraziamenti)
+2. [Riferimenti aggiuntivi](#riferimenti-aggiuntivi)
+3. [Supporto e collaborazione futura](#supporto-e-collaborazione-futura)
+
+---
+
 ### Ringraziamenti
 
-Desideriamo ringraziare il team di sviluppo per il loro impegno e dedizione nel portare avanti questo progetto. Un ringraziamento speciale va anche a [nome del collaboratore] per il suo prezioso contributo e supporto.
+Desideriamo ringraziare il team di sviluppo per il loro impegno e dedizione nel portare avanti questo progetto. 
 
 ### Riferimenti aggiuntivi
 
-Per ulteriori informazioni sul progetto o per contribuire, si prega di visitare la nostra pagina GitHub [link al repository GitHub] o contattare [nome dell'amministratore] all'indirizzo email [email].
+Per ulteriori informazioni sul progetto o per contribuire, si prega di [visitare la nostra pagina GitHub](https://github.com/vittorioPiotti/doc/) o contattare [nome dell'amministratore] all'indirizzo email [email].
 
 ### Supporto e collaborazione futura
 
