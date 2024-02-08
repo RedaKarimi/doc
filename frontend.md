@@ -112,7 +112,7 @@ Queste sono tutte le tecnologie utilizzate nel frontend del progetto, che contri
 
 ### Organizzazione dei Componenti Grafici
 
-La struttura del progetto frontend segue un'organizzazione ben definita per garantire una chiara separazione delle responsabilità e una maggiore manutenibilità del codice.
+La struttura del progetto frontend segue un'un'architettura basata su Model-View-Controller (MVC) ed è organizzata in cartelle per garantire una chiara separazione delle responsabilità e una maggiore manutenibilità del codice.
 
 Ogni componente grafico funzionale è organizzato in tre file distinti:
 
