@@ -18,13 +18,6 @@
 
 Il frontend del progetto "Gestionale" offre un interfaccia userfriendly che consente agli utenti preregistrati di gestire la registrazione dei propri clienti e la visualizzazione della lista delle loro anagrafiche:
 
-### Indice
-
-1. [Accesso Utente](#accesso-utente)
-2. [Registrazione Clienti](#registrazione-clienti)
-3. [Visualizzazione Clienti](#visualizzazione-clienti)
-
----
 
 | Nome Form                                | Descrizione Form                                                                                                                                                                                                                                                                                                                                                                                  | Immagine Form                                |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
