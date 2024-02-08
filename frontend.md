@@ -188,7 +188,7 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
              _Contiene gli script per il form di visualizzazione delle anagrafiche dei clienti._
             - <a id="VisualizzaClientiApp"></a>`VisualizzaClientiMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
             - `VisualizzaClientiManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - <a id="VisualizzaClientiView"></a>``VisualizzaClientiView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+            - <a id="VisualizzaClientiView"></a>`VisualizzaClientiView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
   
     - <a id="CSSPersonalizzati"></a>**style/**
 
