@@ -52,21 +52,9 @@ Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche d
 
 ## 2. Tecnologie Utilizzate
 
-### Indice
+### Lista Teconologie
 
-
-1. [`React Router DOM`](#React)
-2. [Ant Design ](#ReactDOM)
-3. [Axios ](#ReactRouterDOM)
-4. [React Toastify](#AntDesign)
-5. [React Toastify](#Axios)
-6. [Sha3 ](#ReactToastify)
-7. [Bootstrap ](#Sha3)
-8. [Web Vitals ](#Bootstrap)
-9. [Web Vitals ](#WebVitals)
-10. [Testing Library](#TestingLibrary)
-11. [ESLint ](#ESLint)
-12. [TypeScript Types for Bootstrap ](#TypeScriptTypesBootstrap)
+[`React Router DOM`](#React) [`Ant Design`](#ReactDOM) [`Axios` ](#ReactRouterDOM) [`React Toastify`](#AntDesign) [`React Toastify`](#Axios) [`Sha3` ](#ReactToastify) [`Bootstrap `](#Sha3) [`Web Vitals` ](#Bootstrap) [`Web Vitals` ](#WebVitals) [`Testing Library`](#TestingLibrary) [`ESLint` ](#ESLint) [`TypeScript Types for Bootstrap `](#TypeScriptTypesBootstrap)
 
 
 ---
@@ -233,14 +221,14 @@ I **componenti importati** da React Router sono i seguenti:
 - `Routes`: Questo componente contiene una serie di `Route` componenti che definiscono le rotte dell'applicazione.
 - `Route`: Questo componente definisce una singola rotta dell'applicazione, associando un percorso URL a un componente React.
 
-Il sistema di routing è configurato all'interno del componente `UIView` [(vedi)](#UIView). Le rotte principali dell'applicazione sono definite come seguenti:
+Il sistema di routing è configurato all'interno del componente  [`UIView`](#UIView). Le rotte principali dell'applicazione sono definite come seguenti:
 
 ### Descrizione delle rotte principali dell'applicazione
 
 - **Rotte Principali**:
-  - La rotta principale (`"/"`) è associata al componente `autenticaUtenteApp` [(vedi)](#AutenticaUtenteApp). Questa rotta gestisce l'autenticazione dell'utente e viene visualizzata come pagina di accesso.
-  - La rotta `"/registraCliente"` è associata al componente `registraClienteApp` [(vedi)](#RegistraClienteApp). Questa rotta gestisce il processo di registrazione del cliente.
-  - La rotta `"/visualizzaClienti"` è associata al componente `visualizzaClientiApp` [(vedi)](#VisualizzaClientiApp). Questa rotta gestisce la visualizzazione dei clienti registrati.
+  - La rotta principale (`"/"`) è associata al componente  [`autenticaUtenteApp`](#AutenticaUtenteApp). Questa rotta gestisce l'autenticazione dell'utente e viene visualizzata come pagina di accesso.
+  - La rotta `"/registraCliente"` è associata al componente [`registraClienteApp` ](#RegistraClienteApp). Questa rotta gestisce il processo di registrazione del cliente.
+  - La rotta `"/visualizzaClienti"` è associata al componente [`visualizzaClientiApp` ](#VisualizzaClientiApp). Questa rotta gestisce la visualizzazione dei clienti registrati.
 
 ### Routing Sicuro e Reindirizzamento
 
