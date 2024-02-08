@@ -446,8 +446,17 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
    ```
 
 4. **Avviare il Server di Sviluppo:** Dopo aver installato le dipendenze, avviare il server di sviluppo locale eseguendo il comando:
-`npm start` oppure `yarn start`
-5. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
+   
+   ```
+   npm start
+   ```
+   oppure
+
+   ```
+   yarn start
+   ```
+
+6. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
    
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
@@ -472,10 +481,20 @@ Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti p
 2. **Disporre delle credenziali di accesso al server** per caricare i file del frontend.
 
 ### Istruzioni per la Distribuzione:
-1. **Build dell'Applicazione:** Prima di distribuire il frontend, è necessario generare una build ottimizzata dell'applicazione. Esegui il comando seguente nella directory del progetto per eseguire la build: `npm run build` oppure `yarn build`
-2. **Configurazione del Server:** Una volta completata la build, carica i file generati nella directory "build" su un server Web. Assicurati di configurare correttamente il server per servire i file statici dell'applicazione.
-3. **Verifica:** Dopo aver caricato i file del frontend sul server, verifica che l'applicazione sia accessibile e funzionante. Puoi farlo visitando l'URL del tuo dominio o indirizzo IP nel browser.
-4. **Aggiornamenti e Manutenzione:** Una volta distribuita l'applicazione, assicurati di monitorare regolarmente le prestazioni e il funzionamento del frontend. Effettua aggiornamenti e manutenzione quando necessario per garantire la continuità del servizio e la sicurezza del sistema.
+1. **Build dell'Applicazione:** Prima di distribuire il frontend, è necessario generare una build ottimizzata dell'applicazione. Esegui il comando seguente nella directory del progetto per eseguire la build:
+   
+   ```
+   npm run build
+   ```
+   oppure
+
+   ```
+   yarn build
+   ```
+
+4. **Configurazione del Server:** Una volta completata la build, carica i file generati nella directory "build" su un server Web. Assicurati di configurare correttamente il server per servire i file statici dell'applicazione.
+5. **Verifica:** Dopo aver caricato i file del frontend sul server, verifica che l'applicazione sia accessibile e funzionante. Puoi farlo visitando l'URL del tuo dominio o indirizzo IP nel browser.
+6. **Aggiornamenti e Manutenzione:** Una volta distribuita l'applicazione, assicurati di monitorare regolarmente le prestazioni e il funzionamento del frontend. Effettua aggiornamenti e manutenzione quando necessario per garantire la continuità del servizio e la sicurezza del sistema.
 
 
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
