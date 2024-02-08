@@ -250,7 +250,33 @@ Il sistema implementa il routing sicuro per garantire che l'utente venga reindir
 
 
 ## 6. Gestione dello Stato
-Descrizione di come viene gestito lo stato dell'applicazione, ad esempio tramite Redux, con esempi di azioni e riduttori.
+
+Per la gestione dello stato dell'applicazione, ho principalmente utilizzato gli Hooks di React, in particolare `useState`, `useEffect`, `useRef`, e `useMemo`, ciascuno con un preciso scopo e utilizzo all'interno dei componenti.
+
+
+### Indice
+
+1. [Utilizzo degli Hooks](#utilizzo-degli-hooks)
+2. [ Motivazioni di Utilizzo](#motivazioni-di-utilizzo)
+
+---
+
+### Utilizzo degli Hooks
+
+- **useState**: Questo Hook è stato utilizzato per definire e gestire lo stato locale all'interno dei componenti funzionali. Ad esempio, ho utilizzato `useState` per gestire lo stato di variabili dinamiche come il testo di un input, lo stato di un modale, o il conteggio di un contatore.
+
+- **useEffect**: Ho impiegato `useEffect` per gestire gli effetti collaterali nelle componenti funzionali, come le richieste HTTP, la sottoscrizione agli eventi, o la gestione del ciclo di vita del componente. Questo Hook è utile per eseguire codice aggiuntivo dopo il rendering del componente o per ripulire le risorse quando il componente viene smontato.
+
+- **useRef**: Ho utilizzato `useRef` per mantenere riferimenti a elementi DOM o valori persistenti tra i render dei componenti. Questo Hook è stato prezioso quando ho avuto bisogno di manipolare direttamente elementi DOM o di mantenere riferimenti a valori che non devono essere re-inizializzati ad ogni renderizzazione del componente.
+
+- **useMemo**: Ho fatto uso di `useMemo` per memorizzare valori calcolati all'interno dei componenti funzionali. Questo Hook è stato utile quando avevo bisogno di calcolare valori derivati da altri stati o proprietà del componente, evitando il ricalcolo ad ogni renderizzazione a meno che le dipendenze non cambino.
+
+### Motivazioni di Utilizzo
+
+L'adozione di questi Hooks ha consentito di gestire in modo efficiente lo stato all'interno dei singoli componenti, senza dover ricorrere a librerie esterne come Redux. La scelta di utilizzare Hooks di React anziché librerie esterne è stata guidata dalla semplicità, dalla leggibilità e dalla scalabilità del codice.
+
+Utilizzare Hooks direttamente all'interno dei componenti ha semplificato la gestione dello stato, evitando la complessità aggiuntiva introdotta da librerie esterne. Questo approccio è stato particolarmente adatto per la gestione dello stato di piccoli componenti UI o di logica di visualizzazione semplice, mantenendo allo stesso tempo un codice chiaro e facilmente manutenibile.
+
 
 ## 7. Chiamate API
 Spiegazione di come vengono effettuate le chiamate API dal frontend, con esempi di utilizzo di librerie come Axios.
