@@ -52,31 +52,50 @@ Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche d
 
 ## 2. Tecnologie Utilizzate
 
+### Indice
+
+
+1. [React Router DOM](#React)
+2. [Ant Design ](#ReactDOM)
+3. [Axios ](#ReactRouterDOM)
+4. [React Toastify](#AntDesign)
+5. [React Toastify](#Axios)
+6. [Sha3 ](#ReactToastify)
+7. [Bootstrap ](#Sha3)
+8. [Web Vitals ](#Bootstrap)
+9. [Web Vitals ](#WebVitals)
+10. [Testing Library](#TestingLibrary)
+11. [ESLint ](#ESLint)
+12. [TypeScript Types for Bootstrap ](#TypeScriptTypesBootstrap)
+
+
+---
+
 Il frontend del progetto utilizza una serie di tecnologie per lo sviluppo dell'interfaccia utente e la gestione delle dipendenze. Di seguito sono elencate le principali tecnologie utilizzate:
 
-- **[React](https://reactjs.org/)**: React è il principale framework JavaScript utilizzato per lo sviluppo dell'interfaccia utente. Si tratta di una libreria open-source che permette di creare interfacce utente focalizzate sui componenti, rendendo più semplice la gestione dello stato e il rendering dinamico dei dati.
+- <a id="React"></a>**[React](https://reactjs.org/)**: React è il principale framework JavaScript utilizzato per lo sviluppo dell'interfaccia utente. Si tratta di una libreria open-source che permette di creare interfacce utente focalizzate sui componenti, rendendo più semplice la gestione dello stato e il rendering dinamico dei dati.
 
-- **[React DOM](https://reactjs.org/docs/react-dom.html)**: React DOM è una libreria utilizzata per il rendering di React all'interno del DOM del browser. Questa libreria è responsabile della manipolazione del DOM e dell'aggiornamento dell'interfaccia utente in base allo stato dell'applicazione.
+- <a id="ReactDOM"></a>**[React DOM](https://reactjs.org/docs/react-dom.html)**: React DOM è una libreria utilizzata per il rendering di React all'interno del DOM del browser. Questa libreria è responsabile della manipolazione del DOM e dell'aggiornamento dell'interfaccia utente in base allo stato dell'applicazione.
 
-- **[React Router DOM](https://reactrouter.com/en/6.22.0)**: React Router DOM è una libreria utilizzata per gestire il routing dell'applicazione React. Permette di definire rotte all'interno dell'applicazione e di associare componenti React a percorsi specifici.
+- <a id="ReactRouterDOM"></a>**[React Router DOM](https://reactrouter.com/en/6.22.0)**: React Router DOM è una libreria utilizzata per gestire il routing dell'applicazione React. Permette di definire rotte all'interno dell'applicazione e di associare componenti React a percorsi specifici.
 
-- **[Ant Design](https://ant.design/)**: Ant Design è una libreria di componenti UI per React. Offre una vasta gamma di componenti predefiniti pronti per l'uso, che facilitano la creazione di un'interfaccia utente intuitiva e ben progettata.
+- <a id="AntDesign"></a>**[Ant Design](https://ant.design/)**: Ant Design è una libreria di componenti UI per React. Offre una vasta gamma di componenti predefiniti pronti per l'uso, che facilitano la creazione di un'interfaccia utente intuitiva e ben progettata.
 
-- **[Axios](https://axios-http.com/)**: Axios è una libreria utilizzata per effettuare richieste HTTP dall'applicazione frontend al backend. Fornisce un'interfaccia semplice e intuitiva per l'invio e la gestione delle richieste e delle risposte HTTP.
+- <a id="Axios"></a>**[Axios](https://axios-http.com/)**: Axios è una libreria utilizzata per effettuare richieste HTTP dall'applicazione frontend al backend. Fornisce un'interfaccia semplice e intuitiva per l'invio e la gestione delle richieste e delle risposte HTTP.
 
-- **[React Toastify](https://github.com/fkhadra/react-toastify)**: React Toastify è una libreria utilizzata per mostrare notifiche toast nell'applicazione React. Queste notifiche sono utili per informare gli utenti su eventi importanti o messaggi di errore senza interrompere l'esperienza utente.
+- <a id="ReactToastify"></a>**[React Toastify](https://github.com/fkhadra/react-toastify)**: React Toastify è una libreria utilizzata per mostrare notifiche toast nell'applicazione React. Queste notifiche sono utili per informare gli utenti su eventi importanti o messaggi di errore senza interrompere l'esperienza utente.
 
-- **[Sha3](https://www.npmjs.com/package/sha3)**: Sha3 è una libreria utilizzata per calcolare l'hash SHA-3 delle stringhe. Questa libreria è utile per la crittografia e la sicurezza dei dati all'interno dell'applicazione.
+- <a id="Sha3"></a>**[Sha3](https://www.npmjs.com/package/sha3)**: Sha3 è una libreria utilizzata per calcolare l'hash SHA-3 delle stringhe. Questa libreria è utile per la crittografia e la sicurezza dei dati all'interno dell'applicazione.
 
-- **[Bootstrap](https://getbootstrap.com/)**: Bootstrap è un framework CSS utilizzato per la progettazione e lo stile dell'interfaccia utente. Offre una serie di componenti UI predefiniti, griglie responsive e stili CSS pronti per l'uso, che semplificano la creazione di un'interfaccia utente accattivante e moderna.
+- <a id="Bootstrap"></a>**[Bootstrap](https://getbootstrap.com/)**: Bootstrap è un framework CSS utilizzato per la progettazione e lo stile dell'interfaccia utente. Offre una serie di componenti UI predefiniti, griglie responsive e stili CSS pronti per l'uso, che semplificano la creazione di un'interfaccia utente accattivante e moderna.
 
-- **[Web Vitals](https://web.dev/vitals/)**: Web Vitals è una libreria utilizzata per misurare le prestazioni web. Fornisce metriche standard per valutare la velocità di caricamento, la reattività e l'esperienza utente complessiva del sito web.
+- <a id="WebVitals"></a>**[Web Vitals](https://web.dev/vitals/)**: Web Vitals è una libreria utilizzata per misurare le prestazioni web. Fornisce metriche standard per valutare la velocità di caricamento, la reattività e l'esperienza utente complessiva del sito web.
 
-- **[Testing Library](https://testing-library.com/)**: Testing Library è una libreria utilizzata per i test unitari e di integrazione nell'ambiente di sviluppo React. Fornisce un'API semplice e intuitiva per testare i componenti React e le loro interazioni con l'utente.
+- <a id="TestingLibrary"></a>**[Testing Library](https://testing-library.com/)**: Testing Library è una libreria utilizzata per i test unitari e di integrazione nell'ambiente di sviluppo React. Fornisce un'API semplice e intuitiva per testare i componenti React e le loro interazioni con l'utente.
 
-- **[ESLint](https://eslint.org/)**: ESLint è uno strumento utilizzato per il linting del codice JavaScript e React. Aiuta a identificare e correggere gli errori nel codice, nonché a mantenere uno stile di codifica uniforme all'interno del progetto.
+- <a id="ESLint"></a>**[ESLint](https://eslint.org/)**: ESLint è uno strumento utilizzato per il linting del codice JavaScript e React. Aiuta a identificare e correggere gli errori nel codice, nonché a mantenere uno stile di codifica uniforme all'interno del progetto.
 
-- **[TypeScript Types for Bootstrap](https://www.npmjs.com/package/@types/bootstrap)**: Questa libreria fornisce tipi TypeScript per Bootstrap, che consentono di utilizzare Bootstrap in modo più sicuro e affidabile all'interno di un progetto React con TypeScript.
+- <a id="TypeScriptTypesBootstrap"></a>**[TypeScript Types for Bootstrap](https://www.npmjs.com/package/@types/bootstrap)**: Questa libreria fornisce tipi TypeScript per Bootstrap, che consentono di utilizzare Bootstrap in modo più sicuro e affidabile all'interno di un progetto React con TypeScript.
 
 Queste sono le principali tecnologie utilizzate nel frontend del progetto, che contribuiscono a creare un'interfaccia utente funzionale, intuitiva e ben progettata.
 
