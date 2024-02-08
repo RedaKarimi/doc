@@ -54,7 +54,8 @@ Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche d
 
 ### Lista Teconologie
 
-[`React Router DOM`](#React)   [`Ant Design`](#ReactDOM)   [`Axios` ](#ReactRouterDOM)   [`React Toastify`](#AntDesign)   [`React Toastify`](#Axios)   [`Sha3` ](#ReactToastify)   [`Bootstrap `](#Sha3)   [`Web Vitals` ](#Bootstrap)   [`Web Vitals` ](#WebVitals)   [`Testing Library`](#TestingLibrary)      [`ESLint` ](#ESLint)   [`TypeScript Types for Bootstrap `](#TypeScriptTypesBootstrap)
+[React Router DOM](#React)&ensp;&ensp;&ensp;[Ant Design](#ReactDOM)&ensp;&ensp;&ensp;[Axios](#ReactRouterDOM)&ensp;&ensp;&ensp;[React Toastify](#AntDesign)&ensp;&ensp;&ensp;[React Toastify](#Axios)&ensp;&ensp;&ensp;[Sha3](#ReactToastify)&ensp;&ensp;&ensp;[Bootstrap](#Sha3)&ensp;&ensp;&ensp;[Web Vitals](#Bootstrap)&ensp;&ensp;&ensp;[Web Vitals](#WebVitals)&ensp;&ensp;&ensp;[Testing Library](#TestingLibrary)&ensp;&ensp;&ensp;[ESLint](#ESLint)&ensp;&ensp;&ensp;[TypeScript Types for Bootstrap](#TypeScriptTypesBootstrap)
+
 
 
 ---
