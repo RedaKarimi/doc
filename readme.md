@@ -59,7 +59,7 @@ Il progetto è stato completato con successo ed è in uno stato stabile. Tutte l
 > Tra le criticità riscontrate durante i test, è stata identificata la presenza di  [componenti deprecati](frontend.md#WARNING) nel frontend
 
 > [!TIP]
-> Tra gli sviluppi futuri l'[aggiornamento dei componenti deprecati](frontend.md#TIP) nel frontend per garantire la compatibilità e le prestazioni ottimali del sistema.
+> Tra gli sviluppi futuri l'[aggiornamento dei componenti deprecati](frontend.md#TIP) nel frontend per garantire compatibilità e prestazioni ottimali.
 
 
 ![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
