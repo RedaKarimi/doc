@@ -151,10 +151,10 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
         - **autenticaCliente/**
           
              _Contiene gli script per il form di autenticazione dell'utente._
-            - <a id="AutenticaClienteApp"></a>`AutenticaClienteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
-            - `AutenticaClienteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
-            - `AutenticaClienteManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
-            - `AutenticaClienteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
+            - <a id="AutenticaUtenteApp"></a>`AutenticaUtenteApp.js`: _Script che istanzia ed usa il main al fine di migliorare la visibilità e la coerenza del codice._
+            - `AutenticaUtenteMain.js`: _Script che istanzia ed usa il manager e la view unendo la parte logica e quella grafica del componente cosi da garantirne il funzionamento ed una corretta separazione dei compiti mantenendo la parte logica e quella grafica separate._
+            - `AutenticaUtenteManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
+            - `AutenticaUtenteView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica._
               
         - **registraCliente/**
         
