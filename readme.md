@@ -63,7 +63,7 @@ Per installare il progetto, è necessario avere installati i seguenti componenti
 >Assicurati di consultare la [documentazione](#5-documentazione) dettagliata per informazioni più approfondite.
 >
 >Nel dettaglio fare riferimento ai seguenti link:
-> - [Documentazione Frontend](frontend.md)
+> - [Documentazione Frontend](frontend.md#avvio-e-sviluppo-locale)
 > - [Documentazione Backend](backend.md)
 
 
