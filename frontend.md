@@ -363,19 +363,25 @@ Breve panoramica dei test unitari e di integrazione effettuati sul frontend
 
 Tutti i test finali hanno dato esito positivo, confermando la stabilità della build.
 
-Tra le criticità riscontrate durante i test, è stata identificata la presenza di componenti deprecati. In particolare:
+> [!WARNING]
+> Tra le criticità riscontrate durante i test, è stata identificata la presenza di componenti deprecati. In particolare:
+> 
+> 1. Per quanto riguarda il componente `FloatButtonGroup`, sono state rilevate le seguenti avvertenze:
+>    
+>    - `findDOMNode` è deprecato in StrictMode. È stato suggerito di aggiungere un ref direttamente all'elemento di riferimento anziché utilizzare `findDOMNode`.
+> 2. Per il componente `Dropdown` è stata individuata la seguente avvertenza:
+>    - L'uso di `visible` è deprecato. È stato consigliato di utilizzare `open`.
+>      
+> 3. Infine, per il componente `VisualizzaClientiView`, sono state rilevate le seguenti avvertenze:
+>    - L'uso di funzioni ref nei componenti funzionali è stato sconsigliato.
+>    - È stata segnalata la mancanza di chiavi univoche per i figli nella lista.
 
-1. Per quanto riguarda il componente `FloatButtonGroup`, sono state rilevate le seguenti avvertenze:
-   - `findDOMNode` è deprecato in StrictMode. È stato suggerito di aggiungere un ref direttamente all'elemento di riferimento anziché utilizzare `findDOMNode`.
-   
-2. Per il componente `Dropdown` è stata individuata la seguente avvertenza:
-   - L'uso di `visible` è deprecato. È stato consigliato di utilizzare `open`.
 
-3. Infine, per il componente `VisualizzaClientiView`, sono state rilevate le seguenti avvertenze:
-   - L'uso di funzioni ref nei componenti funzionali è stato sconsigliato.
-   - È stata segnalata la mancanza di chiavi univoche per i figli nella lista.
 
-Tra gli sviluppi futuri un'opportuna migrazione e aggiornamento di questi componenti deprecati per garantire la compatibilità e le prestazioni ottimali del sistema.
+> [!TIP]
+> Tra gli sviluppi futuri un'opportuna migrazione e aggiornamento di questi componenti deprecati per garantire la compatibilità e le prestazioni ottimali del sistema.
+
+
 
 
 ### Benefici dei Test
