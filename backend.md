@@ -33,8 +33,27 @@ ProgettoBackend
 
 
 ## 4. Modelli dei Dati
-Spiegazione dei modelli dei dati utilizzati nel backend, inclusi diagrammi ER, classi dei modelli e schemi di database.
 
+Il backend utilizza due modelli principali:
+
+### Utente
+- **UtenteId:** Identificatore univoco dell'utente.
+- **Username:** Nome utente dell'utente.
+- **Password:** Password non crittografata dell'utente.
+- **HashedPassword:** Password crittografata dell'utente.
+
+### Cliente
+- **alias:** Alias univoco del cliente.
+- **ragioneSociale:** Ragione sociale del cliente.
+- **codiceFiscale:** Codice fiscale del cliente.
+- **partitaIVA:** Partita IVA del cliente.
+- **pec:** Indirizzo PEC (Posta Elettronica Certificata) del cliente.
+- **indirizzo:** Indirizzo del cliente.
+- **citta:** Città del cliente.
+- **stato:** Stato del cliente.
+- **email:** Indirizzo email del cliente.
+- **telefono:** Numero di telefono del cliente.
+  
 ## 5. API
 Descrizione delle API fornite dal backend, con dettagli su endpoint, metodi HTTP supportati e formati dei dati.
 
