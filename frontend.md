@@ -126,11 +126,16 @@ Descrizione della struttura delle cartelle e dei file del frontend, inclusi comp
 ## 4. Componenti Principali
 Elenco e descrizione dei componenti principali utilizzati nel frontend, con eventuali esempi o screenshot.
 
-| Campo di Riferimento | Descrizione                    | Immagine                                       |
+| Nome Form | Descrizione Form                   | Immagine Form                                      |
 | -------------------- | ------------------------------ | ---------------------------------------------- |
-| Nome Prodotto 1      | Descrizione del prodotto 1    | <img src="autenticaUtente.png" width="200">         |
-| Nome Prodotto 2      | Descrizione del prodotto 2    | <img src="registraCliente.png" width="200">         |
-| Nome Prodotto 3      | Descrizione del prodotto 3    | <img src="visualizzaClienti.png" width="200">         |
+| Form di autenticazione utente      |    - L'utente effettua il login al sistema da **account unici preregistrati** 
+   - Degli account utente le **credenziali sono criptate con SHA3**
+   - Il sistema garantisce una **gestione sicura per l'apertura delle pagine sensibili** tramite la cache in cui viene memorizzato l'accesso dell'utente tenendolo in memoria in modo che se non è presente allora impedisce l'ingresso in qualsiasi form che non sia quello di autenticazione.    | <img src="autenticaUtente.png" width="200">         |
+| Form di registrazione cliente      | Gli utenti possono registrare i propri clienti nel sistema che li identifica sulla base del loro codice fiscale.    | <img src="registraCliente.png" width="200">         |
+| Form di visualizzazione anagrafiche cliente      | Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche dei propri clienti con le seguenti features:
+   
+   - Si possono selezionare quali campi rendere visibili e quali oscurare 
+   - Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo    | <img src="visualizzaClienti.png" width="200">         |
 
 
 
