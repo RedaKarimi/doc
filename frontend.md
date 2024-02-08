@@ -132,8 +132,15 @@ Elenco e descrizione dei componenti principali utilizzati nel frontend, con even
 | Form di registrazione cliente           | Gli utenti possono registrare i propri clienti nel sistema che li identifica sulla base del loro codice fiscale.                                                                                                                                                                                                                                                               | ![Form di registrazione cliente](registraCliente.png) |
 | Form di visualizzazione anagrafiche cliente | Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche dei propri clienti con le seguenti features:<ul><li>Si possono selezionare quali campi rendere visibili e quali oscurare</li><li>Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo</li></ul>                                                                                                                                                        | ![Form di visualizzazione anagrafiche cliente](visualizzaClienti.png) |
 
-
 ## 5. Routing
+
+### Indice
+
+1. [Spiegazione del sistema di routing](#spiegazione-del-sistema-di-routing)
+2. [Descrizione delle rotte principali dell'applicazione](#descrizione-delle-rotte-principali-dellapplicazione)
+3. [Routing Sicuro e Reindirizzamento](#routing-sicuro-e-reindirizzamento)
+
+---
 
 ### Spiegazione del sistema di routing
 
@@ -157,6 +164,7 @@ Il sistema di routing è configurato all'interno del componente `UIView` [(vedi)
 ### Routing Sicuro e Reindirizzamento
 
 Il sistema implementa il routing sicuro per garantire che l'utente venga reindirizzato alle pagine appropriate solo dopo l'autenticazione. Questo viene fatto salvando nella cache i dati di accesso dell'utente. Se un utente prova ad accedere direttamente a una pagina senza essere autenticato, viene reindirizzato automaticamente alla pagina di accesso.
+
 
 
 
