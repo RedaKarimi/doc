@@ -52,11 +52,16 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
           - `Loginhandler.cs`: _Contiene il gestore della richiesta relativa all'autenticazione dell'utente._
           - `RegisterHandler.cs`: _Contiene il gestore della richiesta relativa alla registrazione di un nuovo cliente._
       - **Database/**
-        
+
           _Contiene tutti gli script cs sviluppati per il database._
+          - `Database.cs`: _Contiene il database._
+
            - **Table/**
         
           _Contiene tutti gli script cs sviluppati per il riferimento alle tabelle del database._
+           - `Utente.cs`: _Contiene la tabella utente._
+           - `Cliente.cs`: _Contiene la tabella cliente._
+
 
 ## 4. Modelli dei Dati
 
