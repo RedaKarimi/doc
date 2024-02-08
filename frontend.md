@@ -76,7 +76,7 @@ Il frontend del progetto utilizza una serie di tecnologie per lo sviluppo dell'i
 
 - **[ESLint](https://eslint.org/)**: ESLint è uno strumento utilizzato per il linting del codice JavaScript e React. Aiuta a identificare e correggere gli errori nel codice, nonché a mantenere uno stile di codifica uniforme all'interno del progetto.
 
-- **TypeScript Types for Bootstrap**: Questa libreria fornisce tipi TypeScript per Bootstrap, che consentono di utilizzare Bootstrap in modo più sicuro e affidabile all'interno di un progetto React con TypeScript.
+- **[TypeScript Types for Bootstrap](https://www.npmjs.com/package/@types/bootstrap)**: Questa libreria fornisce tipi TypeScript per Bootstrap, che consentono di utilizzare Bootstrap in modo più sicuro e affidabile all'interno di un progetto React con TypeScript.
 
 Queste sono le principali tecnologie utilizzate nel frontend del progetto, che contribuiscono a creare un'interfaccia utente funzionale, intuitiva e ben progettata.
 
