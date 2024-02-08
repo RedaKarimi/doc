@@ -101,7 +101,7 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 
 ## 6. Contributo:
 
-Per contribuire al progetto o segnalare bug fare riferimento ai seguenti link:
+Per contribuire al progetto, ricevere informazioni o segnalare bug fare riferimento ai seguenti link:
 
 
 | Issues Repository GitHub                        | Email Aziendale                  | Email Privata                  |
