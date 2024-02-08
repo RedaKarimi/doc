@@ -404,7 +404,11 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 `npm start` oppure `yarn start`
 4. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
 
-![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS-lightgrey)
+![Compatibilità Host](https://img.shields.io/badge/Compatibilit%C3%A0%20Host-Windows%20%7C%20MacOS%20%7C%20Linux-lightgrey)
+
+![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20Android%20%7C%20iOS%20%7C%20MacOS%20%7C%20Linux-lightgrey)
+
+
 
 ## 11. Distribuzione
 Breve guida su come distribuire il frontend in un ambiente di produzione.
@@ -428,7 +432,10 @@ Le configurazioni necessarie sono sviluppate nei seguenti passaggi:
 3. **Verifica:** Dopo aver caricato i file del frontend sul server, verifica che l'applicazione sia accessibile e funzionante. Puoi farlo visitando l'URL del tuo dominio o indirizzo IP nel browser.
 4. **Aggiornamenti e Manutenzione:** Una volta distribuita l'applicazione, assicurati di monitorare regolarmente le prestazioni e il funzionamento del frontend. Effettua aggiornamenti e manutenzione quando necessario per garantire la continuità del servizio e la sicurezza del sistema.
 
-![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS-lightgrey)
+![Compatibilità Host](https://img.shields.io/badge/Compatibilit%C3%A0%20Host-Windows%20%7C%20MacOS%20%7C%20Linux-lightgrey)
+
+![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20Android%20%7C%20iOS%20%7C%20MacOS%20%7C%20Linux-lightgrey)
+
 
 
 
