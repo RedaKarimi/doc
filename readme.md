@@ -58,6 +58,10 @@ Per installare il progetto, è necessario avere installati i seguenti componenti
 - [.NET](https://dotnet.microsoft.com/en-us/download) Core per il backend
 - [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms) e [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) per il database
 
+>[!NOTE]
+>
+>Assicurati di consultare la [documentazione](#5-documentazione) dettagliata per informazioni più approfondite.
+
 ![Compatibilità OS](https://img.shields.io/badge/Compatibilit%C3%A0%20OS-Windows%20%7C%20Android%20%7C%20iOS%20%28iPhone%29%20%7C%20Mac-lightgrey)
 
 ## 4. Utilizzo:
