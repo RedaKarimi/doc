@@ -381,7 +381,7 @@ Tutti i test finali hanno dato esito positivo, confermando la stabilità della b
 > In [`FloatButtonGroup`](#FloatButtonGroup) `findDOMNode` è deprecato in StrictMode quindi aggiungere un ref all'elemento di riferimento anziché utilizzare `findDOMNode`
 
 > [!WARNING]
-> In [`FloatButtonGroup`](#FloatButtonGroup) per `Dropdown` `findDOMNode` l'uso di `visible` è deprecato quindi è stato consigliato di utilizzare `open`
+> In [`FloatButtonGroup`](#FloatButtonGroup) per il componente `Dropdown` `findDOMNode` l'uso di `visible` è deprecato quindi è stato consigliato di utilizzare `open`
 
 > [!WARNING]
 > In [`VisualizzaClientiView`](#VisualizzaClientiView) l'uso di funzioni ref nei componenti funzionali è stato sconsigliato.
