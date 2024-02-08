@@ -112,7 +112,9 @@ Queste sono le principali tecnologie utilizzate nel frontend del progetto, che c
 
 ### Organizzazione dei Componenti Grafici
 
-La struttura del progetto frontend segue un'organizzazione ben definita per garantire una chiara separazione delle responsabilità e una maggiore manutenibilità del codice. Ogni componente grafico funzionale è organizzato in quattro file distinti:
+La struttura del progetto frontend segue un'organizzazione ben definita per garantire una chiara separazione delle responsabilità e una maggiore manutenibilità del codice.
+
+Ogni componente grafico funzionale è organizzato in quattro file distinti:
 
 1. **View**: Questo file contiene solo la parte grafica del componente, ovvero la struttura HTML e la presentazione CSS. La View non ha alcuna logica di business o gestione dello stato.
 
