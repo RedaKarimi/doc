@@ -140,7 +140,7 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
 - **Client**
 
    _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
-  - <a id="UIView"></a>`App.js`: _Contiene il gestore dei componenti funzionali e gestisce i reindirizzamenti alle pagine con un sistema di [routing](#5-routing)._
+  - <a id="App"></a>`App.js`: _Contiene il gestore dei componenti funzionali e gestisce i reindirizzamenti alle pagine con un sistema di [routing](#5-routing)._
 
   - **src/**
     
@@ -230,7 +230,7 @@ I **componenti importati** da React Router sono i seguenti:
 - `Routes`: Questo componente contiene una serie di `Route` componenti che definiscono le rotte dell'applicazione.
 - `Route`: Questo componente definisce una singola rotta dell'applicazione, associando un percorso URL a un componente React.
 
-Il sistema di routing è configurato all'interno del componente  [`UIView`](#UIView). Le rotte principali dell'applicazione sono definite come seguenti:
+Il sistema di routing è configurato all'interno del componente  [`App.js`](#App). Le rotte principali dell'applicazione sono definite come seguenti:
 
 ### Descrizione delle rotte principali dell'applicazione
 
