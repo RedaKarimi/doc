@@ -93,7 +93,8 @@ Queste sono le principali tecnologie utilizzate nel frontend del progetto, che c
 ### Indice
 
 1. [Organizzazione dei Componenti Grafici](#organizzazione-dei-componenti-grafici)
-2. [Struttura dei File in un Albero di Path](#struttura-dei-file-in-un-albero-di-path)
+2. [Vantaggi Strutturali](#vantaggi-strutturali)
+3. [Struttura dei File in un Albero di Path](#struttura-dei-file-in-un-albero-di-path)
 
 ---
 
@@ -112,6 +113,20 @@ Ogni componente grafico funzionale è organizzato in quattro file distinti:
 4. **App**: Infine, il file App istanzia il Main del componente, garantendo una maggiore pulizia del codice e facilitando la gestione dei componenti all'interno dell'applicazione.
 
 La scelta di questa struttura organizzativa dei componenti grafici è motivata dalla separazione dei compiti e dalla chiarezza del codice. Separando la parte grafica dalla logica di business, è più semplice comprendere e mantenere ciascun componente in modo isolato. Inoltre, questa organizzazione facilita il riutilizzo dei componenti e favorisce una migliore scalabilità dell'applicazione nel tempo.
+
+### Vantaggi Strutturali
+
+- **Chiarezza del Codice**: La suddivisione dei componenti in View, Manager, Main e App favorisce la chiarezza e la leggibilità del codice, rendendo più facile comprendere il funzionamento di ciascun componente.
+
+- **Facilità di Manutenzione**: Grazie alla separazione delle responsabilità, individuare e risolvere problemi o bug diventa più semplice, facilitando la manutenzione continua dell'applicazione.
+
+- **Riutilizzo dei Componenti**: La struttura organizzativa agevola il riutilizzo dei componenti in diverse parti dell'applicazione e in progetti futuri, riducendo la duplicazione del codice e migliorando l'efficienza dello sviluppo.
+
+- **Scalabilità dell'Applicazione**: Una struttura ben organizzata prepara l'applicazione per futuri sviluppi e modifiche, consentendo di aggiungere nuovi componenti o funzionalità in modo più semplice e sicuro.
+
+- **Implementazione Aggiuntiva di Funzionalità**: La chiara separazione delle responsabilità semplifica l'implementazione di nuove funzionalità nell'applicazione, garantendo che ogni componente abbia un ruolo ben definito e che le modifiche non influenzino il funzionamento esistente.
+
+La struttura del progetto, con la sua organizzazione dei componenti e delle responsabilità, porta a un codice più chiaro, manutenibile e riutilizzabile. Questo migliora la qualità e la scalabilità complessiva dell'applicazione, semplificando lo sviluppo e garantendo un alto standard di qualità nel tempo.
 
 ### Struttura dei File in un Albero di Path
 
