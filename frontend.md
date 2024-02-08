@@ -251,25 +251,24 @@ Il sistema implementa il routing sicuro per garantire che l'utente venga reindir
 
 ## 6. Gestione dello Stato
 
-Per la gestione dello stato dell'applicazione, ho principalmente utilizzato gli Hooks di React, in particolare `useState`, `useEffect`, `useRef`, e `useMemo`, ciascuno con un preciso scopo e utilizzo all'interno dei componenti.
-
+Per la gestione dello stato dell'applicazione, sono stati principalmente utilizzati gli Hooks di React, in particolare `useState`, `useEffect`, `useRef`, e `useMemo`, ciascuno con un preciso scopo e utilizzo all'interno dei componenti.
 
 ### Indice
 
 1. [Utilizzo degli Hooks](#utilizzo-degli-hooks)
-2. [ Motivazioni di Utilizzo](#motivazioni-di-utilizzo)
+2. [Motivazioni di Utilizzo](#motivazioni-di-utilizzo)
 
 ---
 
 ### Utilizzo degli Hooks
 
-- **useState**: Questo Hook è stato utilizzato per definire e gestire lo stato locale all'interno dei componenti funzionali. Ad esempio, ho utilizzato `useState` per gestire lo stato di variabili dinamiche come il testo di un input, lo stato di un modale, o il conteggio di un contatore.
+- **useState**: Questo Hook è stato utilizzato per definire e gestire lo stato locale all'interno dei componenti funzionali. Ad esempio, è stato utilizzato `useState` per gestire lo stato di variabili dinamiche come il testo di un input, lo stato di un modale, o il conteggio di un contatore.
 
-- **useEffect**: Ho impiegato `useEffect` per gestire gli effetti collaterali nelle componenti funzionali, come le richieste HTTP, la sottoscrizione agli eventi, o la gestione del ciclo di vita del componente. Questo Hook è utile per eseguire codice aggiuntivo dopo il rendering del componente o per ripulire le risorse quando il componente viene smontato.
+- **useEffect**: È stato impiegato `useEffect` per gestire gli effetti collaterali nelle componenti funzionali, come le richieste HTTP, la sottoscrizione agli eventi, o la gestione del ciclo di vita del componente. Questo Hook è utile per eseguire codice aggiuntivo dopo il rendering del componente o per ripulire le risorse quando il componente viene smontato.
 
-- **useRef**: Ho utilizzato `useRef` per mantenere riferimenti a elementi DOM o valori persistenti tra i render dei componenti. Questo Hook è stato prezioso quando ho avuto bisogno di manipolare direttamente elementi DOM o di mantenere riferimenti a valori che non devono essere re-inizializzati ad ogni renderizzazione del componente.
+- **useRef**: È stato utilizzato `useRef` per mantenere riferimenti a elementi DOM o valori persistenti tra i render dei componenti. Questo Hook è stato prezioso quando è stato necessario manipolare direttamente elementi DOM o mantenere riferimenti a valori che non devono essere re-inizializzati ad ogni renderizzazione del componente.
 
-- **useMemo**: Ho fatto uso di `useMemo` per memorizzare valori calcolati all'interno dei componenti funzionali. Questo Hook è stato utile quando avevo bisogno di calcolare valori derivati da altri stati o proprietà del componente, evitando il ricalcolo ad ogni renderizzazione a meno che le dipendenze non cambino.
+- **useMemo**: È stato fatto uso di `useMemo` per memorizzare valori calcolati all'interno dei componenti funzionali. Questo Hook è stato utile quando è stato necessario calcolare valori derivati da altri stati o proprietà del componente, evitando il ricalcolo ad ogni renderizzazione a meno che le dipendenze non cambino.
 
 ### Motivazioni di Utilizzo
 
