@@ -35,7 +35,7 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
 - **Server**
 
    _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
-  - <a id="App"></a>`App.cs`: _Contiene il gestore dei componenti funzionali e gestisce i reindirizzamenti alle pagine con un sistema di [routing](#5-routing)._
+  - `App.cs`: _Contiene il gestore del server_
 
   - **src/**
     
@@ -43,9 +43,14 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
       - **Server/**
         
           _Contiene tutti gli script cs sviluppati per il server._
+          - `Server.cs`: _Contiene il server._
+
         - **Requests/**
         
           _Contiene tutti gli script cs sviluppati per l'elaborazione delle richieste al server._
+          - `ListHandler.cs`: _Contiene il gestore della richiesta relativa alla visualizzazione delle anagrafiche dei clienti._
+          - `Loginhandler.cs`: _Contiene il gestore della richiesta relativa all'autenticazione dell'utente._
+          - `RegisterHandler.cs`: _Contiene il gestore della richiesta relativa alla registrazione di un nuovo cliente._
       - **Database/**
         
           _Contiene tutti gli script cs sviluppati per il database._
