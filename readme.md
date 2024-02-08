@@ -24,6 +24,8 @@ Il frontend del progetto "Gestionale" offre un interfaccia userfriendly che cons
 2. [Registrazione Clienti](#registrazione-clienti)
 3. [Visualizzazione Clienti](#visualizzazione-clienti)
 
+---
+
 ### Accesso Utente
 
 ![Form di autenticazione dell'utente](autenticaUtente.png)
