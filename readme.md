@@ -76,7 +76,9 @@ Per installare il progetto, è necessario avere installati i seguenti componenti
 > - [Installazione Backend](backend.md#10-deployment)
 
 
-![Compatibilità OS](https://img.shields.io/badge/Compatibilit%C3%A0%20OS-Windows%20%7C%20Android%20%7C%20iOS%20%28iPhone%29%20%7C%20Mac-lightgrey)
+![Compatibilità Server](https://img.shields.io/badge/Compatibilit%C3%A0%20Server-Windows-lightgrey)
+
+![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS-lightgrey)
 
 ## 4. Utilizzo:
 
