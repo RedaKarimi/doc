@@ -21,11 +21,11 @@ Il frontend del progetto "Gestionale" offre un interfaccia userfriendly che cons
 
 ### Indice
 
----
-
 1. [Accesso Utente](#accesso-utente)
 2. [Registrazione Clienti](#registrazione-clienti)
 3. [Visualizzazione Clienti](#visualizzazione-clienti)
+
+---
 
 ### Accesso Utente
 
