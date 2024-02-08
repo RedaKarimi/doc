@@ -180,7 +180,7 @@ Di seguito la descrizione della struttura delle cartelle e dei file del frontend
          - `UIManager.js`: _Script che gestisce la logica e l'elaborazione dei dati della view._
          - <a id="UIView"></a>`UIView.js`: _Script che contiene la vista del componente e ne gestisce solo la grafica, qui è organizzato il sistema di [routing](#5-routing)._
 
-    - **style/**
+    - <a id="CSSPersonalizzati"></a>**style/**
 
        _Contiene tutti i fogli di stile css sviluppati._
        - `global.css`: _Foglio di stile con gli stili globali per tutto il progetto._
@@ -313,7 +313,7 @@ Nel frontend del progetto, la gestione degli stili è stata fondamentale per gar
 
 ### Lista Stili
 
-[`Ant Design`](#React)&ensp;&ensp;&ensp;[`CSS personalizzati`](#ReactDOM)&ensp;&ensp;&ensp;[`CSS Bootstrap`](#ReactRouterDOM)
+[`Ant Design`](#AntDesign)&ensp;&ensp;&ensp;[`CSS personalizzati`](#CSSPersonalizzati)&ensp;&ensp;&ensp;[`CSS Bootstrap`](#Bootstrap)
 
 ---
 
