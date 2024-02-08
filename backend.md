@@ -116,3 +116,46 @@ Per il deployment del backend, è necessario seguire una serie di passaggi che i
 ## 11. Conclusione
 
 La documentazione fornita offre una panoramica completa del backend dell'applicazione, illustrando le sue funzionalità, la sua architettura e le tecnologie utilizzate. Il backend è progettato per essere robusto, sicuro e scalabile, garantendo un'esperienza utente ottimale e una gestione efficiente dei dati dell'applicazione.
+
+### Indice
+
+1. [Ringraziamenti](#ringraziamenti)
+2. [Riferimenti aggiuntivi](#riferimenti-aggiuntivi)
+3. [Supporto e collaborazione futura](#supporto-e-collaborazione-futura)
+
+---
+
+### Ringraziamenti
+
+Desideriamo ringraziare il team di sviluppo per il loro impegno e dedizione nel portare avanti questo progetto. 
+
+| Ruolo          | Nome            | Email                        | GitHub                                           |
+|----------------|-----------------|------------------------------|-----------------------------------------------|
+| Gestore Backend| Reda Karimi     | redakarimi76@gmail.com      | [redakarimi](https://github.com/redakarimi)  |
+| Gestore Frontend| Vittorio Piotti| vittoriopiotti.vp@gmail.com | [vittoriopiotti](https://github.com/vittoriopiotti) |
+
+
+### Riferimenti aggiuntivi
+
+Per contribuire al progetto, ricevere informazioni o segnalare bug fare riferimento ai seguenti link:
+
+
+| Issues Repository GitHub                        | Email Aziendale                  | Email Privata                  |
+|------------------------------------------|---------------------------------|--------------------------------|
+| [Repository](https://github.com/pub) | gestionale.dev@gmail.com                | redakarimi76@gmail.com                        |
+|  |                |                           vittoriopiotti.vp@gmail.com     |
+
+![Contatto](https://img.shields.io/badge/Contatto-Email%20%7C%20GitHub-blue)
+
+
+### Supporto e collaborazione futura
+
+Siamo aperti a nuove collaborazioni e siamo disponibili a offrire supporto per l'implementazione del progetto in altri contesti o per eventuali miglioramenti futuri. Non esitate a contattarci per ulteriori dettagli o proposte di collaborazione.
+
+Grazie ancora a tutti coloro che hanno reso possibile il successo di questo progetto!
+
+![Supporto](https://img.shields.io/badge/Supporto-Community%20%7C%20Aziendale-green)
+> [!NOTE]
+> Consultare il [readme](readme.md) per ulteriori informazioni.
+
+
