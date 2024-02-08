@@ -342,7 +342,7 @@ Qui di seguito vengono delineati gli approcci utilizzati per gestire gli stili:
 
 ## 9. Testing
 
-Breve panoramica dei test effettuati sul frontend, inclusi test unitari, di integrazione 
+Breve panoramica dei test unitari e di integrazione effettuati sul frontend 
 
 ### Indice
 
