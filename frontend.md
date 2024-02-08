@@ -476,5 +476,8 @@ Grazie ancora a tutti coloro che hanno reso possibile il successo di questo prog
 
 ![Supporto](https://img.shields.io/badge/Supporto-Community%20%7C%20Privato-green)
 
+> Consultare il [readme](readme.md) per ulteriori informazioni.
+
+
 
 
