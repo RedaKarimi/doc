@@ -73,7 +73,7 @@ Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche d
 
 Il frontend del progetto utilizza una serie di tecnologie per lo sviluppo dell'interfaccia utente e la gestione delle dipendenze. Di seguito sono elencate le principali tecnologie utilizzate:
 
-- <a id="React"></a>**[React](https://reactjs.org/)**: React è il principale framework JavaScript utilizzato per lo sviluppo dell'interfaccia utente. Si tratta di una libreria open-source che permette di creare interfacce utente focalizzate sui componenti, rendendo più semplice la gestione dello stato e il rendering dinamico dei dati.
+- <a id="React"></a>**[React](https://reactjs.org/)**: React è il framework JavaScript utilizzato per lo sviluppo dell'interfaccia utente rendendo più semplice la gestione dello stato e il rendering dinamico dei dati.
 
 - <a id="ReactDOM"></a>**[React DOM](https://reactjs.org/docs/react-dom.html)**: React DOM è una libreria utilizzata per il rendering di React all'interno del DOM del browser. Questa libreria è responsabile della manipolazione del DOM e dell'aggiornamento dell'interfaccia utente in base allo stato dell'applicazione.
 
