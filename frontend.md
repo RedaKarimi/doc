@@ -447,7 +447,7 @@ Desideriamo ringraziare il team di sviluppo per il loro impegno e dedizione nel 
 
 ### Riferimenti aggiuntivi
 
-Per ulteriori informazioni sul progetto o per contribuire, si prega di [visitare la nostra pagina GitHub](https://github.com/vittorioPiotti/doc) o contattare [nome dell'amministratore] all'indirizzo email [email].
+Per ulteriori informazioni sul progetto o per contribuire, si prega di [visitare la nostra pagina GitHub](https://github.com/vittorioPiotti/doc) o contattare [Vittorio Piotti](https://github.com/vittorioPiotti) su GitHub o all'indirizzo email vittoriopiotti.vp@gmail.com.
 
 ### Supporto e collaborazione futura
 
