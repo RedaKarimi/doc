@@ -185,7 +185,7 @@ Per la configurazione di SMSS e Microsoft SQL Server con le specifiche per l'avv
 
 ## 5. Avvio del Server
 
-- Avviare il server ASP.NET Core utilizzando il comando `dotnet {NomeApplicazione}.dll`, specificando il file DLL principale dell'applicazione.
+- Avviare il server ASP.NET Core utilizzando il comando `dotnet run`, specificando il file principale dell'applicazione, solitamente `Program.cs`.
 
 ## 6. Test
 
