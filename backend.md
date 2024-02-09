@@ -122,7 +122,7 @@ Di seguito è descritta la struttura delle cartelle e dei file del frontend, inc
 
 ## 4. Modelli dei Dati
 
-Nel contesto del nostro backend, sono stati sviluppati due modelli principali per gestire e rappresentare i dati in modo efficace. Questi modelli costituiscono la base su cui il nostro sistema opera e forniscono la struttura necessaria per la memorizzazione, l'organizzazione e l'accesso ai dati. Nell'analisi dei dati, esploreremo questi modelli utilizzando diverse prospettive e strumenti analitici per comprendere appieno la loro natura e il loro funzionamento.
+Nel contesto del backend, sono stati sviluppati due modelli principali per gestire e rappresentare i dati in modo efficace. Questi modelli costituiscono la base su cui il sistema opera e forniscono la struttura necessaria per la memorizzazione, l'organizzazione e l'accesso ai dati. Nell'analisi dei dati, esploreremo questi modelli utilizzando diverse prospettive e strumenti analitici per comprendere appieno la loro natura e il loro funzionamento.
 
 ### Indice 
 
