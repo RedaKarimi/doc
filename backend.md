@@ -175,9 +175,17 @@ Per la configurazione di SMSS e Microsoft SQL Server con le specifiche per l'avv
 
 ## 3. Compilazione e Pacchettizzazione del Codice
 
-- Compilare il codice sorgente dell'applicazione utilizzando il comando `dotnet build`.
-- Creare un pacchetto di distribuzione utilizzando il comando `dotnet publish`, specificando il framework di destinazione e il tipo di pacchetto desiderato.
-
+- Compilare il codice sorgente dell'applicazione utilizzando il comando:
+  
+   ```
+   dotnet build
+   ```
+- Creare un pacchetto di distribuzione specificando il framework di destinazione e il tipo di pacchetto desiderato utilizzando il comando.
+  
+   ```
+   dotnet publish
+   ```
+  
 ## 4. Configurazione Applicazione
 
 - Modificare il file di configurazione dell'applicazione (`appsettings.json` o `appsettings.{Environment}.json`) per includere le informazioni di connessione al database SQL Server.
@@ -185,8 +193,12 @@ Per la configurazione di SMSS e Microsoft SQL Server con le specifiche per l'avv
 
 ## 5. Avvio del Server
 
-- Avviare il server ASP.NET Core utilizzando il comando `dotnet run`, specificando il file principale dell'applicazione, solitamente `Program.cs`.
-
+- Avviare il server ASP.NET Core specificando il file principale dell'applicazione `App.cs`utilizzando il comando:
+  
+   ```
+   dotnet run
+   ```
+   
 ## 6. Test
 
 - Verificare che l'applicazione sia accessibile e funzionante nel browser o tramite richieste API.
