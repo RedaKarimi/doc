@@ -30,38 +30,34 @@ Il backend utilizza diverse tecnologie per implementare le sue funzionalità:
 
 ### Struttura dei File in un Albero di Path
 
-Di seguito la descrizione della struttura delle cartelle e dei file del frontend inclusi componenti:
+Di seguito è descritta la struttura delle cartelle e dei file del frontend, inclusi i componenti:
 
 - **Server**
+  - Directory principale del progetto con il resto dei file generati automaticamente durante la creazione del progetto React.
 
-   _Directory principale del progetto con il resto dei file generati automaticamente in fase di creazione del progetto react ._
-  - `App.cs`: _Contiene il gestore del server_
+  - `App.cs`: Contiene il gestore del server.
 
   - **src/**
-    
-     _Directory principale del codice sorgente._
+    - Directory principale del codice sorgente.
+
       - **Server/**
-        
-          _Contiene tutti gli script cs sviluppati per il server._
-          - `Server.cs`: _Contiene il server._
-
-        - **Requests/**
-        
-          _Contiene tutti gli script cs sviluppati per l'elaborazione delle richieste al server._
-          - `ListHandler.cs`: _Contiene il gestore della richiesta relativa alla visualizzazione delle anagrafiche dei clienti._
-          - `Loginhandler.cs`: _Contiene il gestore della richiesta relativa all'autenticazione dell'utente._
-          - `RegisterHandler.cs`: _Contiene il gestore della richiesta relativa alla registrazione di un nuovo cliente._
-      - **Database/**
-
-          _Contiene tutti gli script cs sviluppati per il database._
-          - `Database.cs`: _Contiene il database._
-
-           - **Table/**
+        - Contiene tutti gli script C# sviluppati per il server.
+        - `Server.cs`: Contiene il server.
       
-             _Contiene tutti gli script cs sviluppati per il riferimento alle tabelle del database._
-             - `Utente.cs`: _Contiene la tabella utente._
-             - `Cliente.cs`: _Contiene la tabella cliente._
+      - **Requests/**
+        - Contiene tutti gli script C# sviluppati per l'elaborazione delle richieste al server.
+        - `ListHandler.cs`: Contiene il gestore della richiesta relativa alla visualizzazione delle anagrafiche dei clienti.
+        - `Loginhandler.cs`: Contiene il gestore della richiesta relativa all'autenticazione dell'utente.
+        - `RegisterHandler.cs`: Contiene il gestore della richiesta relativa alla registrazione di un nuovo cliente.
+      
+      - **Database/**
+        - Contiene tutti gli script C# sviluppati per il database.
+        - `Database.cs`: Contiene il database.
 
+        - **Table/**
+          - Contiene tutti gli script C# sviluppati per il riferimento alle tabelle del database.
+          - `Utente.cs`: Contiene la tabella utente.
+          - `Cliente.cs`: Contiene la tabella cliente.
 
 ## 4. Modelli dei Dati
 
