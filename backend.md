@@ -90,24 +90,24 @@ Di seguito è descritta la struttura delle cartelle e dei file del frontend, inc
      _Directory principale del codice sorgente._
       - **Server/**
         
-         _Contiene tutti gli script C# sviluppati per il server._
+        _Contiene tutti gli script C# sviluppati per il server._
         - `Server.cs`: _Contiene il server._
       
       - **Requests/**
         
-         _Contiene tutti gli script C# sviluppati per l'elaborazione delle richieste al server._
+        _Contiene tutti gli script C# sviluppati per l'elaborazione delle richieste al server._
         - `ListHandler.cs`: _Contiene il gestore della richiesta relativa alla visualizzazione delle anagrafiche dei clienti._
         - `Loginhandler.cs`: _Contiene il gestore della richiesta relativa all'autenticazione dell'utente._
         - `RegisterHandler.cs`: _Contiene il gestore della richiesta relativa alla registrazione di un nuovo cliente._
       
       - **Database/**
         
-         _Contiene tutti gli script C# sviluppati per il database._
+        _Contiene tutti gli script C# sviluppati per il database._
         - `Database.cs`: _Contiene il database._
 
         - **Table/**
           
-           _Contiene tutti gli script C# sviluppati per il riferimento alle tabelle del database._
+          _Contiene tutti gli script C# sviluppati per il riferimento alle tabelle del database._
           - `Utente.cs`: _Contiene la tabella utente._
           - `Cliente.cs`: _Contiene la tabella cliente._
 
