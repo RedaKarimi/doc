@@ -254,10 +254,10 @@ Se hai impostato la modalità di avvio su "Manuale", dovrai avviare manualmente 
 3. Premi il tasto destro sul nodo principale dell'albero e vai su Proprietà > Sicurezza e imposta l’Autenticazione server su Autenticazione di SQL Server e di Windows.
 4. Dopodiché, vai su nodo principale (o nome del server) > Sicurezza > Account di accesso, premi tasto destro su Account di accesso > Nuovo account di accesso.
 5. Su Generale:
-- Inserisci il Nome account di accesso (che sarà il Nome utente).
-- Abilita Autenticazione di SQL Server.
-- Inserisci la password e la conferma password.
-- Disabilita “Richiedi modifica della password all’accesso successivo”.
+   - Inserisci il Nome account di accesso (che sarà il Nome utente).
+   - Abilita Autenticazione di SQL Server.
+   - Inserisci la password e la conferma password.
+   - Disabilita “Richiedi modifica della password all’accesso successivo”.
 6. Vai su Ruoli del server e premi su sysadmin.
 7. Vai su Mapping utente e premi sul checkbox di master e il database che verrà utilizzato.
 8. Premi OK.
