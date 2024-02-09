@@ -69,7 +69,7 @@ Ogni componente è organizzato in modo specifico:
 
 5. **App**:
    
-   _Il file principale `App.cs` lancia l'applicazione e gestisce l'intero flusso di esecuzione_
+   _Il file principale [`App.cs`](#App)  lancia l'applicazione e gestisce l'intero flusso di esecuzione_
 
 Questa organizzazione permette una chiara separazione delle responsabilità, rendendo più facile la comprensione e la manutenzione del codice. Ogni componente ha un ruolo ben definito, con file separati per gestire specifiche funzionalità o aspetti del sistema.
 
@@ -92,7 +92,7 @@ Di seguito è descritta la struttura delle cartelle e dei file del frontend, inc
 - **Server**
   
    _Directory principale del progetto con il resto dei file generati automaticamente durante la creazione del progetto React._
-  - `App.cs`: _Contiene il gestore del server._
+  - <a id="App"></a>`App.cs`: _Contiene il gestore del server._
 
   - **src/**
     
@@ -435,7 +435,7 @@ Se hai impostato la modalità di avvio su "Manuale", dovrai avviare manualmente 
 
 ## 7. Avvio del Server
 
-Avviare il server ASP.NET Core specificando il file principale dell'applicazione `App.cs`utilizzando il comando:
+Avviare il server ASP.NET Core specificando il file principale dell'applicazione [`App.cs`](#App) utilizzando il comando:
   
 ```
 dotnet run
