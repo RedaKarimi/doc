@@ -329,7 +329,7 @@ Nel frontend sono state utilizzate le seguenti API per consentire al client di i
 
 
 > [!NOTE]  
-> Per informazioni dettagliate sulla gestione degli errori per le singole API consultare il paragrafo di [Gestione delle eccezzioni](#8-gestione-delle-eccezzioni).
+> Per informazioni dettagliate sulla gestione degli errori per le singole API consultare il paragrafo di [Gestione delle Eccezzioni](#8-gestione-delle-eccezioni).
 
 
 >In sintesi, Axios è stata una scelta affidabile per gestire le chiamate API dal frontend dell'applicazione web, offrendo una solida base per la comunicazione tra client e server.
