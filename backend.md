@@ -183,9 +183,13 @@ Dal DDL si esamina la definizione dei dati tramite il linguaggio di definizione 
 
 `
 Utente(
+
   UtenteId,
+  
   Username,
+  
   HashedPassword
+  
 )
 `
 
