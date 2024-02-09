@@ -248,7 +248,7 @@ CREATE TABLE [Utente](
 ```
 
 > [!NOTE]
-> Questo codice utilizza comandi T-SQL per creare due tabelle nel database: "Cliente" e "Utente".
+> **Uso di T-SQL** per creare le tabelle nel database: `Cliente` e `Utente`.
 
 ### Chiavi Esterne
 
