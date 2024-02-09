@@ -493,7 +493,16 @@ Siamo aperti a nuove collaborazioni e siamo disponibili a offrire supporto per l
 Grazie ancora a tutti coloro che hanno reso possibile il successo di questo progetto!
 
 ![Supporto](https://img.shields.io/badge/Supporto-Community%20%7C%20Aziendale-green)
+
 > [!NOTE]
 > Consultare il [readme](readme.md) per ulteriori informazioni.
+
+
+![Download](https://img.shields.io/badge/Download-0%2B-blue)
+
+![Popolarità](https://img.shields.io/badge/Popolarit%C3%A0-Bassa-yellow)
+
+![Ultima modifica](https://img.shields.io/badge/Ultima%20Modifica-Febbraio%202024-blue)
+
 
 
