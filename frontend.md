@@ -9,7 +9,7 @@
 5. [Routing](#5-routing)
 6. [Gestione dello Stato](#6-gestione-dello-stato)
 7. [Chiamate API](#7-chiamate-api)
-8. [Gestione delle Eccezzioni](#8-gestione-delle-eccezzioni)
+8. [Gestione delle Eccezzioni](#8-gestione-delle-eccezioni)
 9. [Stili](#9-stili)
 10. [Testing](#10-testing)
 11. [Avvio e Sviluppo Locale](#11-avvio-e-sviluppo-locale)
