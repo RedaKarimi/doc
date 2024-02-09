@@ -447,7 +447,7 @@ Tutti i test finali hanno dato esito positivo, confermando la stabilità della b
 > In [`FloatButtonGroup`](#FloatButtonGroup) `findDOMNode` è deprecato in StrictMode quindi aggiungere un ref all'elemento di riferimento anziché utilizzare `findDOMNode`
 
 > [!WARNING]
-> In [`FloatButtonGroup`](#FloatButtonGroup) per il componente `Dropdown` `findDOMNode` l'uso di `visible` è deprecato quindi è stato consigliato di utilizzare `open`
+> In [`VisualizzaClientiView`](#VisualizzaClientiView) per il componente `Dropdown` `findDOMNode` l'uso di `visible` è deprecato quindi è stato consigliato di utilizzare `open`
 
 > [!WARNING]
 > In [`VisualizzaClientiView`](#VisualizzaClientiView) l'uso di funzioni ref nei componenti funzionali è stato sconsigliato.
@@ -486,7 +486,12 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 
 ### Istruzioni:
 1. **Clonare il Repository:** Assicurasi di aver clonato il repository del progetto frontend sul sistema locale.
-2. **Installare le Dipendenze:** Utilizzare il gestore di pacchetti npm o yarn per installare le dipendenze del progetto. Occorre eseguire il comando seguente nella directory del progetto:
+   
+   ```
+   git clone <URL_del_repository>
+   ```
+
+3. **Installare le Dipendenze:** Utilizzare il gestore di pacchetti npm o yarn per installare le dipendenze del progetto. Occorre eseguire il comando seguente nella directory del progetto:
    
    ```
    npm install
@@ -544,9 +549,9 @@ Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti p
    yarn build
    ```
 
-4. **Configurazione del Server:** Una volta completata la build, carica i file generati nella directory "build" su un server Web. Assicurati di configurare correttamente il server per servire i file statici dell'applicazione.
+4. **Configurazione del Server:** Una volta completata la build, carica i file generati nella directory "build" su un server Web. Assicurasi di configurare correttamente il server per servire i file statici dell'applicazione.
 5. **Verifica:** Dopo aver caricato i file del frontend sul server, verifica che l'applicazione sia accessibile e funzionante. Puoi farlo visitando l'URL del tuo dominio o indirizzo IP nel browser.
-6. **Aggiornamenti e Manutenzione:** Una volta distribuita l'applicazione, assicurati di monitorare regolarmente le prestazioni e il funzionamento del frontend. Effettua aggiornamenti e manutenzione quando necessario per garantire la continuità del servizio e la sicurezza del sistema.
+6. **Aggiornamenti e Manutenzione:** Una volta distribuita l'applicazione, assicurarsi di monitorare regolarmente le prestazioni e il funzionamento del frontend. Effettua aggiornamenti e manutenzione quando necessario per garantire la continuità del servizio e la sicurezza del sistema.
 
 
 ![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0%20Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
@@ -602,4 +607,9 @@ Grazie ancora a tutti coloro che hanno reso possibile il successo di questo prog
 > [!NOTE]
 > Consultare il [readme](readme.md) per ulteriori informazioni.
 
+![Download](https://img.shields.io/badge/Download-0%2B-blue)
+
+![Popolarità](https://img.shields.io/badge/Popolarit%C3%A0-Bassa-yellow)
+
+![Ultima modifica](https://img.shields.io/badge/Ultima%20Modifica-Febbraio%202024-blue)
 
