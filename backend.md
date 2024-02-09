@@ -337,7 +337,7 @@ Breve panoramica dei test effettuati sul lato server dell'applicazione.
 
 
 > [!NOTE]
-> - La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing come NUnit o xUnit.
+> - La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing come `NUnit` o `xUnit`.
 > 
 > - L'[architettura del Backend](#3-architettura-del-backend) in termini di organizzazione del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
 ## Benefici dei Test
