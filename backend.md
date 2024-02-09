@@ -138,7 +138,7 @@ Nel contesto del nostro backend, sono stati sviluppati due modelli principali pe
 
 L'approccio attributi-valori ci consente di analizzare i modelli di dati, identificando gli attributi di ciascuna entità e i relativi valori. Questa metodologia fornisce una visione dettagliata delle proprietà dei dati e delle loro relazioni all'interno del sistema.
 
-```
+
 #### Utente
 
 | Attributo | Descrizione                              |
@@ -146,9 +146,7 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 | UtenteId           | Identificatore univoco dell'utente                |
 | Username           | Nome utente dell'utente                           |
 | HashedPassword     | Password crittografata dell'utente                |
-```
 
-```
 #### Cliente
 
 | Attributo | Descrizione                              |
@@ -163,7 +161,7 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 | Stato              | Stato del cliente                                 |
 | Email              | Indirizzo email del cliente                       |
 | Telefono           | Numero di telefono del cliente                    |
-```
+
 
 
 
@@ -171,8 +169,9 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 
  Nel contesto dell'analisi dei dati, verrà considerato il modello concettuale per comprendere entità, relazioni e regole di dominio sottostanti, identificando i concetti chiave e le interconnessioni tra di essi.
 
+```
  ![Modello Concettuale](ModelloConcettuale.png)
-
+```
  
 ### Modello Relazionale
 
