@@ -81,14 +81,13 @@ Questa struttura organizzativa contribuisce a un codice più chiaro, manutenibil
 Di seguito è descritta la struttura delle cartelle e dei file del frontend, inclusi i componenti:
 
 - **Server**
+  
    _Directory principale del progetto con il resto dei file generati automaticamente durante la creazione del progetto React._
-
   - `App.cs`: _Contiene il gestore del server._
 
   - **src/**
     
      _Directory principale del codice sorgente._
-
       - **Server/**
         
          _Contiene tutti gli script C# sviluppati per il server._
