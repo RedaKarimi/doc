@@ -169,7 +169,7 @@ Dal DDL si esamina la definizione dei dati tramite il linguaggio di definizione 
 
 ### Chiavi Esterne
 
-Le chiavi esterne consentono di stabilire relazioni tra tabelle, garantendo l'integrità referenziale e facilitando l'organizzazione dei dati nel database.
+Dalle chiavi esterne è possibile stabilire relazioni tra tabelle, garantendo l'integrità referenziale e facilitando l'organizzazione dei dati nel database.
 
 > [!WARNING]  
 > Nel sistema attuale, non sono state utilizzate chiavi esterne poiché il gestionale è orientato all'azienda, e gli utenti che operano all'interno dell'azienda gestiscono i clienti aziendali, non i propri.
@@ -179,7 +179,7 @@ Le chiavi esterne consentono di stabilire relazioni tra tabelle, garantendo l'in
 
 ### Query
 
-Si analizzeranno le query utilizzate per recuperare e manipolare i dati nel sistema, offrendo una comprensione delle operazioni di estrazione e elaborazione dei dati per soddisfare le esigenze funzionali del sistema di backend.
+Dall'analisi delle query utilizzate per recuperare e manipolare i dati nel sistema è possibile avere una comprensione delle operazioni di estrazione e elaborazione dei dati per soddisfare le esigenze funzionali del sistema di backend.
   
 ## 5. API
 
