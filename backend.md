@@ -147,9 +147,51 @@ Tutti i test hanno avuto esito positivo, confermando la stabilità e l'affidabil
 ![Manutenzione](https://img.shields.io/badge/Manutenzione-Attiva-green)
 
 
-## 10. Deployment
+# 10. Deployment
 
 Per il deployment del backend, è necessario seguire una serie di passaggi che includono la compilazione del codice, la creazione dei pacchetti di distribuzione e la configurazione dell'ambiente di produzione. Sono disponibili diverse opzioni di deployment, tra cui il deployment su server fisici, server virtuali o servizi cloud.
+
+## Indice
+
+1. [Configurazione dell'Ambiente di Produzione](#1-configurazione-ambiente-di-produzione)
+2. [Configurazione del Server](#2-configurazione-del-server)
+3. [Compilazione e Pacchettizzazione del Codice](#3-compilazione-e-pacchettizzazione-del-codice)
+4. [Configurazione Applicazione](#4-configurazione-applicazione)
+5. [Avvio del Server](#5-avvio-del-server)
+6. [Test](#6-test)
+
+---
+
+Per la configurazione di SMSS e Microsoft SQL Server con le specifiche per l'avvio del server dotnet e le configurazioni per ASP.NET Core, seguire i dettagli riportati di seguito:
+
+## 1. Configurazione Ambiente di Produzione
+
+- Assicurarsi di avere un'istanza funzionante di Microsoft SQL Server e avere accesso a SQL Server Management Studio (SMSS) per gestire il database.
+- Installare e configurare DotNetEnv per caricare le variabili d'ambiente da un file .env.
+
+## 2. Configurazione del Server
+
+- Configurare il server per ospitare l'applicazione ASP.NET Core con .NET Core SDK e ASP.NET Core Hosting Bundle.
+
+## 3. Compilazione e Pacchettizzazione del Codice
+
+- Compilare il codice sorgente dell'applicazione utilizzando il comando `dotnet build`.
+- Creare un pacchetto di distribuzione utilizzando il comando `dotnet publish`, specificando il framework di destinazione e il tipo di pacchetto desiderato.
+
+## 4. Configurazione Applicazione
+
+- Modificare il file di configurazione dell'applicazione (`appsettings.json` o `appsettings.{Environment}.json`) per includere le informazioni di connessione al database SQL Server.
+- Utilizzare DotNetEnv per caricare le variabili d'ambiente dal file `.env` all'avvio dell'applicazione.
+
+## 5. Avvio del Server
+
+- Avviare il server ASP.NET Core utilizzando il comando `dotnet {NomeApplicazione}.dll`, specificando il file DLL principale dell'applicazione.
+
+## 6. Test
+
+- Verificare che l'applicazione sia accessibile e funzionante nel browser o tramite richieste API.
+
+Seguendo questi passaggi, sarà possibile configurare un ambiente di deployment per un'applicazione ASP.NET Core utilizzando SQL Server come database e DotNetEnv per la gestione delle variabili d'ambiente. Assicurarsi di documentare attentamente i passaggi e di effettuare test approfonditi prima di mettere in produzione l'applicazione.
 
 ## 11. Conclusione
 
