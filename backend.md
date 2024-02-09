@@ -170,7 +170,7 @@ L'approccio attributi-valori consente di analizzare i modelli di dati, identific
 
 ### Modello Concettuale
 
- Nel contesto dell'analisi dei dati, verrà considerato il modello concettuale per comprendere entità, relazioni e regole di dominio sottostanti, identificando i concetti chiave e le interconnessioni tra di essi.
+ Nel contesto dell'analisi dei dati, si considera il modello concettuale per comprendere entità, relazioni e regole di dominio sottostanti, identificando i concetti chiave e le interconnessioni tra di essi.
 
 
  ![Modello Concettuale](images/ModelloConcettuale.png)
