@@ -173,7 +173,7 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 
 ### DDL
 
-Dall'analisi dei dati tramite il linguaggio di definizione dei dati (DDL) si può comprendere la struttura e le caratteristiche dei dati, insieme ai vincoli e alle regole per la creazione e la modifica.
+Dall'analisi dei dati tramite il linguaggio di definizione dei dati (DDL) si può comprendere la struttura e le caratteristiche dei dati, insieme ai vincoli e alle regole per la creazione e la modifica per interfacciarsi con il database.
   
 ```
 CREATE TABLE [Cliente](
