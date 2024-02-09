@@ -428,8 +428,7 @@ Se la modalità di avvio è impostata su "Manuale", occorre avviare manualmente 
    - Inserire la password e la conferma password.
    - Disabilitare “Richiedi modifica della password all’accesso successivo”.
 6. Andare su Ruoli del server e premere su sysadmin.
-7. Andare su Mapping utente e premere sul checkbox di master e il database che verrà utilizzato.
-8. Premi OK.
+7. Andare su Mapping utente e premere sul checkbox di master e il database che verrà utilizzato e premere OK.
    
 > [!NOTE]
 > Per verificare l'accesso remoto, è necessario riavviare SSMS e, nel form, selezionare "Autenticazione" > "Autenticazione di Windows", quindi inserire il Nome utente e la password nei campi appropriati.
