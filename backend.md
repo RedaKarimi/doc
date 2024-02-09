@@ -138,9 +138,9 @@ Il backend utilizza due modelli principali:
 
 Il backend espone diverse API per consentire al client di interagire con le risorse del sistema:
 
-- **/register (POST):** Gestisce la registrazione di un nuovo cliente con opportuni controlli per gestire le eccezioni.
-- **/login (POST):** Gestisce il processo di login dell'utente con opportuni controlli per gestire le eccezioni.
-- **/list (GET):** Restituisce l'elenco dei clienti memorizzati nel database con opportuni controlli per gestire le eccezioni.
+- **/register (POST):** Gestisce la registrazione di un nuovo cliente con opportuni controlli per [gestire le eccezzioni](#registrazione-cliente).
+- **/login (POST):** Gestisce il processo di login dell'utente con opportuni controlli per  [gestire le eccezzioni](#autenticazione-utente).
+- **/list (GET):** Restituisce l'elenco dei clienti memorizzati nel database con opportuni controlli per  [gestire le eccezzioni](#visualizzazione-clienti).
 
 ## 6. Autenticazione e Autorizzazione
 
