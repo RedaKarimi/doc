@@ -269,9 +269,9 @@ Il backend espone diverse API per consentire al client di interagire con le riso
 
 ## 6. Autenticazione e Autorizzazione
 
-Il backend implementa un meccanismo di autenticazione basato su **username e password**. Le credenziali degli utenti vengono verificate nel database e, se corrette vengono ammesse le richieste successive. Per garantire la sicurezza delle credenziali degli utenti e dei dati scambiati tra client e server, è stato utilizzato l'algoritmo di crittografia **SHA3**.
+Il backend implementa un meccanismo di autenticazione basato su **username e password**. Le credenziali degli utenti vengono verificate nel database e, se corrette il client riceve lo stato HTTP di autenticazione riuscita in modo da abilitare il frontend  alle richieste successive. Per garantire la sicurezza delle credenziali degli utenti è stato utilizzato l'algoritmo di crittografia **SHA3**.
 
-Una volta autenticato con successo vengono abilitati i permessi necessari per effettuare le richieste che richiedono l'accesso. Questo meccanismo di autenticazione e autorizzazione aiuta a garantire la sicurezza e l'integrità del sistema, proteggendo i dati sensibili degli utenti e prevenendo accessi non autorizzati.
+Una volta autenticato con successo l'utente vengono quindi abilitati lato frontend i permessi necessari per effettuare le richieste che richiedono l'accesso. Questo meccanismo di autenticazione e autorizzazione aiuta a garantire la sicurezza e l'integrità del sistema lato client, proteggendo i dati sensibili degli utenti e prevenendo accessi non autorizzati.
 
 ## 7. Logging e Monitoraggio
 
