@@ -28,6 +28,48 @@ Il backend utilizza diverse tecnologie per implementare le sue funzionalità:
 
 ## 3. Architettura del Backend
 
+
+### Indice
+
+1. [Organizzazione dei Componenti Grafici](#organizzazione-dei-componenti-grafici)
+2. [Vantaggi Strutturali](#vantaggi-strutturali)
+3. [Struttura dei File in un Albero di Path](#struttura-dei-file-in-un-albero-di-path)
+
+---
+
+### Organizzazione dei Componenti
+
+La struttura del progetto backend si basa sulla separazione dei compiti, con un'opportuna organizzazione delle cartelle per garantire una chiara distinzione tra le responsabilità dei vari componenti.
+
+Ogni componente è organizzato in modo specifico:
+
+1. **Server**: 
+   - Contiene il file principale del server, responsabile della gestione generale del server stesso.
+   - **Requests**: 
+     - Contiene gli script per l'elaborazione delle richieste al server, suddivisi in file separati per ogni tipo di richiesta.
+     
+2. **Database**: 
+   - Contiene il file principale del database, responsabile della connessione e dell'interazione con il database.
+   - **Tables**: 
+     - Contiene gli script per la definizione delle tabelle del database, con un file separato per ogni tabella.
+
+3. **App**: 
+   - Il file principale `App.cs` lancia l'applicazione e gestisce l'intero flusso di esecuzione.
+
+Questa organizzazione permette una chiara separazione delle responsabilità, rendendo più facile la comprensione e la manutenzione del codice. Ogni componente ha un ruolo ben definito, con file separati per gestire specifiche funzionalità o aspetti del sistema.
+
+### Vantaggi dell'Organizzazione
+
+- **Chiarezza e Separazione dei Compiti**: La struttura organizzativa permette una chiara separazione delle responsabilità tra server, richieste e database, facilitando la comprensione del codice e la risoluzione dei problemi.
+  
+- **Facilità di Manutenzione**: Grazie alla suddivisione in cartelle e file separati per ciascun componente, la manutenzione del codice diventa più semplice e intuitiva.
+
+- **Scalabilità e Riutilizzo del Codice**: La struttura ben organizzata facilita il riutilizzo dei componenti in altre parti dell'applicazione o in progetti futuri, migliorando la scalabilità e l'efficienza dello sviluppo.
+
+- **Migliore Gestione del Database**: La separazione dei file del database permette una gestione più efficiente delle tabelle e delle relazioni, semplificando l'interazione con il database e garantendo una migliore manutenibilità nel tempo.
+
+Questa struttura organizzativa contribuisce a un codice più chiaro, manutenibile e scalabile, promuovendo una maggiore efficienza nello sviluppo e nella gestione del backend dell'applicazione.
+
 ### Struttura dei File in un Albero di Path
 
 Di seguito è descritta la struttura delle cartelle e dei file del frontend, inclusi i componenti:
