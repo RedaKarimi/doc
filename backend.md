@@ -144,16 +144,19 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 - **HashedPassword:** Password crittografata dell'utente.
 
 #### Cliente
-- **alias:** Alias univoco del cliente.
-- **ragioneSociale:** Ragione sociale del cliente.
-- **codiceFiscale:** Codice fiscale del cliente.
-- **partitaIVA:** Partita IVA del cliente.
-- **pec:** Indirizzo PEC (Posta Elettronica Certificata) del cliente.
-- **indirizzo:** Indirizzo del cliente.
-- **citta:** Città del cliente.
-- **stato:** Stato del cliente.
-- **email:** Indirizzo email del cliente.
-- **telefono:** Numero di telefono del cliente.
+
+Alias            | Alias univoco del cliente
+RagioneSociale   | Ragione sociale del cliente
+CodiceFiscale    | Codice fiscale del cliente
+PartitaIVA       | Partita IVA del cliente
+PEC              | Indirizzo PEC (Posta Elettronica Certificata) del cliente
+Indirizzo        | Indirizzo del cliente
+Città            | Città del cliente
+Stato            | Stato del cliente
+Email            | Indirizzo email del cliente
+Telefono         | Numero di telefono del cliente
+
+
 
 ### Modello Concettuale
 
