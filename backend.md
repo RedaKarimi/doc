@@ -223,16 +223,22 @@ Dalle chiavi esterne è possibile stabilire relazioni tra tabelle, garantendo l'
 
 Dall'analisi delle query utilizzate per recuperare e manipolare i dati nel sistema è possibile avere una comprensione delle operazioni di estrazione e elaborazione dei dati per soddisfare le esigenze funzionali del sistema di backend.
 
+**Autenticazione Utente**
+
 ```
 SELECT *
 FROM Utente
 WHERE Username = 'username_desiderato' AND HashedPassword = 'hashedPassword_desiderato';
 ```
 
+**Registrazione Cliente**
+
 ```
 INSERT INTO Cliente (CodiceFiscale, PartitaIVA, Pec, Citta, Stato, Email, Telefono, RagioneSociale, Indirizzo, Alias)
 VALUES ('12345678901', '01234567890', 'cliente@pec.com', 'Roma', 'Italia', 'cliente@email.com', '1234567890', 'Cliente Spa', 'Via Roma 123', 'ClienteAlias');
 ```
+
+**Visualizzazione massiva Clienti**
 
 ```
 SELECT *
