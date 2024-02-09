@@ -105,7 +105,7 @@ Per la documentazione dettagliata del frontend e del backend, fare riferimento a
 
 ![Compatibilità Server](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-green)
 
-![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
+![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Server-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
 
 ![Compatibilità Database](https://img.shields.io/badge/Compatibilit%C3%A0%20Database-Windows%20%7C%20Linux-blue)
 
