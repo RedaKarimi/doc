@@ -138,9 +138,9 @@ Il backend utilizza due modelli principali:
 
 Il backend espone diverse API per consentire al client di interagire con le risorse del sistema:
 
-- **/register (POST):** Gestisce la registrazione di un nuovo cliente.
-- **/login (POST):** Gestisce il processo di login dell'utente.
-- **/list (GET):** Restituisce l'elenco dei clienti memorizzati nel database.
+- **/register (POST):** Gestisce la registrazione di un nuovo cliente con opportuni controlli per gestire le eccezioni.
+- **/login (POST):** Gestisce il processo di login dell'utente con opportuni controlli per gestire le eccezioni.
+- **/list (GET):** Restituisce l'elenco dei clienti memorizzati nel database con opportuni controlli per gestire le eccezioni.
 
 ## 6. Autenticazione e Autorizzazione
 
@@ -153,6 +153,40 @@ Il backend utilizza i registri per registrare eventi importanti e informazioni d
 ## 8. Gestione delle Eccezioni
 
 Il backend gestisce le eccezioni in modo appropriato, restituendo codici di stato HTTP appropriati e fornendo informazioni dettagliate sugli errori al client. Ciò aiuta a garantire una gestione sicura e robusta delle richieste.
+
+### Indice 
+
+1. [Gloale](#Gloale)
+2. [Autenticazione Utente](#autenticazione-utente)
+3. [Registrazione Cliente](#registrazione-cliente)
+4. [Visualizzazione Clienti](#visualizzazione-clienti)
+
+---
+
+### Codici di stato HTTP 
+
+#### Gloale
+
+- **200 (OK):** Operazione completata con successo e le modifiche sono state salvate nel database.
+- **404 (Not Found):** Impossibile accedere al server. La risorsa richiesta non è stata trovata.
+- **500 (Internal Server Error):** Si è verificato un errore interno.
+
+#### Autenticazione Utente
+
+- **405 (Method Not Allowed):** Risposta in caso la password fornita non è corretta.
+- **409 (Conflict):** Risposta in caso l'utente non esista nel sistema.
+  
+#### Registrazione Cliente
+
+- **409 (Conflict):** Il codice fiscale fornito è già presente nel sistema.
+- **400 (Bad Request):** I dati forniti per la registrazione non sono validi.
+
+#### Visualizzazione Clienti
+
+- **500 (Internal Server Error):** Si è verificato un errore interno durante il recupero dell'elenco dei clienti.
+
+> [!WARNING]  
+> La gestione delle eccezioni è contestualizzata all'API di riferimento quindi a stessi codici di stato HTTP in diverse API corrispondono errori diversi
 
 # 9. Testing
 
