@@ -105,11 +105,11 @@ Il backend utilizza i registri per registrare eventi importanti e informazioni d
 
 Il backend gestisce le eccezioni in modo appropriato, restituendo codici di stato HTTP appropriati e fornendo informazioni dettagliate sugli errori al client. Ciò aiuta a garantire una gestione sicura e robusta delle richieste.
 
-## 9. Testing
+# 9. Testing
 
-Breve panoramica dei test unitari e di integrazione effettuati sul frontend 
+Breve panoramica dei test effettuati sul lato server dell'applicazione.
 
-### Indice
+## Indice
 
 1. [Test Effettuati](#test-effettuati)
 2. [Benefici dei Test](#benefici-dei-test)
@@ -117,40 +117,33 @@ Breve panoramica dei test unitari e di integrazione effettuati sul frontend
 
 ---
 
+## Test Effettuati
 
-### Test Effettuati
+- **Test Unitari**: Sono stati implementati test unitari per verificare il corretto funzionamento dei singoli metodi e delle classi utilizzate nel server dell'applicazione. Questi test hanno consentito di individuare bug e garantire che ogni componente si comporti come previsto in varie condizioni.
 
-- **Test Unitari**: Sono stati sviluppati test unitari per verificare il corretto funzionamento dei singoli componenti e delle funzioni utilizzate nell'applicazione. Questi test hanno consentito di individuare eventuali bug e garantire che ogni componente si comporti come previsto in condizioni specifiche.
+- **Test di Integrazione**: Sono stati eseguiti test di integrazione per verificare l'interazione tra diversi moduli e le varie parti del server. Questi test sono stati utili per assicurare che i vari moduli del server funzionino correttamente insieme e che non vi siano problemi di compatibilità o conflitti tra di essi.
 
-- **Test di Integrazione**: Sono stati eseguiti test di integrazione per verificare l'interazione tra diversi componenti e le varie parti dell'applicazione. Questi test sono stati utili per assicurare che le varie parti dell'applicazione funzionino correttamente insieme e che non vi siano problemi di compatibilità o conflitti tra di esse.
+> **Nota:**
+> - La struttura del progetto ha permesso una facile implementazione e manutenzione dei test senza la necessità di utilizzare framework esterni per il testing come NUnit o xUnit.
 
-> [!NOTE]
-> - La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing come Jest o React Testing Library.
-> 
-> - La [struttura del progetto](#3-struttura-del-progetto) in termini di organizzazione del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
-   
+## Benefici dei Test
 
+- **Miglioramento della Qualità**: I test hanno contribuito a migliorare la qualità complessiva del server dell'applicazione, individuando e risolvendo bug e problemi prima che possano influenzare il funzionamento dell'applicazione.
 
-### Benefici dei Test
+- **Riduzione dei Rischi**: Effettuando test regolari, si è ridotto il rischio di errori e malfunzionamenti nel server, garantendo un'esperienza più stabile per gli utenti.
 
-- **Miglioramento della Qualità**: I test hanno contribuito a migliorare la qualità complessiva dell'applicazione, individuando e risolvendo bug e problemi prima che possano influenzare gli utenti finali.
+- **Aumento della Fiducia**: L'utilizzo di test ha aumentato la fiducia nello sviluppo e nella manutenzione del server, fornendo una valida garanzia che ogni cambiamento o aggiornamento non causi regressioni o problemi imprevisti.
 
-- **Riduzione dei Rischi**: Effettuando test regolari, si è ridotto il rischio di errori e malfunzionamenti nell'applicazione, garantendo un'esperienza utente più fluida e priva di problemi.
+## Esito dei Test
 
-- **Aumento della Fiducia**: L'utilizzo di test ha aumentato la fiducia nello sviluppo e nel rilascio dell'applicazione, fornendo una valida garanzia che ogni cambiamento o aggiornamento non provochi regressioni o problemi imprevisti.
-
-
-
-### Esito dei Test
-
-Tutti i test finali hanno dato esito positivo, confermando la stabilità della build.
-
+Tutti i test hanno avuto esito positivo, confermando la stabilità e l'affidabilità del server dell'applicazione.
 
 ![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
 
 ![Versione](https://img.shields.io/badge/Versione-1.0-blue)
 
 ![Manutenzione](https://img.shields.io/badge/Manutenzione-Attiva-green)
+
 
 ## 10. Deployment
 
