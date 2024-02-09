@@ -139,9 +139,13 @@ Nel contesto del nostro backend, sono stati sviluppati due modelli principali pe
 L'approccio attributi-valori ci consente di analizzare i modelli di dati, identificando gli attributi di ciascuna entità e i relativi valori. Questa metodologia fornisce una visione dettagliata delle proprietà dei dati e delle loro relazioni all'interno del sistema.
 
 #### Utente
-- **UtenteId:** Identificatore univoco dell'utente.
-- **Username:** Nome utente dell'utente.
-- **HashedPassword:** Password crittografata dell'utente.
+
+| Attributo | Descrizione                              |
+|--------------------|---------------------------------------------------|
+| UtenteId           | Identificatore univoco dell'utente                |
+| Username           | Nome utente dell'utente                           |
+| HashedPassword     | Password crittografata dell'utente                |
+
 
 #### Cliente
 
