@@ -200,10 +200,10 @@ Per il deployment del backend, è necessario seguire una serie di passaggi che i
 2. [Configurazione del Server](#2-configurazione-del-server)
 3. [Compilazione e Pacchettizzazione del Codice](#3-compilazione-e-pacchettizzazione-del-codice)
 4. [Configurazione Applicazione](#4-configurazione-applicazione)
-5. [Configurazione di SQL Server](#6-configurazione-di-slq-server)
+5. [Configurazione di SQL Server](#5-configurazione-di-slq-server)
 6. [Abilitazione Accesso Remoto a SQL Server](#6-abilitazione-accesso-remoto-a-sql-server)
-7. [Avvio del Server](#5-avvio-del-server)
-8. [Test](#6-test)
+7. [Avvio del Server](#7-avvio-del-server)
+8. [Test](#8-test)
 
 ---
 
