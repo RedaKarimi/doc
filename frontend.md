@@ -93,7 +93,7 @@ Queste sono tutte le tecnologie utilizzate nel frontend del progetto, che contri
 
 ![Tecnologia](https://img.shields.io/badge/Tecnologia-React-yellow)
 
-![Compatibilità](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
+![Compatibilità](https://img.shields.io/badge/Compatibilit%C3%A0%20Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
 ![Linguaggio](https://img.shields.io/badge/Linguaggio-JavaScript-orange)
 
@@ -461,7 +461,7 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 
 6. **Accesso all'Applicazione:** Una volta avviato il server di sviluppo, l'applicazione sarà disponibile all'indirizzo *http://localhost:3000* nel browser. Accedere all'applicazione visitando questo URL.
    
-![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
+![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0%20Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
 ![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
 
