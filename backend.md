@@ -50,17 +50,17 @@ La struttura del progetto backend si basa sulla separazione dei compiti, con un'
 Ogni componente è organizzato in modo specifico:
 
 1. **Server**: 
-   - Contiene il file principale del server, responsabile della gestione generale del server stesso.
+   _Contiene il file principale del server, responsabile della gestione generale del server stesso_
    - **Requests**: 
-     - Contiene gli script per l'elaborazione delle richieste al server, suddivisi in file separati per ogni tipo di richiesta.
+     _Contiene gli script per l'elaborazione delle richieste al server, suddivisi in file separati per ogni tipo di richiesta_
      
 2. **Database**: 
-   - Contiene il file principale del database, responsabile della connessione e dell'interazione con il database.
+   _Contiene il file principale del database, responsabile della connessione e dell'interazione con il database_
    - **Tables**: 
-     - Contiene gli script per la definizione delle tabelle del database, con un file separato per ogni tabella.
+     _Contiene gli script per la definizione delle tabelle del database, con un file separato per ogni tabella_
 
 3. **App**: 
-   - Il file principale `App.cs` lancia l'applicazione e gestisce l'intero flusso di esecuzione.
+   _Il file principale `App.cs` lancia l'applicazione e gestisce l'intero flusso di esecuzione_
 
 Questa organizzazione permette una chiara separazione delle responsabilità, rendendo più facile la comprensione e la manutenzione del codice. Ogni componente ha un ruolo ben definito, con file separati per gestire specifiche funzionalità o aspetti del sistema.
 
