@@ -191,7 +191,7 @@ Per la configurazione di SMSS e Microsoft SQL Server con le specifiche per l'avv
 
 - Verificare che l'applicazione sia accessibile e funzionante nel browser o tramite richieste API.
 
-Seguendo questi passaggi, sarà possibile configurare un ambiente di deployment per un'applicazione ASP.NET Core utilizzando SQL Server come database e DotNetEnv per la gestione delle variabili d'ambiente. Assicurarsi di documentare attentamente i passaggi e di effettuare test approfonditi prima di mettere in produzione l'applicazione.
+> Seguendo questi passaggi, sarà possibile configurare un ambiente di deployment per un'applicazione ASP.NET Core utilizzando SQL Server come database e DotNetEnv per la gestione delle variabili d'ambiente. Assicurarsi di documentare attentamente i passaggi e di effettuare test approfonditi prima di mettere in produzione l'applicazione.
 
 ## 11. Conclusione
 
