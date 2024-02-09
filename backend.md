@@ -31,7 +31,7 @@ Il backend utilizza diverse tecnologie per implementare le sue funzionalità:
 
 ### Indice
 
-1. [Organizzazione dei Componenti Grafici](#organizzazione-dei-componenti-grafici)
+1. [Organizzazione dei Componenti](#organizzazione-dei-componenti)
 2. [Vantaggi Strutturali](#vantaggi-strutturali)
 3. [Struttura dei File in un Albero di Path](#struttura-dei-file-in-un-albero-di-path)
 
