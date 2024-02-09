@@ -149,7 +149,7 @@ Il backend espone diverse API per consentire al client di interagire con le riso
 
 
 > [!NOTE]  
-> Per informazioni dettagliate sulla gestione degli errori per le singole API consultare il paragrafo di [Gestione delle eccezzioni](#8-gestione-delle-eccezzioni).
+> Per informazioni dettagliate sulla gestione degli errori per le singole API consultare il paragrafo di [Gestione delle Eccezioni](#8-gestione-delle-eccezioni).
 
 
 ## 6. Autenticazione e Autorizzazione
