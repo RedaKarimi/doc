@@ -232,6 +232,10 @@ Nel progetto si ha utilizzato **React Router per gestire il routing** dell'appli
 
 I **componenti importati** da React Router sono i seguenti:
 
+```js
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+```
+
 - `BrowserRouter`: Questo componente fornisce il contesto del routing per i componenti figlio. È avvolto intorno all'intera struttura delle rotte.
 - `Routes`: Questo componente contiene una serie di `Route` componenti che definiscono le rotte dell'applicazione.
 - `Route`: Questo componente definisce una singola rotta dell'applicazione, associando un percorso URL a un componente React.
