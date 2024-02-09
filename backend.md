@@ -33,29 +33,29 @@ Il backend utilizza diverse tecnologie per implementare le sue funzionalità:
 Di seguito è descritta la struttura delle cartelle e dei file del frontend, inclusi i componenti:
 
 - **Server**
-  - Directory principale del progetto con il resto dei file generati automaticamente durante la creazione del progetto React.
+   Directory principale del progetto con il resto dei file generati automaticamente durante la creazione del progetto React.
 
   - `App.cs`: Contiene il gestore del server.
 
   - **src/**
-    - Directory principale del codice sorgente.
+     Directory principale del codice sorgente.
 
       - **Server/**
-        - Contiene tutti gli script C# sviluppati per il server.
+         Contiene tutti gli script C# sviluppati per il server.
         - `Server.cs`: Contiene il server.
       
       - **Requests/**
-        - Contiene tutti gli script C# sviluppati per l'elaborazione delle richieste al server.
+         Contiene tutti gli script C# sviluppati per l'elaborazione delle richieste al server.
         - `ListHandler.cs`: Contiene il gestore della richiesta relativa alla visualizzazione delle anagrafiche dei clienti.
         - `Loginhandler.cs`: Contiene il gestore della richiesta relativa all'autenticazione dell'utente.
         - `RegisterHandler.cs`: Contiene il gestore della richiesta relativa alla registrazione di un nuovo cliente.
       
       - **Database/**
-        - Contiene tutti gli script C# sviluppati per il database.
+         Contiene tutti gli script C# sviluppati per il database.
         - `Database.cs`: Contiene il database.
 
         - **Table/**
-          - Contiene tutti gli script C# sviluppati per il riferimento alle tabelle del database.
+           Contiene tutti gli script C# sviluppati per il riferimento alle tabelle del database.
           - `Utente.cs`: Contiene la tabella utente.
           - `Cliente.cs`: Contiene la tabella cliente.
 
