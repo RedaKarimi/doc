@@ -177,26 +177,12 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 
 Dall'analisi del modello relazionale si studiano le relazioni tra le entità attraverso l'utilizzo di tabelle e vincoli di integrità referenziale, offrendo una visione dettagliata dell'organizzazione e della correlazione dei dati nel sistema.
 
-### DDL
-
-Dal DDL si esamina la definizione dei dati tramite il linguaggio di definizione dei dati (DDL), per comprendere la struttura e le caratteristiche dei dati, insieme ai vincoli e alle regole per la creazione e la modifica.
-
-<div style="background-color: red">
-Testo della casella di testo.
-</div>
-
-```plaintext
 Utente(
   UtenteId,
   Username,
   HashedPassword
 )
 
-```
-
-
-
-```
 Cliente(
   Alias,
   RagioneSociale,
@@ -209,7 +195,44 @@ Cliente(
   Email,
   Telefono  
 )
+
+
+### DDL
+
+
+  
 ```
+CREATE TABLE [Cliente](
+    [CodiceFiscale] [varchar](11) NOT NULL,
+    [PartitaIVA] [varchar](20) NULL,
+    [Pec] [varchar](255) NULL,
+    [Citta] [varchar](100) NULL,
+    [Stato] [varchar](50) NULL,
+    [Email] [varchar](255) NULL,
+    [Telefono] [varchar](15) NULL,
+    [RagioneSociale] [varchar](20) NULL,
+    [Indirizzo] [varchar](100) NULL,
+    [Alias] [varchar](100) NULL,
+    CONSTRAINT [PK_Cliente] PRIMARY KEY CLUSTERED 
+    (
+        [CodiceFiscale] ASC
+    )
+)
+```
+  
+```
+CREATE TABLE [Utente](
+    [UtenteId] [int] IDENTITY(1,1) NOT NULL,
+    [Username] [nvarchar](50) NOT NULL,
+    [HashedPassword] [nvarchar](512) NULL,
+    CONSTRAINT [PK_Utente] PRIMARY KEY CLUSTERED 
+    (
+        [UtenteId] ASC
+    )
+)
+```
+
+
 
 ### Chiavi Esterne
 
