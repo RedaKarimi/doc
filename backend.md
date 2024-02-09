@@ -387,6 +387,13 @@ Per la configurazione di SMSS e Microsoft SQL Server con le specifiche per l'avv
 
 Configurare il server per ospitare l'applicazione ASP.NET Core con .NET Core SDK e ASP.NET Core Hosting Bundle.
 
+
+Per creare un nuovo progetto di una Web API utilizzando il framework .NET (dotnet), si utilizza il seguente comando:
+
+```sh
+dotnet new webapi -n NomeProgetto
+```
+
 ## 3. Compilazione e Pacchettizzazione del Codice
 
 - Compilare il codice sorgente dell'applicazione utilizzando il comando:
