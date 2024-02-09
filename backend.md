@@ -182,6 +182,10 @@ Dall'analisi del modello relazionale si studiano le relazioni tra le entità att
 Dal DDL si esamina la definizione dei dati tramite il linguaggio di definizione dei dati (DDL), per comprendere la struttura e le caratteristiche dei dati, insieme ai vincoli e alle regole per la creazione e la modifica.
 
 ```plaintext
+Testo della casella di testo.
+```
+
+```plaintext
 Utente(
   UtenteId,
   Username,
