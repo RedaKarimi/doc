@@ -140,9 +140,9 @@ Il backend espone diverse API per consentire al client di interagire con le riso
 
 | API                  | Tipo    | Descrizione                                                 |
 |----------------------|---------|-------------------------------------------------------------|
-| /login       | POST                  | Gestisce il processo di login dell'utente con opportuni controlli per [gestire le eccezzioni](#autenticazione-utente). |
-| /register      |POST                       | Gestisce la registrazione di un nuovo cliente con opportuni controlli per [gestire le eccezzioni](#registrazione-cliente). |
-| /list           | GET      | Restituisce l'elenco dei clienti memorizzati nel database con opportuni controlli per [gestire le eccezzioni](#visualizzazione-clienti). |
+| `/login`       | POST                  | Gestisce il processo di login dell'utente con opportuni controlli per [gestire le eccezzioni](#autenticazione-utente). |
+| `/register`      |POST                       | Gestisce la registrazione di un nuovo cliente con opportuni controlli per [gestire le eccezzioni](#registrazione-cliente). |
+| `/list`           | GET      | Restituisce l'elenco dei clienti memorizzati nel database con opportuni controlli per [gestire le eccezzioni](#visualizzazione-clienti). |
 
 
 > [!NOTE]  
@@ -178,22 +178,22 @@ Il backend gestisce le eccezioni in modo appropriato, restituendo codici di stat
 #### Gloale
 
 - **`200` (OK):** Operazione completata con successo e le modifiche sono state salvate nel database.
-- **404 (Not Found):** Impossibile accedere al server. La risorsa richiesta non è stata trovata.
-- **500 (Internal Server Error):** Si è verificato un errore interno.
+- **`404` (Not Found):** Impossibile accedere al server. La risorsa richiesta non è stata trovata.
+- **`500` (Internal Server Error):** Si è verificato un errore interno.
 
 #### Autenticazione Utente
 
-- **405 (Method Not Allowed):** Risposta in caso la password fornita non è corretta.
-- **409 (Conflict):** Risposta in caso l'utente non esista nel sistema.
+- **`405` (Method Not Allowed):** Risposta in caso la password fornita non è corretta.
+- **`409` (Conflict):** Risposta in caso l'utente non esista nel sistema.
   
 #### Registrazione Cliente
 
-- **409 (Conflict):** Il codice fiscale fornito è già presente nel sistema.
-- **400 (Bad Request):** I dati forniti per la registrazione non sono validi.
+- **`409` (Conflict):** Il codice fiscale fornito è già presente nel sistema.
+- **`400` (Bad Request):** I dati forniti per la registrazione non sono validi.
 
 #### Visualizzazione Clienti
 
-- **500 (Internal Server Error):** Si è verificato un errore interno durante il recupero dell'elenco dei clienti.
+- **`500` (Internal Server Error):** Si è verificato un errore interno durante il recupero dell'elenco dei clienti.
 
 > [!WARNING]  
 > La gestione delle eccezioni è contestualizzata all'API di riferimento quindi a stessi codici di stato HTTP in diverse API corrispondono errori diversi
@@ -231,7 +231,7 @@ Breve panoramica dei test effettuati sul lato server dell'applicazione.
 
 ## Esito dei Test
 
-Tutti i test hanno avuto esito positivo, confermando la stabilità e l'affidabilità del server dell'applicazione.
+Tutti i test hanno avuto **esito positivo**, confermando la **stabilità della build** e quindi l'affidabilità del server dell'applicazione.
 
 ![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
 
@@ -242,7 +242,7 @@ Tutti i test hanno avuto esito positivo, confermando la stabilità e l'affidabil
 
 # 10. Deployment
 
-Per il deployment del backend, è necessario seguire una serie di passaggi che includono la compilazione del codice, la creazione dei pacchetti di distribuzione e la configurazione dell'ambiente di produzione. Sono disponibili diverse opzioni di deployment, tra cui il deployment su server fisici, server virtuali o servizi cloud.
+Per il deployment del backend, è necessario seguire una serie di passaggi che includono la compilazione del codice, la creazione dei pacchetti di distribuzione e la configurazione dell'ambiente di produzione e dei servizi necessari per il funzionamento dell'applicazione. Sono disponibili diverse opzioni di deployment, tra cui il deployment su server fisici, server virtuali o servizi cloud.
 
 ## Indice
 
