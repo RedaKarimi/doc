@@ -152,8 +152,6 @@ Il backend utilizza i registri per registrare eventi importanti e informazioni d
 
 ## 8. Gestione delle Eccezioni
 
-Il backend gestisce le eccezioni in modo appropriato, restituendo codici di stato HTTP appropriati e fornendo informazioni dettagliate sugli errori al client. Ciò aiuta a garantire una gestione sicura e robusta delle richieste.
-
 ### Indice 
 
 1. [Gloale](#Gloale)
@@ -164,6 +162,9 @@ Il backend gestisce le eccezioni in modo appropriato, restituendo codici di stat
 ---
 
 ### Codici di stato HTTP 
+
+Il backend gestisce le eccezioni in modo appropriato, restituendo codici di stato HTTP appropriati e fornendo informazioni dettagliate sugli errori al client. Ciò aiuta a garantire una gestione sicura e robusta delle richieste.
+
 
 #### Gloale
 
