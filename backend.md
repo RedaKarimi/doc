@@ -118,14 +118,32 @@ Di seguito è descritta la struttura delle cartelle e dei file del frontend, inc
 
 ## 4. Modelli dei Dati
 
-Il backend utilizza due modelli principali:
+Nel contesto del nostro backend, sono stati sviluppati due modelli principali per gestire e rappresentare i dati in modo efficace. Questi modelli costituiscono la base su cui il nostro sistema opera e forniscono la struttura necessaria per la memorizzazione, l'organizzazione e l'accesso ai dati. Nell'analisi dei dati, esploreremo questi modelli utilizzando diverse prospettive e strumenti analitici per comprendere appieno la loro natura e il loro funzionamento.
 
-### Utente
+### Indice 
+
+1. [Modello Attributi-Valori](#modello-attributi-valori)
+2. [Modello Concettuale](#modello-concettuale)
+3. [Modello Relazionale](#modello-relazionale)
+4. [DDL ](#ddl)
+5. [Chiavi Esterne ](#chiavi-esterne)
+6. [Query](#query)
+
+---
+
+
+## Approcci di Analisi
+
+### Modello Attributi Valori 
+
+L'approccio attributi-valori ci consente di analizzare i modelli di dati, identificando gli attributi di ciascuna entità e i relativi valori. Questa metodologia fornisce una visione dettagliata delle proprietà dei dati e delle loro relazioni all'interno del sistema.
+
+#### Utente
 - **UtenteId:** Identificatore univoco dell'utente.
 - **Username:** Nome utente dell'utente.
 - **HashedPassword:** Password crittografata dell'utente.
 
-### Cliente
+#### Cliente
 - **alias:** Alias univoco del cliente.
 - **ragioneSociale:** Ragione sociale del cliente.
 - **codiceFiscale:** Codice fiscale del cliente.
@@ -136,6 +154,32 @@ Il backend utilizza due modelli principali:
 - **stato:** Stato del cliente.
 - **email:** Indirizzo email del cliente.
 - **telefono:** Numero di telefono del cliente.
+
+### Modello Concettuale
+
+ Nel contesto dell'analisi dei dati, verrà considerato il modello concettuale per comprendere entità, relazioni e regole di dominio sottostanti, identificando i concetti chiave e le interconnessioni tra di essi.
+ 
+### Modello Relazionale
+
+Dall'analisi del modello relazionale si studiano le relazioni tra le entità attraverso l'utilizzo di tabelle e vincoli di integrità referenziale, offrendo una visione dettagliata dell'organizzazione e della correlazione dei dati nel sistema.
+
+## DDL
+
+Dal DDL si esamina la definizione dei dati tramite il linguaggio di definizione dei dati (DDL), per comprendere la struttura e le caratteristiche dei dati, insieme ai vincoli e alle regole per la creazione e la modifica.
+
+### Chiavi Esterne
+
+Le chiavi esterne consentono di stabilire relazioni tra tabelle, garantendo l'integrità referenziale e facilitando l'organizzazione dei dati nel database.
+
+> [!WARNING]  
+> Nel sistema attuale, non sono state utilizzate chiavi esterne poiché il gestionale è orientato all'azienda, e gli utenti che operano all'interno dell'azienda gestiscono i clienti aziendali, non i propri.
+
+> [!TIP]
+> In possibili sviluppi futuri o personalizzazioni del software su richiesta del committente, potrebbe essere implementato un sistema di chiavi esterne per associare i clienti all'utente di riferimento e, eventualmente, consentire a più utenti di condividere gli stessi clienti. Questo consentirebbe una gestione più flessibile dei dati e una maggiore adattabilità alle esigenze specifiche dell'azienda.
+
+### Query
+
+Si analizzeranno le query utilizzate per recuperare e manipolare i dati nel sistema, offrendo una comprensione delle operazioni di estrazione e elaborazione dei dati per soddisfare le esigenze funzionali del sistema di backend.
   
 ## 5. API
 
