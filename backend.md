@@ -200,8 +200,10 @@ Per il deployment del backend, è necessario seguire una serie di passaggi che i
 2. [Configurazione del Server](#2-configurazione-del-server)
 3. [Compilazione e Pacchettizzazione del Codice](#3-compilazione-e-pacchettizzazione-del-codice)
 4. [Configurazione Applicazione](#4-configurazione-applicazione)
-5. [Avvio del Server](#5-avvio-del-server)
-6. [Test](#6-test)
+5. [Configurazione di SQL Server](#6-configurazione-di-slq-server)
+6. [Abilitazione Accesso Remoto a SQL Server](#6-abilitazione-accesso-remoto-a-sql-server)
+7. [Avvio del Server](#5-avvio-del-server)
+8. [Test](#6-test)
 
 ---
 
@@ -234,7 +236,35 @@ Configurare il server per ospitare l'applicazione ASP.NET Core con .NET Core SDK
 - Modificare il file di configurazione dell'applicazione (`appsettings.json` o `appsettings.{Environment}.json`) per includere le informazioni di connessione al database SQL Server.
 - Utilizzare DotNetEnv per caricare le variabili d'ambiente dal file `.env` all'avvio dell'applicazione.
 
-## 5. Avvio del Server
+## 5. Configurazione di SQL Server
+
+1. Installa “SQL Server” seguendo le istruzioni di installazione.
+2. Dopo l'installazione, cerca "SQL Server Configuration Manager" nella barra di ricerca e aprilo.
+3. Nella finestra di SQL Server Configuration Manager, vai su "Servizi di SQL Server".
+4. Verifica lo stato dei servizi "SQL Server (MSSQLSERVER)" e "SQL Server Browser". Se sono arrestati, fai clic destro su ciascuno e seleziona "Avvia".
+5. Se la modalità di avvio è impostata su "Disabilitato", fai clic destro sul servizio, seleziona "Proprietà", vai su "Servizio" e impostalo su "Manuale" o "Automatico". Poi avvialo seguendo il procedimento descritto al punto 4.
+6. Ora vai su "Configurazione di rete SQL Server" e seleziona "Protocolli per MSSQLSERVER".
+7. Abilita "Memoria Condivisa" e "TCP/IP".
+Se hai impostato la modalità di avvio su "Manuale", dovrai avviare manualmente i servizi ogni volta che avvii il computer seguendo il procedimento descritto al punto 4.
+
+### 6. Abilitazione Accesso Remoto a SQL Server
+
+1. Installa “SQL Server Management Studio (SSMS)” seguendo le istruzioni di installazione.
+2. Dopo l’installazione, accedi tramite l’Autenticazione di Windows.
+3. Premi il tasto destro sul nodo principale dell'albero e vai su Proprietà > Sicurezza e imposta l’Autenticazione server su Autenticazione di SQL Server e di Windows.
+4. Dopodiché, vai su nodo principale (o nome del server) > Sicurezza > Account di accesso, premi tasto destro su Account di accesso > Nuovo account di accesso.
+5. Su Generale:
+- Inserisci il Nome account di accesso (che sarà il Nome utente).
+- Abilita Autenticazione di SQL Server.
+- Inserisci la password e la conferma password.
+- Disabilita “Richiedi modifica della password all’accesso successivo”.
+6. Vai su Ruoli del server e premi su sysadmin.
+7. Vai su Mapping utente e premi sul checkbox di master e il database che verrà utilizzato.
+8. Premi OK.
+9. Per verificare l'accesso remoto, è necessario riavviare SSMS e, nel form, selezionare "Autenticazione" > "Autenticazione di Windows", quindi inserire il Nome utente e la password nei campi appropriati. In caso di errore, assicurarsi di aver seguito correttamente i passaggi indicati. Se l'errore persiste, è consigliabile contattarci o consultare un professionista per assistenza.
+
+
+## 7. Avvio del Server
 
 Avviare il server ASP.NET Core specificando il file principale dell'applicazione `App.cs`utilizzando il comando:
   
@@ -242,7 +272,7 @@ Avviare il server ASP.NET Core specificando il file principale dell'applicazione
 dotnet run
 ```
 
-## 6. Test
+## 8. Test
 
 - Verificare che l'applicazione sia accessibile e funzionante nel browser o tramite richieste API.
 
