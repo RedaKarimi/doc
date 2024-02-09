@@ -9,7 +9,7 @@
 5. [Routing](#5-routing)
 6. [Gestione dello Stato](#6-gestione-dello-stato)
 7. [Chiamate API](#7-chiamate-api)
-8. [Gestione delle Eccezzioni](#8-gestione-delle-eccezioni)
+8. [Gestione delle Eccezioni](#8-gestione-delle-eccezioni)
 9. [Stili](#9-stili)
 10. [Testing](#10-testing)
 11. [Avvio e Sviluppo Locale](#11-avvio-e-sviluppo-locale)
@@ -323,13 +323,13 @@ Nel frontend sono state utilizzate le seguenti API per consentire al client di i
 
 | API                  | Tipo    | Descrizione                                                 |
 |----------------------|---------|-------------------------------------------------------------|
-| **`/autenticaUtente`**       | **POST**                  | Gestisce il processo di **autenticazione dell'utente** con opportuni controlli per [gestire le eccezzioni](#autenticazione-utente). |
-| **`/registraCliente`**      |**POST**                       | Gestisce la **registrazione di un cliente** con opportuni controlli per [gestire le eccezzioni](#registrazione-cliente). |
-| **`/visualizzaClienti`**           | **GET**      | Restituisce la **visualizzazione dei clienti** memorizzati nel database con opportuni controlli per [gestire le eccezzioni](#visualizzazione-clienti). |
+| **`/autenticaUtente`**       | **POST**                  | Gestisce il processo di **autenticazione dell'utente** con opportuni controlli per [gestire le eccezioni](#autenticazione-utente). |
+| **`/registraCliente`**      |**POST**                       | Gestisce la **registrazione di un cliente** con opportuni controlli per [gestire le eccezioni](#registrazione-cliente). |
+| **`/visualizzaClienti`**           | **GET**      | Restituisce la **visualizzazione dei clienti** memorizzati nel database con opportuni controlli per [gestire le eccezioni](#visualizzazione-clienti). |
 
 
 > [!NOTE]  
-> Per informazioni dettagliate sulla gestione degli errori per le singole API consultare il paragrafo di [Gestione delle Eccezzioni](#8-gestione-delle-eccezioni).
+> Per informazioni dettagliate sulla gestione degli errori per le singole API consultare il paragrafo di [Gestione delle Eccezioni](#8-gestione-delle-eccezioni).
 
 
 >In sintesi, Axios è stata una scelta affidabile per gestire le chiamate API dal frontend dell'applicazione web, offrendo una solida base per la comunicazione tra client e server.
