@@ -9,11 +9,12 @@
 5. [Routing](#5-routing)
 6. [Gestione dello Stato](#6-gestione-dello-stato)
 7. [Chiamate API](#7-chiamate-api)
-8. [Stili](#8-stili)
-9. [Testing](#9-testing)
-10. [Avvio e Sviluppo Locale](#10-avvio-e-sviluppo-locale)
-11. [Distribuzione](#11-distribuzione)
-12. [Conclusione](#12-conclusione)
+8. [Gestione delle Eccezzioni](#8-gestione-delle-eccezzioni)
+9. [Stili](#9-stili)
+10. [Testing](#10-testing)
+11. [Avvio e Sviluppo Locale](#11-avvio-e-sviluppo-locale)
+12. [Distribuzione](#12-distribuzione)
+13. [Conclusione](#13-conclusione)
 
 ## 1. Introduzione
 
@@ -333,7 +334,48 @@ Nel frontend sono state utilizzate le seguenti API per consentire al client di i
 
 >In sintesi, Axios è stata una scelta affidabile per gestire le chiamate API dal frontend dell'applicazione web, offrendo una solida base per la comunicazione tra client e server.
 
-## 8. Stili
+
+## 8. Gestione delle Eccezioni
+
+### Indice 
+
+1. [Gloale](#Gloale)
+2. [Autenticazione Utente](#autenticazione-utente)
+3. [Registrazione Cliente](#registrazione-cliente)
+4. [Visualizzazione Clienti](#visualizzazione-clienti)
+
+---
+
+### Codici di stato HTTP 
+
+Il [backend](backend.md) gestisce le eccezioni in modo appropriato, restituendo codici di stato HTTP appropriati e fornendo informazioni dettagliate sugli errori al client. Ciò aiuta a garantire una gestione sicura e robusta delle richieste, fornendo al client tutte le informazioni necessarie per comprendere e gestire correttamente gli errori durante le interazioni con il backend.
+
+#### Gloale
+
+- **`200` (OK):** Operazione completata con successo e le modifiche sono state salvate nel database.
+- **`404` (Not Found):** Impossibile accedere al server. La risorsa richiesta non è stata trovata.
+- **`500` (Internal Server Error):** Si è verificato un errore interno.
+
+#### Autenticazione Utente
+
+- **`405` (Method Not Allowed):** Risposta in caso la password fornita non è corretta.
+- **`409` (Conflict):** Risposta in caso l'utente non esista nel sistema.
+  
+#### Registrazione Cliente
+
+- **`409` (Conflict):** Il codice fiscale fornito è già presente nel sistema.
+- **`400` (Bad Request):** I dati forniti per la registrazione non sono validi.
+
+#### Visualizzazione Clienti
+
+- **`500` (Internal Server Error):** Si è verificato un errore interno durante il recupero dell'elenco dei clienti.
+
+> [!WARNING]  
+> La gestione delle eccezioni è contestualizzata all'API di riferimento quindi a stessi codici di stato HTTP in diverse API corrispondono errori diversi
+
+
+
+## 9. Stili
 
 
 Nel frontend del progetto, la gestione degli stili è stata fondamentale per garantire un'interfaccia utente coerente e accattivante. 
@@ -357,7 +399,7 @@ Qui di seguito vengono delineati gli approcci utilizzati per gestire gli stili:
 
 
 
-## 9. Testing
+## 10. Testing
 
 Breve panoramica dei test unitari e di integrazione effettuati sul frontend 
 
@@ -426,7 +468,7 @@ Tutti i test finali hanno dato esito positivo, confermando la stabilità della b
 ![Manutenzione](https://img.shields.io/badge/Manutenzione-Attiva-green)
 
 
-## 10. Avvio e Sviluppo Locale
+## 11. Avvio e Sviluppo Locale
 
 Istruzioni su come avviare il frontend in modalità di sviluppo locale, con eventuali prerequisiti e comandi necessari.
 
@@ -474,7 +516,7 @@ Istruzioni su come avviare il frontend in modalità di sviluppo locale, con even
 
 
 
-## 11. Distribuzione
+## 12. Distribuzione
 Breve guida su come distribuire il frontend in un ambiente di produzione.
 
 ### Indice
@@ -514,7 +556,7 @@ Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti p
 
 
 
-## 12. Conclusione
+## 13. Conclusione
 
 Il frontend del progetto "Gestionale" offre un'esperienza utente intuitiva e funzionale grazie all'impiego di tecnologie moderne come React, Axios e Ant Design. La struttura organizzativa del progetto e l'efficace gestione dello stato mantengono il codice pulito e manutenibile. L'integrazione di test unitari assicura una buona qualità del codice. In sintesi, il frontend è ben progettato, reattivo e pronto per offrire un'esperienza utente di alta qualità.
 
