@@ -245,6 +245,8 @@ SELECT *
 FROM Cliente;
 ```
 
+> [!NOTE]
+> Nel backend si ha utilizzato della libreria [Entity Framework Core](#entity-framework-core) le istruzioni per eseguire le operazioni di controllo, aggiunta e visualizzazione 
 
 ## 5. API
 
