@@ -177,7 +177,7 @@ Il backend gestisce le eccezioni in modo appropriato, restituendo codici di stat
 
 #### Gloale
 
-- **200 (OK):** Operazione completata con successo e le modifiche sono state salvate nel database.
+- **`200` (OK):** Operazione completata con successo e le modifiche sono state salvate nel database.
 - **404 (Not Found):** Impossibile accedere al server. La risorsa richiesta non è stata trovata.
 - **500 (Internal Server Error):** Si è verificato un errore interno.
 
