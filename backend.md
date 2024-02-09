@@ -58,7 +58,7 @@ Ogni componente è organizzato in modo specifico:
 
 Questa organizzazione permette una chiara separazione delle responsabilità, rendendo più facile la comprensione e la manutenzione del codice. Ogni componente ha un ruolo ben definito, con file separati per gestire specifiche funzionalità o aspetti del sistema.
 
-### Vantaggi dell'Organizzazione
+### Vantaggi Strutturali
 
 - **Chiarezza e Separazione dei Compiti**: La struttura organizzativa permette una chiara separazione delle responsabilità tra server, richieste e database, facilitando la comprensione del codice e la risoluzione dei problemi.
   
