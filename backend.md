@@ -123,9 +123,11 @@ Breve panoramica dei test effettuati sul lato server dell'applicazione.
 
 - **Test di Integrazione**: Sono stati eseguiti test di integrazione per verificare l'interazione tra diversi moduli e le varie parti del server. Questi test sono stati utili per assicurare che i vari moduli del server funzionino correttamente insieme e che non vi siano problemi di compatibilità o conflitti tra di essi.
 
-> **Nota:**
-> - La struttura del progetto ha permesso una facile implementazione e manutenzione dei test senza la necessità di utilizzare framework esterni per il testing come NUnit o xUnit.
 
+> [!NOTE]
+> - La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing come NUnit o xUnit.
+> 
+> - La [struttura del progetto](#3-struttura-del-progetto) in termini di organizzazione del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
 ## Benefici dei Test
 
 - **Miglioramento della Qualità**: I test hanno contribuito a migliorare la qualità complessiva del server dell'applicazione, individuando e risolvendo bug e problemi prima che possano influenzare il funzionamento dell'applicazione.
