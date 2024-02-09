@@ -163,7 +163,7 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 
 Dall'analisi del modello relazionale si studiano le relazioni tra le entità attraverso l'utilizzo di tabelle e vincoli di integrità referenziale, offrendo una visione dettagliata dell'organizzazione e della correlazione dei dati nel sistema.
 
-## DDL
+### DDL
 
 Dal DDL si esamina la definizione dei dati tramite il linguaggio di definizione dei dati (DDL), per comprendere la struttura e le caratteristiche dei dati, insieme ai vincoli e alle regole per la creazione e la modifica.
 
