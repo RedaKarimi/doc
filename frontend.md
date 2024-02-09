@@ -30,7 +30,7 @@ Il frontend del progetto "Gestionale" offre un interfaccia userfriendly che cons
 
 ### Accesso Utente
 
-![Form di autenticazione dell'utente](autenticaUtente.png)
+![Form di autenticazione dell'utente](images/autenticaUtente.png)
 
 - L'utente effettua il login al sistema da **account unici preregistrati** 
 - Degli account utente le **credenziali sono criptate con SHA3**
@@ -38,13 +38,13 @@ Il frontend del progetto "Gestionale" offre un interfaccia userfriendly che cons
 
 ### Registrazione Clienti
 
-![Form di registrazione del cliente](registraCliente.png)
+![Form di registrazione del cliente](images/registraCliente.png)
 
 Gli utenti possono registrare i propri clienti nel sistema che li identifica sulla base del loro codice fiscale.
 
 ### Visualizzazione Clienti
 
-![Form di visualizzazione dei clienti](visualizzaClienti.png)
+![Form di visualizzazione dei clienti](images/visualizzaClienti.png)
 
 Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche dei propri clienti con le seguenti features:
 
@@ -212,9 +212,9 @@ Elenco e descrizione dei componenti principali utilizzati nel frontend, con even
 
 | Nome Form                                | Descrizione Form                                                                                                                                                                                                                                                                                                                                                                                  | Immagine Form                                |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| Form di autenticazione utente            | <ul><li>L'utente effettua il login al sistema da <strong>account unici preregistrati</strong></li><li>Degli account utente le <strong>credenziali sono criptate con SHA3</strong></li><li>Il sistema garantisce una <strong>gestione sicura per l'apertura delle pagine sensibili</strong> tramite la cache in cui viene memorizzato l'accesso dell'utente tenendolo in memoria in modo che se non è presente allora impedisce l'ingresso in qualsiasi form che non sia quello di autenticazione.</li></ul> | ![Form di autenticazione utente](autenticaUtente.png) |
-| Form di registrazione cliente           | Gli utenti possono registrare i propri clienti nel sistema che li identifica sulla base del loro codice fiscale.                                                                                                                                                                                                                                                               | ![Form di registrazione cliente](registraCliente.png) |
-| Form di visualizzazione anagrafiche cliente | Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche dei propri clienti con le seguenti features:<ul><li>Si possono selezionare quali campi rendere visibili e quali oscurare</li><li>Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo</li></ul>                                                                                                                                                        | ![Form di visualizzazione anagrafiche cliente](visualizzaClienti.png) |
+| Form di autenticazione utente            | <ul><li>L'utente effettua il login al sistema da <strong>account unici preregistrati</strong></li><li>Degli account utente le <strong>credenziali sono criptate con SHA3</strong></li><li>Il sistema garantisce una <strong>gestione sicura per l'apertura delle pagine sensibili</strong> tramite la cache in cui viene memorizzato l'accesso dell'utente tenendolo in memoria in modo che se non è presente allora impedisce l'ingresso in qualsiasi form che non sia quello di autenticazione.</li></ul> | ![Form di autenticazione utente](images/autenticaUtente.png) |
+| Form di registrazione cliente           | Gli utenti possono registrare i propri clienti nel sistema che li identifica sulla base del loro codice fiscale.                                                                                                                                                                                                                                                               | ![Form di registrazione cliente](images/registraCliente.png) |
+| Form di visualizzazione anagrafiche cliente | Gli utenti possono visualizzare in modo massivo o nel dettaglio le anagrafiche dei propri clienti con le seguenti features:<ul><li>Si possono selezionare quali campi rendere visibili e quali oscurare</li><li>Si possono filtrare i clienti da visualizzare con un sistema di ricerca abilitato su ogni campo</li></ul>                                                                                                                                                        | ![Form di visualizzazione anagrafiche cliente](images/visualizzaClienti.png) |
 
 ## 5. Routing
 
