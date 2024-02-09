@@ -271,7 +271,7 @@ Una volta autenticato con successo vengono abilitati i permessi necessari per ef
 
 ## 7. Logging e Monitoraggio
 
-Il backend utilizza i registri per registrare eventi importanti e informazioni di debug. I registri vengono salvati in file di log per consentire il monitoraggio delle attività e la risoluzione dei problemi.
+Nonostante sia stato utilizzato .NET per lo sviluppo del server e nonostante il framework metta a disposizione funzionalità per il logging e il monitoraggio, queste non sono state utilizzate per il progetto. La complessità del progetto non richiedeva l'utilizzo di tali funzionalità integrate e, pertanto, tutto il logging e il monitoraggio sono stati gestiti manualmente in fase di sviluppo.
 
 ## 8. Gestione delle Eccezioni
 
