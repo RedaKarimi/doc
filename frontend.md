@@ -500,7 +500,7 @@ Le configurazioni necessarie per la distribuzione sono sviluppate nei seguenti p
 6. **Aggiornamenti e Manutenzione:** Una volta distribuita l'applicazione, assicurati di monitorare regolarmente le prestazioni e il funzionamento del frontend. Effettua aggiornamenti e manutenzione quando necessario per garantire la continuità del servizio e la sicurezza del sistema.
 
 
-![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
+![Compatibilità Web](https://img.shields.io/badge/Compatibilit%C3%A0-Web-Chrome%20%7C%20Firefox%20%7C%20Safari-green)
 
 ![Compatibilità Client](https://img.shields.io/badge/Compatibilit%C3%A0%20Client-Windows%20%7C%20MacOS%20%7C%20Linux-orange)
 
