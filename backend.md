@@ -124,7 +124,6 @@ Nel contesto del nostro backend, sono stati sviluppati due modelli principali pe
 
 1. [Modello Attributi-Valori](#modello-attributi-valori)
 2. [Modello Concettuale](#modello-concettuale)
-3. [Modello Relazionale](#modello-relazionale)
 4. [DDL ](#ddl)
 5. [Chiavi Esterne ](#chiavi-esterne)
 6. [Query](#query)
@@ -171,43 +170,6 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 
 
  ![Modello Concettuale](ModelloConcettuale.png)
-
- 
-### Modello Relazionale
-
-Dall'analisi del modello relazionale si studiano le relazioni tra le entità attraverso l'utilizzo di tabelle e vincoli di integrità referenziale, offrendo una visione dettagliata dell'organizzazione e della correlazione dei dati nel sistema.
-
----
-Utente(
-  UtenteId,
-  Username,
-  HashedPassword
-)
----
-Cliente(
-
-  Alias,
-  
-  RagioneSociale,
-  
-  CodiceFiscale,
-  
-  PartitaIVA,
-  
-  PEC,
-  
-  Indirizzo,
-  
-  Città,
-  
-  Stato,
-  
-  Email,
-  
-  Telefono  
-  
-)
-
 
 ### DDL
 
@@ -260,7 +222,24 @@ Dalle chiavi esterne è possibile stabilire relazioni tra tabelle, garantendo l'
 ### Query
 
 Dall'analisi delle query utilizzate per recuperare e manipolare i dati nel sistema è possibile avere una comprensione delle operazioni di estrazione e elaborazione dei dati per soddisfare le esigenze funzionali del sistema di backend.
-  
+
+```
+SELECT *
+FROM Utente
+WHERE Username = 'username_desiderato' AND HashedPassword = 'hashedPassword_desiderato';
+```
+
+```
+INSERT INTO Cliente (CodiceFiscale, PartitaIVA, Pec, Citta, Stato, Email, Telefono, RagioneSociale, Indirizzo, Alias)
+VALUES ('12345678901', '01234567890', 'cliente@pec.com', 'Roma', 'Italia', 'cliente@email.com', '1234567890', 'Cliente Spa', 'Via Roma 123', 'ClienteAlias');
+```
+
+```
+SELECT *
+FROM Cliente;
+```
+
+
 ## 5. API
 
 Il backend espone diverse API per consentire al client di interagire con le risorse del sistema:
@@ -278,9 +257,9 @@ Il backend espone diverse API per consentire al client di interagire con le riso
 
 ## 6. Autenticazione e Autorizzazione
 
-Il backend implementa un meccanismo di autenticazione basato su **username e password**. Le credenziali degli utenti vengono verificate nel database e, se corrette, viene restituito un **token di accesso** per le successive richieste. Per garantire la sicurezza delle credenziali degli utenti e dei dati scambiati tra client e server, è stato utilizzato l'algoritmo di crittografia **SHA3**.
+Il backend implementa un meccanismo di autenticazione basato su **username e password**. Le credenziali degli utenti vengono verificate nel database e, se corrette vengono ammesse le richieste successive. Per garantire la sicurezza delle credenziali degli utenti e dei dati scambiati tra client e server, è stato utilizzato l'algoritmo di crittografia **SHA3**.
 
-Una volta autenticato con successo, il **token di accesso** viene restituito al client e utilizzato per memorizzare l'accesso nella cache dell'utente. In questo modo, l'utente può accedere al sistema senza dover reinserire le credenziali ad ogni richiesta successiva. Inoltre, il **token di accesso** viene utilizzato per abilitare i permessi necessari per effettuare le richieste che richiedono l'accesso. Questo meccanismo di autenticazione e autorizzazione aiuta a garantire la sicurezza e l'integrità del sistema, proteggendo i dati sensibili degli utenti e prevenendo accessi non autorizzati.
+Una volta autenticato con successo vengono abilitati i permessi necessari per effettuare le richieste che richiedono l'accesso. Questo meccanismo di autenticazione e autorizzazione aiuta a garantire la sicurezza e l'integrità del sistema, proteggendo i dati sensibili degli utenti e prevenendo accessi non autorizzati.
 
 ## 7. Logging e Monitoraggio
 
