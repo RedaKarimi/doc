@@ -107,7 +107,50 @@ Il backend gestisce le eccezioni in modo appropriato, restituendo codici di stat
 
 ## 9. Testing
 
-Il backend è stato ampiamente testato utilizzando diverse tecniche, tra cui test unitari, test di integrazione e test di accettazione. Ciò garantisce un'alta qualità del software e una maggiore affidabilità del sistema nel suo complesso.
+Breve panoramica dei test unitari e di integrazione effettuati sul frontend 
+
+### Indice
+
+1. [Test Effettuati](#test-effettuati)
+2. [Benefici dei Test](#benefici-dei-test)
+3. [Esito dei Test](#esito-dei-test)
+
+---
+
+
+### Test Effettuati
+
+- **Test Unitari**: Sono stati sviluppati test unitari per verificare il corretto funzionamento dei singoli componenti e delle funzioni utilizzate nell'applicazione. Questi test hanno consentito di individuare eventuali bug e garantire che ogni componente si comporti come previsto in condizioni specifiche.
+
+- **Test di Integrazione**: Sono stati eseguiti test di integrazione per verificare l'interazione tra diversi componenti e le varie parti dell'applicazione. Questi test sono stati utili per assicurare che le varie parti dell'applicazione funzionino correttamente insieme e che non vi siano problemi di compatibilità o conflitti tra di esse.
+
+> [!NOTE]
+> - La complessità del progetto non ha richiesto l'utilizzo di framework esterni per il testing come Jest o React Testing Library.
+> 
+> - La [struttura del progetto](#3-struttura-del-progetto) in termini di organizzazione del codice ha facilitato la manutenibilità a livello di test, consentendo di scrivere e mantenere i test in modo efficiente.
+   
+
+
+### Benefici dei Test
+
+- **Miglioramento della Qualità**: I test hanno contribuito a migliorare la qualità complessiva dell'applicazione, individuando e risolvendo bug e problemi prima che possano influenzare gli utenti finali.
+
+- **Riduzione dei Rischi**: Effettuando test regolari, si è ridotto il rischio di errori e malfunzionamenti nell'applicazione, garantendo un'esperienza utente più fluida e priva di problemi.
+
+- **Aumento della Fiducia**: L'utilizzo di test ha aumentato la fiducia nello sviluppo e nel rilascio dell'applicazione, fornendo una valida garanzia che ogni cambiamento o aggiornamento non provochi regressioni o problemi imprevisti.
+
+
+
+### Esito dei Test
+
+Tutti i test finali hanno dato esito positivo, confermando la stabilità della build.
+
+
+![Stato del Progetto](https://img.shields.io/badge/Stato-Stabile-brightgreen)
+
+![Versione](https://img.shields.io/badge/Versione-1.0-blue)
+
+![Manutenzione](https://img.shields.io/badge/Manutenzione-Attiva-green)
 
 ## 10. Deployment
 
