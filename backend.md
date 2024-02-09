@@ -171,7 +171,7 @@ Per la configurazione di SMSS e Microsoft SQL Server con le specifiche per l'avv
 
 ## 2. Configurazione del Server
 
-- Configurare il server per ospitare l'applicazione ASP.NET Core con .NET Core SDK e ASP.NET Core Hosting Bundle.
+Configurare il server per ospitare l'applicazione ASP.NET Core con .NET Core SDK e ASP.NET Core Hosting Bundle.
 
 ## 3. Compilazione e Pacchettizzazione del Codice
 
@@ -193,12 +193,12 @@ Per la configurazione di SMSS e Microsoft SQL Server con le specifiche per l'avv
 
 ## 5. Avvio del Server
 
-- Avviare il server ASP.NET Core specificando il file principale dell'applicazione `App.cs`utilizzando il comando:
+Avviare il server ASP.NET Core specificando il file principale dell'applicazione `App.cs`utilizzando il comando:
   
-   ```
-   dotnet run
-   ```
-   
+```
+dotnet run
+```
+
 ## 6. Test
 
 - Verificare che l'applicazione sia accessibile e funzionante nel browser o tramite richieste API.
