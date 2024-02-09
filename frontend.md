@@ -320,9 +320,16 @@ Effettuare chiamate API con Axios dal frontend offre diversi vantaggi:
 
 Nel frontend sono state utilizzate le seguenti API per consentire al client di interagire con le risorse del sistema:
 
-- **/register (POST)**: Gestisce la registrazione di un nuovo cliente.
-- **/login (POST)**: Gestisce il processo di login dell'utente.
-- **/list (GET)**: Restituisce l'elenco dei clienti memorizzati nel database.
+| API                  | Tipo    | Descrizione                                                 |
+|----------------------|---------|-------------------------------------------------------------|
+| **`/login`**       | **POST**                  | Gestisce il processo di **autenticazione dell'utente** con opportuni controlli per [gestire le eccezzioni](#autenticazione-utente). |
+| **`/register`**      |**POST**                       | Gestisce la **registrazione di un cliente** con opportuni controlli per [gestire le eccezzioni](#registrazione-cliente). |
+| **`/list`**           | **GET**      | Restituisce la **visualizzazione dei clienti** memorizzati nel database con opportuni controlli per [gestire le eccezzioni](#visualizzazione-clienti). |
+
+
+> [!NOTE]  
+> Per informazioni dettagliate sulla gestione degli errori per le singole API consultare il paragrafo di [Gestione delle eccezzioni](#8-gestione-delle-eccezzioni).
+
 
 >In sintesi, Axios è stata una scelta affidabile per gestire le chiamate API dal frontend dell'applicazione web, offrendo una solida base per la comunicazione tra client e server.
 
