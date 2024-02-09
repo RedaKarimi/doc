@@ -163,8 +163,6 @@ Il progetto è rilasciato sotto una licenza open-source e non è vincolato da co
 
 Lo stato della build è riuscito e stabile.
 
-![Download](https://img.shields.io/badge/Download-0%2B-blue)
-
 ## 11. Recap:
 Questo README fornisce una panoramica del progetto Gestionale, comprese le istruzioni per l'installazione, l'utilizzo, il contributo e il contatto con i gestori del backend e del frontend. 
 
@@ -172,6 +170,8 @@ Questo README fornisce una panoramica del progetto Gestionale, comprese le istru
 >
 >Assicurati di consultare la [documentazione](#5-documentazione) dettagliata per informazioni più approfondite.
 
+![Download](https://img.shields.io/badge/Download-0%2B-blue)
+
 ![Popolarità](https://img.shields.io/badge/Popolarit%C3%A0-Bassa-yellow)
 
-![Ultima modifica](https://img.shields.io/badge/Ultima%20Modifica-Gennaio%202024-blue)
+![Ultima modifica](https://img.shields.io/badge/Ultima%20Modifica-Febbraio%202024-blue)
