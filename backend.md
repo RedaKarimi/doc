@@ -269,7 +269,7 @@ Il backend espone diverse API per consentire al client di interagire con le riso
 
 ## 6. Autenticazione e Autorizzazione
 
-Il backend implementa un meccanismo di autenticazione basato su **username e password**. Le credenziali degli utenti vengono verificate nel database e, se corrette il client riceve lo stato HTTP di autenticazione riuscita in modo da abilitare il frontend  alle richieste successive. Per garantire la sicurezza delle credenziali degli utenti è stato utilizzato l'algoritmo di crittografia **SHA3**.
+Il backend implementa un meccanismo di autenticazione basato su **username e password**. Le credenziali degli utenti vengono verificate nel database e, se corrette il client riceve lo [stato HTTP di autenticazione riuscita](#AutenticazioneUtente) in modo da abilitare il frontend  alle richieste successive. Per garantire la sicurezza delle credenziali degli utenti è stato utilizzato l'algoritmo di crittografia **SHA3**.
 
 Una volta autenticato con successo l'utente vengono quindi abilitati lato frontend i permessi necessari per effettuare le richieste che richiedono l'accesso. Questo meccanismo di autenticazione e autorizzazione aiuta a garantire la sicurezza e l'integrità del sistema lato client, proteggendo i dati sensibili degli utenti e prevenendo accessi non autorizzati.
 
@@ -300,7 +300,7 @@ Il backend gestisce le eccezioni in modo appropriato, restituendo codici di stat
 - **`404` (Not Found):** Impossibile accedere al server. La risorsa richiesta non è stata trovata.
 - **`500` (Internal Server Error):** Si è verificato un errore interno.
 
-#### Autenticazione Utente
+<a id="AutenticazioneUtente"></a>#### Autenticazione Utente
 
 - **`405` (Method Not Allowed):** Risposta in caso la password fornita non è corretta.
 - **`409` (Conflict):** Risposta in caso l'utente non esista nel sistema.
