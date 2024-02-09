@@ -145,16 +145,19 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 
 #### Cliente
 
-Alias            | Alias univoco del cliente
-RagioneSociale   | Ragione sociale del cliente
-CodiceFiscale    | Codice fiscale del cliente
-PartitaIVA       | Partita IVA del cliente
-PEC              | Indirizzo PEC (Posta Elettronica Certificata) del cliente
-Indirizzo        | Indirizzo del cliente
-Città            | Città del cliente
-Stato            | Stato del cliente
-Email            | Indirizzo email del cliente
-Telefono         | Numero di telefono del cliente
+| Attributo | Descrizione                              |
+|--------------------|---------------------------------------------------|
+| Alias              | Alias univoco del cliente                        |
+| RagioneSociale     | Ragione sociale del cliente                       |
+| CodiceFiscale      | Codice fiscale del cliente                        |
+| PartitaIVA         | Partita IVA del cliente                           |
+| PEC                | Indirizzo PEC (Posta Elettronica Certificata)    |
+| Indirizzo          | Indirizzo del cliente                             |
+| Città              | Città del cliente                                 |
+| Stato              | Stato del cliente                                 |
+| Email              | Indirizzo email del cliente                       |
+| Telefono           | Numero di telefono del cliente                    |
+
 
 
 
