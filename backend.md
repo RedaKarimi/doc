@@ -390,7 +390,7 @@ Configurare il server per ospitare l'applicazione ASP.NET Core con .NET Core SDK
 
 Per creare un nuovo progetto di una Web API utilizzando il framework .NET (dotnet), si utilizza il seguente comando:
 
-```bash
+```
 dotnet new webapi -n NomeProgetto
 ```
 
