@@ -275,7 +275,9 @@ Una volta autenticato con successo vengono abilitati i permessi necessari per ef
 
 ## 7. Logging e Monitoraggio
 
-Nonostante sia stato utilizzato .NET per lo sviluppo del server e nonostante il framework metta a disposizione funzionalità per il logging come `Microsoft.Extensions.Logging` e per il monitoraggio come `Performance Counters e Event Tracing for Windows (ETW)`, queste non sono state utilizzate per il progetto ne tanto meno sono stati integrati servizi di monitoraggio esterni come `Application Insights`. La complessità del progetto non richiedeva l'utilizzo di tali funzionalità integrate e, pertanto, tutto il logging e il monitoraggio sono stati gestiti manualmente in fase di sviluppo.
+Nonostante sia stato utilizzato .NET per lo sviluppo del server e nonostante il framework metta a disposizione funzionalità per il logging come `Microsoft.Extensions.Logging` e per il monitoraggio come `Performance Counters e Event Tracing for Windows (ETW)`, queste non sono state utilizzate per il progetto ne tanto meno sono stati integrati servizi di monitoraggio esterni come `Application Insights`. 
+
+La complessità del progetto non richiedeva l'utilizzo di tali funzionalità integrate e, pertanto, tutto il logging e il monitoraggio sono stati gestiti manualmente in fase di sviluppo.
 
 ## 8. Gestione delle Eccezioni
 
