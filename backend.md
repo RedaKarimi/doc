@@ -432,6 +432,7 @@ Se la modalità di avvio è impostata su "Manuale", occorre avviare manualmente 
    
 > [!NOTE]
 > Per verificare l'accesso remoto, è necessario riavviare SSMS e, nel form, selezionare "Autenticazione" > "Autenticazione di Windows", quindi inserire il Nome utente e la password nei campi appropriati.
+> 
 > In caso di errore, assicurarsi di aver seguito correttamente i passaggi indicati. Se l'errore persiste, è consigliabile [contattare l'assistenza](#riferimenti-aggiuntivi)
 
 
