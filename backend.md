@@ -123,7 +123,6 @@ Il backend utilizza due modelli principali:
 ### Utente
 - **UtenteId:** Identificatore univoco dell'utente.
 - **Username:** Nome utente dell'utente.
-- **Password:** Password non crittografata dell'utente.
 - **HashedPassword:** Password crittografata dell'utente.
 
 ### Cliente
