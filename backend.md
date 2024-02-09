@@ -407,30 +407,34 @@ Configurare il server per ospitare l'applicazione ASP.NET Core con .NET Core SDK
 
 ## 5. Configurazione di SQL Server
 
-1. Installa “SQL Server” seguendo le istruzioni di installazione.
-2. Dopo l'installazione, cerca "SQL Server Configuration Manager" nella barra di ricerca e aprilo.
-3. Nella finestra di SQL Server Configuration Manager, vai su "Servizi di SQL Server".
-4. Verifica lo stato dei servizi "SQL Server (MSSQLSERVER)" e "SQL Server Browser". Se sono arrestati, fai clic destro su ciascuno e seleziona "Avvia".
-5. Se la modalità di avvio è impostata su "Disabilitato", fai clic destro sul servizio, seleziona "Proprietà", vai su "Servizio" e impostalo su "Manuale" o "Automatico". Poi avvialo seguendo il procedimento descritto al punto 4.
-6. Ora vai su "Configurazione di rete SQL Server" e seleziona "Protocolli per MSSQLSERVER".
-7. Abilita "Memoria Condivisa" e "TCP/IP".
-Se hai impostato la modalità di avvio su "Manuale", dovrai avviare manualmente i servizi ogni volta che avvii il computer seguendo il procedimento descritto al punto 4.
+1. Installare “SQL Server” seguendo le istruzioni di installazione.
+2. Dopo l'installazione, cercare "SQL Server Configuration Manager" nella barra di ricerca e aprirlo.
+3. Nella finestra di SQL Server Configuration Manager, andare su "Servizi di SQL Server".
+4. <a id="punto4"></a>Verificare lo stato dei servizi "SQL Server (MSSQLSERVER)" e "SQL Server Browser". Se sono arrestati, fare clic destro su ciascuno e seleziona "Avvia".
+5. Se la modalità di avvio è impostata su "Disabilitato", fare clic con il tasto destro sul servizio, selezionare "Proprietà", andare su "Servizio" e impostarlo su "Manuale" o "Automatico". Poi avviarlo seguendo il procedimento descritto al punto 4.
+6. Ora andare su "Configurazione di rete SQL Server" e selezionare "Protocolli per MSSQLSERVER".
+7. Abilitare "Memoria Condivisa" e "TCP/IP".
+Se la modalità di avvio è impostata su "Manuale", occorre avviare manualmente i servizi ogni volta che si avvia il computer seguendo il procedimento descritto al [punto 4](#punto4)
 
 ### 6. Abilitazione Accesso Remoto a SQL Server
 
-1. Installa “SQL Server Management Studio (SSMS)” seguendo le istruzioni di installazione.
-2. Dopo l’installazione, accedi tramite l’Autenticazione di Windows.
-3. Premi il tasto destro sul nodo principale dell'albero e vai su Proprietà > Sicurezza e imposta l’Autenticazione server su Autenticazione di SQL Server e di Windows.
-4. Dopodiché, vai su nodo principale (o nome del server) > Sicurezza > Account di accesso, premi tasto destro su Account di accesso > Nuovo account di accesso.
+1. Installare “SQL Server Management Studio (SSMS)” seguendo le istruzioni di installazione.
+2. Dopo l’installazione, accedere tramite l’Autenticazione di Windows.
+3. Premere il tasto destro sul nodo principale dell'albero e andare su Proprietà > Sicurezza e impostare l’Autenticazione server su Autenticazione di SQL Server e di Windows.
+4. Andare su nodo principale (o nome del server) > Sicurezza > Account di accesso, premere tasto destro su Account di accesso > Nuovo account di accesso.
 5. Su Generale:
-   - Inserisci il Nome account di accesso (che sarà il Nome utente).
-   - Abilita Autenticazione di SQL Server.
-   - Inserisci la password e la conferma password.
-   - Disabilita “Richiedi modifica della password all’accesso successivo”.
-6. Vai su Ruoli del server e premi su sysadmin.
-7. Vai su Mapping utente e premi sul checkbox di master e il database che verrà utilizzato.
+   - Inserire il Nome account di accesso (che sarà il Nome utente).
+   - Abilitare Autenticazione di SQL Server.
+   - Inserire la password e la conferma password.
+   - Disabilitare “Richiedi modifica della password all’accesso successivo”.
+6. Andare su Ruoli del server e premere su sysadmin.
+7. Andare su Mapping utente e premere sul checkbox di master e il database che verrà utilizzato.
 8. Premi OK.
-9. Per verificare l'accesso remoto, è necessario riavviare SSMS e, nel form, selezionare "Autenticazione" > "Autenticazione di Windows", quindi inserire il Nome utente e la password nei campi appropriati. In caso di errore, assicurarsi di aver seguito correttamente i passaggi indicati. Se l'errore persiste, è consigliabile contattarci o consultare un professionista per assistenza.
+   
+> [!NOTE]
+> Per verificare l'accesso remoto, è necessario riavviare SSMS e, nel form, selezionare "Autenticazione" > "Autenticazione di Windows", quindi inserire il Nome utente e la password nei campi appropriati.
+> In caso di errore, assicurarsi di aver seguito correttamente i passaggi indicati. Se l'errore persiste, è consigliabile [contattare l'assistenza](#riferimenti-aggiuntivi)
+
 
 
 ## 7. Avvio del Server
@@ -488,7 +492,7 @@ Per contribuire al progetto, ricevere informazioni o segnalare bug fare riferime
 
 ### Supporto e collaborazione futura
 
-Siamo aperti a nuove collaborazioni e siamo disponibili a offrire supporto per l'implementazione del progetto in altri contesti o per eventuali miglioramenti futuri. Non esitate a contattarci per ulteriori dettagli o proposte di collaborazione.
+Siamo aperti a nuove collaborazioni e siamo disponibili a offrire supporto per l'implementazione del progetto in altri contesti o per eventuali miglioramenti futuri. Non esitate a [contatarci](#riferimenti-aggiuntivi) per ulteriori dettagli o proposte di collaborazione.
 
 Grazie ancora a tutti coloro che hanno reso possibile il successo di questo progetto!
 
@@ -496,7 +500,6 @@ Grazie ancora a tutti coloro che hanno reso possibile il successo di questo prog
 
 > [!NOTE]
 > Consultare il [readme](readme.md) per ulteriori informazioni.
-
 
 ![Download](https://img.shields.io/badge/Download-0%2B-blue)
 
