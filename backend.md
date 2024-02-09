@@ -173,7 +173,7 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 
 ### DDL
 
-Dall'analisi dei dati tramite il linguaggio di definizione dei dati (DDL) si può comprendere la struttura e le caratteristiche dei dati, insieme ai vincoli e alle regole per la creazione e la modifica per interfacciarsi con il database.
+Dall'analisi dei dati tramite il linguaggio di definizione dei dati (DDL) si può comprendere la struttura e le caratteristiche dei dati, insieme ai vincoli e alle regole per la creazione e la modifica.
   
 ```
 CREATE TABLE [Cliente](
@@ -246,7 +246,7 @@ FROM Cliente;
 ```
 
 > [!NOTE]
-> Nel backend si ha utilizzato della libreria [Entity Framework Core](#entity-framework-core) le istruzioni per eseguire le operazioni di controllo, aggiunta e visualizzazione 
+> Nel backend si ha utilizzato della libreria [Entity Framework Core](#entity-framework-core) le istruzioni per eseguire le operazioni di controllo, aggiunta e visualizzazione  al fine di interfacciarsi con il database
 
 ## 5. API
 
