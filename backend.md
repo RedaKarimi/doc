@@ -19,12 +19,18 @@ La documentazione seguente fornisce una panoramica dettagliata del backend dell'
 
 ## 2. Tecnologie Utilizzate
 
+### Lista Teconologie
+
+[`ASP.NET Core`](#asp-net-core)&ensp;&ensp;&ensp;[`Entity Framework Core`](#entity-framework-core)&ensp;&ensp;&ensp;[`Microsoft SQL Server`](#microsoft-sql-server)&ensp;&ensp;&ensp;[`DotNetEnv`](#dotnetenv)
+
+---
+
 Il backend utilizza diverse tecnologie per implementare le sue funzionalità:
 
-- **ASP.NET Core:** È il framework utilizzato per lo sviluppo dell'applicazione web.
-- **Entity Framework Core:** È un ORM (Object-Relational Mapping) utilizzato per interagire con il database relazionale.
-- **Microsoft SQL Server:** È il database relazionale utilizzato per memorizzare i dati dell'applicazione.
-- **DotNetEnv:** È una libreria utilizzata per caricare le variabili d'ambiente da un file .env.
+- <a id="asp-net-core"></a>[**ASP.NET Core:**](https://dotnet.microsoft.com/apps/aspnet) È il framework utilizzato per lo sviluppo dell'applicazione web.
+- <a id="entity-framework-core"></a>[**Entity Framework Core:**](https://docs.microsoft.com/en-us/ef/core/) È un ORM (Object-Relational Mapping) utilizzato per interagire con il database relazionale.
+- <a id="microsoft-sql-server"></a>[**Microsoft SQL Server:**]( https://www.microsoft.com/en-us/sql-server)  È il database relazionale utilizzato per memorizzare i dati dell'applicazione.
+- <a id="dotnetenv"></a>[**DotNetEnv:**](https://github.com/tonerdo/dotnet-env) È una libreria utilizzata per caricare le variabili d'ambiente da un file .env.
 
 ## 3. Architettura del Backend
 
