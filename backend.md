@@ -169,9 +169,9 @@ L'approccio attributi-valori ci consente di analizzare i modelli di dati, identi
 
  Nel contesto dell'analisi dei dati, verrà considerato il modello concettuale per comprendere entità, relazioni e regole di dominio sottostanti, identificando i concetti chiave e le interconnessioni tra di essi.
 
-```
+
  ![Modello Concettuale](ModelloConcettuale.png)
-```
+
  
 ### Modello Relazionale
 
@@ -180,6 +180,31 @@ Dall'analisi del modello relazionale si studiano le relazioni tra le entità att
 ### DDL
 
 Dal DDL si esamina la definizione dei dati tramite il linguaggio di definizione dei dati (DDL), per comprendere la struttura e le caratteristiche dei dati, insieme ai vincoli e alle regole per la creazione e la modifica.
+
+```
+Utente(
+  UtenteId,
+  Username,
+  HashedPassword
+)
+
+```
+
+
+```
+Cliente(
+  Alias,
+  RagioneSociale,
+  CodiceFiscale,
+  PartitaIVA,
+  PEC,
+  Indirizzo,
+  Città,
+  Stato,
+  Email,
+  Telefono  
+)
+```
 
 ### Chiavi Esterne
 
