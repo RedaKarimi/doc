@@ -210,7 +210,7 @@ Il backend utilizza i registri per registrare eventi importanti e informazioni d
 
 ### Indice 
 
-1. [Gloale](#Gloale)
+1. [Globale](#Globale)
 2. [Autenticazione Utente](#autenticazione-utente)
 3. [Registrazione Cliente](#registrazione-cliente)
 4. [Visualizzazione Clienti](#visualizzazione-clienti)
@@ -221,7 +221,7 @@ Il backend utilizza i registri per registrare eventi importanti e informazioni d
 
 Il backend gestisce le eccezioni in modo appropriato, restituendo codici di stato HTTP appropriati e fornendo informazioni dettagliate sugli errori al [client](frontend.md). Ciò aiuta a garantire una gestione sicura e robusta delle richieste, fornendo al client tutte le informazioni necessarie per comprendere e gestire correttamente gli errori durante le interazioni con il backend.
 
-#### Gloale
+#### Globale
 
 - **`200` (OK):** Operazione completata con successo e le modifiche sono state salvate nel database.
 - **`404` (Not Found):** Impossibile accedere al server. La risorsa richiesta non è stata trovata.
